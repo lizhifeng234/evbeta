@@ -1,0 +1,296 @@
+[ 2013-04-25T19:43:16+08:00 ] 127.0.0.1 /evbeta/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003766s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000161s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000159s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000098s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000322s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2013-04-25T19:50:26+08:00 ] 127.0.0.1 /evbeta/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.000605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000744s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000153s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000168s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000324s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2013-04-25T19:50:34+08:00 ] ERR: (ThinkException) 无法加载模块:Admin
+[ 2013-04-25T19:52:31+08:00 ] 127.0.0.1 /evbeta/index.php/Admin/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000398s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000133s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000167s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003028s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000137s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000151s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000099s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000303s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2013-04-25T19:52:35+08:00 ] 127.0.0.1 /evbeta/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007272s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000138s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000140s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000093s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000277s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2013-04-25T19:58:52+08:00 ] 127.0.0.1 /evbeta/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.000697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000160s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000156s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000092s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2013-04-25T19:58:59+08:00 ] 127.0.0.1 /evbeta/Admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000694s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000493s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000665s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003902s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000152s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000153s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000092s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000306s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2013-04-25T20:06:04+08:00 ] 127.0.0.1 /evbeta/R/?r=jadsjfkj
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000697s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+
+[ 2013-04-25T20:06:41+08:00 ] 127.0.0.1 /evbeta/R/?r=MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000622s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+
+[ 2013-04-25T20:07:14+08:00 ] 127.0.0.1 /evbeta/R/?r=MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000412s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/evbeta/Lib/Action/R/IndexAction.class.php 第 6 行.
+
+[ 2013-04-25T20:07:21+08:00 ] 127.0.0.1 /evbeta/R/?r=MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000686s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/evbeta/Lib/Action/R/IndexAction.class.php 第 6 行.
+
+[ 2013-04-25T20:07:29+08:00 ] 127.0.0.1 /evbeta/R/?r=MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+
+[ 2013-04-25T20:08:26+08:00 ] ERR: (ThinkException) 无法加载模块:MTExMTExMTExtY
+[ 2013-04-25T20:10:07+08:00 ] ERR: (ThinkException) 无法加载模块:MTExMTExMTExtY
+[ 2013-04-25T20:10:08+08:00 ] ERR: (ThinkException) 无法加载模块:MTExMTExMTExtY
+[ 2013-04-25T20:18:50+08:00 ] 127.0.0.1 /evbeta/index.php/R/?MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000592s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+
+[ 2013-04-25T20:20:04+08:00 ] 127.0.0.1 /evbeta/index.php/R/?MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000578s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+
+[ 2013-04-25T20:20:31+08:00 ] 127.0.0.1 /evbeta/index.php/R/?MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000385s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+
+[ 2013-04-25T20:21:15+08:00 ] 127.0.0.1 /evbeta/index.php/R/?MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+
+[ 2013-04-25T20:21:57+08:00 ] 127.0.0.1 /evbeta/R/?MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000672s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+
+[ 2013-04-25T20:25:00+08:00 ] 127.0.0.1 /evbeta/R/?MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+
+[ 2013-04-25T20:25:01+08:00 ] 127.0.0.1 /evbeta/R/?MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+
+[ 2013-04-25T20:25:02+08:00 ] 127.0.0.1 /evbeta/R/?MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000842s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+
+[ 2013-04-25T20:25:03+08:00 ] 127.0.0.1 /evbeta/R/?MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+
+[ 2013-04-25T20:25:19+08:00 ] 127.0.0.1 /evbeta/R/?MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000648s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+
+[ 2013-04-25T20:27:18+08:00 ] 127.0.0.1 /evbeta/R/?MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001323s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+
+[ 2013-04-25T20:27:20+08:00 ] 127.0.0.1 /evbeta/R/?MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000665s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+
+[ 2013-04-25T20:27:40+08:00 ] 127.0.0.1 /evbeta/R/?MTExMTExMTExtY
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001645s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002010s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+
+[ 2013-04-25T20:27:52+08:00 ] 127.0.0.1 /evbeta/R/?1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+
+[ 2013-04-25T20:28:06+08:00 ] 127.0.0.1 /evbeta/R/?MTExMTExMTExvK
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+
+[ 2013-04-25T20:28:21+08:00 ] 127.0.0.1 /evbeta/R/?MTExMTExMTExvK1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+
+[ 2013-04-25T20:49:53+08:00 ] 127.0.0.1 /evbeta/R/?MTExMTExMTExvK
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000668s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+

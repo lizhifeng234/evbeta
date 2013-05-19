@@ -1,0 +1,27 @@
+@import url(../quote/grid.css);@import url(../quote/input.css);
+
+/*图片调用 align_r*/
+.news_style .n_tt li, .news_style .n_tt li:hover { background-image:url(../../../img/www-web/align_l.png); background-repeat:no-repeat;}
+
+/*新闻列表*/
+.news_style{}
+.news_style .n_tt, .news_style .n_tt li { float:left;}
+.news_style .n_tt li { clear:both; vertical-align:text-bottom; line-height:34px; padding-left:30px; background-position:10px -35px; height:34px; width:902px; }
+.news_style .n_tt li:hover { background-position:10px 1px;}
+.news_style .n_tt li .tt,.xq_tt {font-size:14px; max-width:962px; margin-right:20px; }
+.ii { color:#A7A7A7; float:left; padding-top:1px;}
+
+/*新闻详情*/
+.xq_p { width:902px; margin-bottom:17px; padding-left:30px;}
+.xq_tt { color:#e21454; font-size:16px; }
+.xq_p .ii { padding-top:3px;}
+.xq_text { font-size:14px; padding:0 30px;}
+.xq_text p { text-indent:2em; margin:14px 0; line-height:200%;}
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+.rank { vertical-align:top;}
+.ur { padding-left:5px;}
+.ur, .ur li { float:left;}
+.ur li { margin-bottom:30px; width:100%;}
+.ur li .r_num { width:60px; height:60px; float:left; margin-right:1px; }
+.ur li.c1 .r_num { background-color:#e21454; background-position:-71px -44px;}
+.ur li.c2 .r_num { background-color:#1492e2; background-position:-131px -44px;}
+.ur li.c3 .r_num { background-color:#e29714; background-position:-191px -44px;}
+.ur li .r_img { width:288px; height:162px; float:left;margin-right:1px;}
+.ur li .r_img img { width:288px; height:162px;}
+.ur li .r_info { float:left; padding:6px 5px 0px 10px; width:135px; height:154px; border:#c8c8c8 1px solid; overflow:hidden;}
+.ur li .r_info .t { font-size:14px; line-height:24px; max-height:48px; overflow:hidden;}
+.ur li .r_info .x { font-size:12px; line-height:18px;}
+.ur li .r_info .x a{margin-left:5px;}
+.ur li .r_info .x .p { color:#e21454;} 
+.ur li .r_rmsp { float:left; height:156px; border:#c8c8c8 1px solid; border-left:0; padding:4px 1px 0 15px; background:#f0f0f0;}
+.ur li .r_rmsp .t { line-height:26px; color:#e29714; font-size:14px;}
+.ur li .r_rmsp .dyp { float:left; margin-right:14px; width:120px; height:120px;}
+.ur li .r_rmsp .dyp img {width:120px; height:120px;}

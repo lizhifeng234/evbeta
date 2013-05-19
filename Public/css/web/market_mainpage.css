@@ -1,0 +1,11 @@
+@import url(../quote/grid.css);@import url(../quote/input.css);
+.dm_dy { float:left; margin:0 5px 15px; width:163px;}
+.btn_set{width:61px; height:220px;}
+.moredm{width:60px; height:195px; background: url(../../../img/www-web/btn_icon.png) -60px -87px; display:block; }
+.moredm:hover{ background: url(../../../img/www-web/btn_icon.png) 0 -87px;}
+.moredm2{width:60px; height:87px;background:#e21454; color:#fff; display:block;}
+.moredm2:hover{ text-decoration:none;color:#fff;}
+
+
+
+

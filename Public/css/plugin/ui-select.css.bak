@@ -1,0 +1,48 @@
+.ui-default-select{
+	background: url(../../img/web/header-bg.png) repeat-x scroll 0px -118px transparent;
+	display:-moz-inline-box; 
+	border: 1px solid #d9d9d9;
+	padding: 0px 8px;
+	height:28px;
+	position: relative;
+	font-size: 14px;
+	
+}
+.ui-default-select .ui-default-select-text{
+	display:inline-block;
+	height:28px;
+	line-height: 28px;
+	margin-right: 5px;
+	
+}
+.ui-default-select .ui-default-select-icon{
+	background: url(../img/plugin/ui_down.png) no-repeat scroll 0px 0px transparent;
+	display:-moz-inline-box; 
+	display: inline-block;
+	width: 13px;
+	height: 7px;
+	margin-top: 11px;
+}
+.ui-default-select-menu{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	border-right: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9;
+	background-color:#fff;
+	display: none;
+	font-size: 14px;
+}
+.ui-default-select-menu-open{
+	display: block;
+}
+.ui-default-select-menu .ui-default-select-item{
+	padding: 7px 0px;
+	text-align: center;
+	cursor: pointer;
+}
+.ui-default-select-menu .ui-default-select-item-hove{
+	background-color:#eeeeee;
+}

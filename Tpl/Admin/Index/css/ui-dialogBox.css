@@ -1,0 +1,696 @@
+!function (jQ) {
+	if(!window.Sale) window.Sale = {
+		overLength:'输入字数已超出限制',
+		nullText:'发送内容不能为空',
+		blink:function(userId){
+			//获得需要变色的对象
+			var c = jQ('div[userId="'+userId+'"]'),
+				i = 0,
+				originalColor = Sale.color; 
+			//如果窗口打开就不进行闪动提示。
+			if(c.hasClass('show-dialog'))return;
+			//如果用户标签在闪动同样不进行闪动提示。
+			if(c.hasClass('blink-dialog'))return;
+			var changeFun = setInterval(function(){
+				i++;
+				//让背景颜色在红色和黄色之间进行切换。
+				i%2 ? c.css('color','red') : c.css('color','yellow');
+				c.addClass('blink-dialog');
+			},200);
+			//删除闪动效果，让背景颜色还原。
+			c.bind('dblclick',function(){
+				//清除头像闪动效果
+				clearInterval(changeFun);
+				c.css('color',originalColor);
+				c.removeClass('blink-dialog');
+				
+				var proMsg = Sale.proMsg;
+				var flag = jQ('#dialogList').find('.blink-dialog').length == 0;
+				if(flag){
+					//清除新消息提示效果
+					clearInterval(proMsg);
+					//jQ('#dialogListNewsButton').css('display','none');
+				}
+			});
+		},
+		strlen:function(str) {  
+			var len = 0, total = 0,han = 0,flag;
+			for(i=0;i<str.length;i++){
+				flag = str.charAt(i).match(/[^\x00-\xff]/ig) != null;
+			  if (flag){ han++; }
+			  total = str.length + han;
+			}
+			return total;  
+		},
+		substr:function(str, len)
+		{
+			if(!str || !len) { return ''; }
+			//预期计数：中文2字节，英文1字节
+			var a = 0;
+			//循环计数
+			var i = 0;
+			//临时字串
+			var temp = '';
+			for (i=0;i<str.length;i++){
+				//按照预期计数增加2
+				if (str.charCodeAt(i)>255){a+=2;}else{a++;}
+				//如果增加计数后长度大于限定长度，就直接返回临时字符串
+				if(a > len) { return temp; }
+				//将当前内容加到临时字符串
+				temp += str.charAt(i);
+			}
+			//如果全部是单字节字符，就直接返回源字符串
+			return str;
+		},
+		bindSendFunction:function(fun){
+			if(jQ.isFunction(fun))
+			{
+				// 绑定发送消息的方法
+				Sale.sendFunction = fun;
+			}
+		}
+	};
+	Sale.dialogList = function(/*myId,customerNumber*/parameter){
+		//用户传递的参数;
+		this.parameter = parameter;
+		this.dialogList = jQ('<div id="dialogList" class="dialog-list"></div>').appendTo(jQ('body'));
+		this.dialogListTitle = jQ('<div id="dialogListTitle" class="dialog-list-title"></div>').appendTo(this.dialogList);
+		jQ('<div id="dialogListTitleLogo" class="dialog-list-title-logo"></div>').appendTo(this.dialogListTitle);
+		this.dialogListNews = jQ('<div id="dialogListTitleNews" class="dialog-list-title-news"><div class="text">汪汪</div></div>').appendTo(this.dialogListTitle);
+		this.dialogListCloseButton = jQ('<div id="dialogListCloseButton" class="dialog-list-title-close-button"></div>').appendTo(this.dialogListNews);
+		this.dialogListShowButton = jQ('<div id="dialogListShowButton" class="dialog-list-title-show-button"></div>').appendTo(this.dialogListNews);
+		jQ('<div id="dialogListTitleNewsContainer" class="dialog-list-title-news-container"><div id="dialogListNewsButton" class="dialog-list-title-news-button"></div></div>').appendTo(this.dialogListNews);
+		this.dialogListbody = jQ('<div id="dialogListbody" class="dialog-list-body"></div>').appendTo(this.dialogList);
+		this.dialogListUp = jQ('<div id="dialogListUp" class="dialog-list-up"></div>').appendTo(this.dialogListbody);
+		this.dialogListbodyCustomes = jQ('<div id="dialogListbodyCustomes" class="dialog-list-body-customes"></div>').appendTo(this.dialogListbody);
+		var showUserNum = this.parameter.showUserNum ? this.parameter.showUserNum : 8;
+		//设置列表框的默认高度。
+		this.dialogListbodyCustomes.height(22*showUserNum+"px");
+		this.dialogListDown = jQ('<div id="dialogListDown" class="dialog-list-down"></div>').appendTo(this.dialogListbody);
+		Sale.color = jQ('.dialog-list-body').css('color');
+		//消息提取时间
+		Sale.getMessageTime = 1000*10;
+		//添加所有的用户事件
+		this.bindEvent();
+		//用户名称默认显示多少个
+		this.showTextNumber = (parameter.showTextNumber) ? parameter.showTextNumber : 20;
+		//提示AJAX请求异常，开发使用，请勿动。
+		//this.getAjaxErrorInfor();
+		var self = this;
+		//获得商户用户列表。
+		// self.getCustomers();
+		//一分钟获取一次用户消息。
+		// setInterval(function(){self.getCustomers();},Sale.getMessageTime);
+	};
+	
+	Sale.dialogList.prototype={
+		getCustomers:function(usersMessage){
+			var self = this,
+				newMsg = new Array();
+				//获取存在多少个有消息的用户
+				//usersMessage = $.data(document.body,'messages');
+				
+				jQ.each(usersMessage,function(i,value){
+					var obj = {
+						id:i,
+						name:value.userName,
+						count: value.message.length
+					}
+					console.log("count:"+value.message.length);
+					newMsg.push(obj);
+				});
+				self.showCustomers(newMsg);
+			/* jQ.post(self.parameter.acceptUserUrl, {} ,function(data) {
+				jQ.each(data.contactList, function(i, value) {
+					var contactData = {
+						id: value.objectId,
+						name: value.name,
+						count:value.unreadCount
+					};
+					data.contactList[i] = contactData;
+				});
+				//显示用户商户列表
+				self.showCustomers(data.contactList);
+				
+			}); */
+		},
+		showCustomers:function(customers){
+			var self = this;
+			if(customers.length)self.dialogList.show();
+			jQ.each(customers,function(i,o){
+				//判读是新用户还是老用户
+				var c,
+					ls = jQ('div[userId="'+this.id+'"]');
+				if(!ls.length){
+					//var name = self.subUserName(o.name);
+					jQ('<div class="dialog-list-body-customer show-me-height"><div class="dialog-list-body-msgcount"></div><div  class="dialog-list-body-customer-name"  onselectstart="return false" userId="'+o.id+'" userName="'+o.name+'">'+o.name+'</div></div>').prependTo(self.dialogListbodyCustomes);
+					ls = jQ('div[userId="'+this.id+'"]');
+				}
+				if(o.count>0){
+
+					var countDom = ls.prev();
+					//设置用户名称后有多少条消息
+					o.count*1<100 ? countDom.text(o.count) : countDom.text('n');
+					//新消息用户排序。
+					self.sortCustomers(self.dialogListbodyCustomes,ls.first().parent());
+					self.blinkTag(jQ('div[userId="'+this.id+'"]'));
+					// 如果有新消息，且对话框已经打开，则直接显示新消息
+					var jDom = jQ(document.getElementById('dialogBox'+this.id))
+					if(jDom.length && jDom.css('display') != 'none')
+						new Sale.dialogBox({id:this.id,userName:ls.attr('userName')});
+				};
+			});
+		},
+		showPromptMessage:function(){
+			jQ('#dialogListNewsButton').show();
+		},
+		hidePromptMessage:function(){
+			var jDomTag = jQ('#dialogListNewsButton');
+			if(jQ('#dialogList').find('.blink-dialog').length == 0)jDomTag.hide();
+		},
+		get:function(id){
+			return document.getElementById(id);
+		},
+		
+		/*promptMessage:function(){
+			var jDom = jQ('#dialogListNewsButton');
+			var len = jQ('#dialogList').find('.blink-dialog').length;
+			//判读是否有新的消息
+			if(jDom.attr('prompt')=='true')return;
+			
+			jQ('#myMessage').val(jDom.attr('prompt'));
+			jDom[0].timer = setInterval(function(){
+				//让新消息淡入淡出
+				jQ('#dialogListNewsButton').fadeOut('normal',function(){
+					jQ(this).fadeIn('normal',function(){
+						jQ(this).fadeOut('normal');
+					});
+				});
+				jDom.attr('prompt','true');
+				
+			},1000);
+		},
+		clearPromptMessage:function(){
+			var jDomTag = jQ('#dialogListNewsButton');
+			var flag = (jQ('#dialogList').find('.blink-dialog').length == 0);
+			if(flag){
+				//清除新消息提示效果
+				clearInterval(jDomTag[0].timer);
+				jQ('#dialogListNewsButton').css('display','none');
+				jDomTag.attr('prompt','false');
+			}
+		},*/
+		acceptMessage:function(dom)
+		{
+			var self = this, jDom = jQ(dom);
+			var messagesData = {
+					id: jDom.attr('userId'),
+					userName:jQ('#dialogListbodyCustomes').find('div[userId="'+jDom.attr('userId')+'"]').attr('userName')
+					// msgs: data.conversationList,
+					// acceptMsgUrl:self.parameter.acceptMsgUrl,
+					// sendMsgUrl:self.parameter.sendMsgUrl
+				};
+			self.insertMassage(messagesData);
+			/* jQ.post(self.parameter.acceptMsgUrl,{object_id: jDom.attr('userId')},function(data){
+				jQ.each(data.conversationList, function(i, value) {
+					var megData = {
+						msg: value.message.content,
+						time: new Date(parseInt(value.createDate)).format("MM-dd hh:mm")
+					};
+					data.conversationList[i] = megData;
+				});
+				
+				var messagesData = {
+					id: jDom.attr('userId'),
+					userName:jQ('#dialogListbodyCustomes').find('div[userId="'+jDom.attr('userId')+'"]').attr('userName'),
+					msgs: data.conversationList,
+					acceptMsgUrl:self.parameter.acceptMsgUrl,
+					sendMsgUrl:self.parameter.sendMsgUrl
+				};
+				//将消息显示到指定的用户弹出框中。
+				self.insertMassage(messagesData, self.parameter);
+			}); */
+		},
+		insertMassage:function(massages){
+			//保存原有对话框
+			if(this.oldDialogBox){
+				this.oldDialogBox = null;
+			}
+			//创建对话框
+			this.oldDialogBox = new Sale.dialogBox(massages);
+		},
+		getAjaxErrorInfor:function(){
+			jQ("body").ajaxError(function(event, XMLHttpRequest, ajaxOptions, thrownError){
+				 alert("用户请求异常，请联系管理员。\n错误请求url:"+ajaxOptions.url);
+			});
+		},
+		
+		sortCustomers:function(parent,child){
+			if(parent.find('.dialog-list-body-customer').length < 2)return;
+			//找到第一个用户
+			var oldFirstCustomer = parent.find('.dialog-list-body-customer:first');
+			if(oldFirstCustomer[0] == child[0] )return;
+			//设置新的第一个用户
+			oldFirstCustomer.before(child);
+		},
+		blinkTag:function(jDom){
+			var dom = jDom[0],
+				i = 0;
+			
+			var box = jQ(document.getElementById('dialogBox'+jDom.attr('userid')));
+			if(box.length && box.css('display')!='none')return;
+			//如果窗口打开就不进行闪动提示。
+			if(jDom.hasClass('show-dialog'))return;
+			//如果用户标签在闪动同样不进行闪动提示。
+			if(jDom.hasClass('blink-dialog'))return;
+			//没有绑定定时器或者已清除定时器。
+			if(jDom.attr('clear') == 'no')return;
+
+			var countDom = jDom.prev();
+			countDom.css('display','block');
+			dom.timer = setInterval(function(){
+				i++;
+				//让背景颜色在红色和黄色之间进行切换。
+				i%2 ? jDom.css('color','red') : jDom.css('color','yellow');
+				jDom.addClass('blink-dialog');
+			},200);
+			//提示用户有新消息
+			this.showPromptMessage();
+			//定时器启动
+			jDom.attr('clear','no');
+		},
+		/* 删除用户 */
+		removeUser:function(id){
+			var rmDom = this.dialogListbodyCustomes.find('div[userId="'+id+'"]');
+			var self = this;
+			// 删除用户名闪动效果
+			self.clearBlinkTag(rmDom,function(d){
+				// 删除弹出的对话框
+				jQ(self.get('dialogBox'+id)).remove();
+				// 删除用户列表
+				rmDom.parent().remove();
+				// 删除新消息提示
+				self.hidePromptMessage()
+			});
+			
+		},
+		clearBlinkTag:function(jDom,callBack){
+			console.log(dom);
+			var dom = jDom[0];
+			//清除头像闪动效果
+			clearInterval(dom.timer);
+			jDom.attr('clear','yes');
+			jDom.css('color',Sale.color);
+			jDom.removeClass('blink-dialog');
+			var countDom = jDom.prev();
+			countDom.css('display','none');
+			if(jQ.isFunction(callBack))
+				callBack(dom);
+		},
+		subUserName:function(name){
+			var len = this.showTextNumber,
+				newName;
+			name = jQ.trim(name);
+			//截获超长的字段名字，用'...'替代
+			return newName = Sale.strlen(name)> len ? Sale.substr(name,len)+'...': name;
+		},
+		bindListClose:function(func){
+			
+		},
+		bindEvent:function(){
+			var self = this;
+			//隐藏和显示列表框
+			this.dialogListShowButton.toggle(function(){self.dialogListbody.slideDown();self.dialogListCloseButton.addClass("close-on-button");self.dialogListShowButton.addClass("show-mini-botton");},
+				function(){self.dialogListbody.slideUp();self.dialogListCloseButton.removeClass("close-on-button");self.dialogListShowButton.removeClass("show-mini-botton");});
+			jQ('#dialogListTitleNewsContainer').bind('click',function(){
+				//找到第一个闪动的对象
+				//var blinkUser = jQ('#dialogListbodyCustomes').find('.blink-dialog').first();
+				//jQ(blinkUser).dblclick();
+				//展开用户列表
+				self.dialogListShowButton.click();
+			});
+			//异常所有列表
+			this.dialogListCloseButton.click(function(){self.dialogList.hide();})
+			//为所有商户用户列表绑定点击事件。
+			this.dialogListbody.delegate('.dialog-list-body-customer','dblclick',function(){
+				//删除之前为双击状态的用户样式
+				jQ(".customer-dblclick").removeClass("customer-dblclick");
+				jQ(this).addClass("customer-dblclick");
+				//删除其他用户列表的窗口打开状态
+				jQ('#dialogList').find('.show-dialog').removeClass('show-dialog');
+				//提示用户窗口已经打开
+				jQ(this).children('.dialog-list-body-customer-name').addClass("show-dialog");
+				//停止标签闪动
+				self.clearBlinkTag(jQ(this).children('.dialog-list-body-customer-name'));
+				//异常新消息提示
+				self.hidePromptMessage();
+				//获取所有用户的最新消息
+				self.acceptMessage(jQ(this).children('.dialog-list-body-customer-name'));
+
+				
+			})
+			//为所有商户用户列表绑定mouseover事件。
+			this.dialogListbody.delegate('.dialog-list-body-customer','mouseover',function(){jQ(this).addClass('list-over');})
+			//为所有商户用户列表绑定mouseout事件。
+			this.dialogListbody.delegate('.dialog-list-body-customer','mouseout',function(){jQ(this).removeClass('list-over');})
+			//点击向上或向下箭头移动用户列表。
+			this.dialogListUp.add(this.dialogListDown).click(function(){
+				//获取所有用户商户的标签高度之和，并判断是否上移或下移
+				jQ(this).hasClass('dialog-list-up')? self.moveUp() : self.moveDown();
+			});
+			this.dialogList.delegate('#dialogListTitleLogo','click',function(){
+				self.dialogListShowButton.click();
+			});
+			this.dialogList.delegate('.text','click',function(){
+				self.dialogListShowButton.click();
+			});
+		},
+		moveUp:function(){
+			if(!jQ('.dialog-list-body-customer').first().hasClass("show-me-height"))
+			{
+			jQ.each(jQ('.dialog-list-body-customer'),function(i,o){	
+				if(jQ(o).hasClass("show-me-height")){
+					var c = jQ(o).prev();
+					c.addClass("show-me-height").slideDown();
+					return false;
+				}
+			})
+			}
+		},
+		moveDown:function(){
+			var lcs = jQ('.dialog-list-body-customer').last();
+			if(lcs.offset().top+lcs.outerHeight()>this.dialogListDown.offset().top)
+			jQ.each(jQ('.dialog-list-body-customer'),function(i,o){	
+				if(jQ(o).hasClass("show-me-height")){
+					var upNum = jQ(o).outerHeight();
+					jQ(o).removeClass("show-me-height");
+					jQ(o).slideUp();
+					return false;
+				}
+			})
+		}
+	};
+
+	Sale.dialogBox = function(data){
+		this.params = data;
+		if(!this.params || !this.params.id)return;
+		//this.baseParams = baseParams;
+		//删除原有对话框
+		this.clearOldDialogBox();
+		//显示对话窗口
+		this.showBox();
+		
+	};
+	Sale.dialogBox.prototype={
+		
+		showBox:function(){
+			var box = jQ(document.getElementById('dialogBox'+this.params.id));
+			//如果对话框存在就直接显示，否则创建新的对话框。
+			box.length ? this.showOldDialogBox() : this.createNewBox();
+			var panel = jQ(document.getElementById('dialogBox'+this.params.id)).find('.dialog-box-top-panel');
+			//设置对话框的位置
+			this.setPosition(jQ(document.getElementById('dialogBox'+this.params.id)));
+			//让滚动条在最下方。
+			panel.scrollTop(panel[0].scrollHeight);
+			
+		},
+		showOldDialogBox:function(){
+			var box = jQ(document.getElementById('dialogBox'+this.params.id));
+			this.showMessageSet();
+			box.show();
+			//为对话框绑定计时器
+			// this.bindTimer();
+		},
+		bindTimer:function(){
+			//循环获得新消息
+			var self = this;
+			//为对话框绑定计时器
+			jQ(document.getElementById('dialogBox'+this.params.id))[0].timer = setInterval(function(){self.getMessages();},Sale.getMessageTime);
+		},
+		showMessageSet:function(){
+			var ms = jQ.data(document.body,'messages');
+			var self = this;
+			var id  = this.params.id;
+			var tMs ;
+			if(!ms || !ms[id])return;
+			// 创建新数组
+			tMs = ms[id]['message'].slice(); 
+			// 清空数组
+			ms[id]['message'] = [];
+			jQ.each(tMs,function(){
+				//收到消息
+				 self.acceptMessage(id,this);
+			});
+		},
+		acceptMessage:function(id,msg){
+			//找到消息显示面板
+			var panel = jQ(document.getElementById('dialogBox'+id)).find('.dialog-box-top-panel'),
+				container = jQ('<div class="accept-container"></div>').appendTo(panel);
+			container.append('<div class="accept-time float"></div><div class="accept-message float"></div><div class="clear"></div>');
+			var msgContainer = '<div class="level5"><div class="level2"><div class="level4"><div class="level6"><div class="level8"><div class="level1"><div class="level3"><div class="level7"><div class="level9 accept-text"></div></div></div></div></div></div></div></div></div>';
+			container.find('.accept-message').append(msgContainer);
+			container.find('.accept-time').text(msg.time);
+			//插入文字
+			container.find('.accept-text').text(msg.msg);
+			//让滚动条在最下方。
+			panel.scrollTop(panel[0].scrollHeight);
+		},
+		synchronismHeight:function(h,objs){
+			jQ.each(objs,function(){
+				this.height(h);
+			})
+		},
+		proxyDraggable:function(){
+			jQ(document.getElementById('dialogBox'+this.params.id)).draggable({handle:document.getElementById('boxTitle'+this.params.id)});
+		},
+		clearOldDialogBox:function(){	
+			if(jQ('div[id^="dialogBox"]').length){
+				jQ('div[id^="dialogBox"]').hide();
+				/*//清除定时器
+				jQ('div[id^="dialogBox"]').each(function(i){
+					clearInterval(this.timer);
+				})*/
+			}
+		},
+		setPosition:function(dialogBox){
+			//获取当前窗口距离页面顶部高度
+			var scrolltop = jQ(document).scrollTop();
+			boxTop = (jQ(window).height()-dialogBox.height())/2 + scrolltop,
+			boxLeft = (jQ(window).width()-dialogBox.width())/2;
+			dialogBox.css({'top':boxTop,'left':boxLeft});
+		},
+		createNewBox:function(){
+			var p = this.params;
+			var dialogBox = this.dialogBox = jQ('<div id="dialogBox'+p.id+'" class="dialog-box"></div>').appendTo(jQ('body'));
+			
+			var dialogBoxTitle = jQ('<div id="boxTitle'+p.id+'" class="dialog-box-title"></div>').appendTo(dialogBox);
+			dialogBoxTitle.append('<div class="dialog-box-title-left"></div><div class="dialog-box-title-right"></div><div class="dialog-box-title-middle"><div class="title-user-name"><span></span></div>');
+			//消息框的最小化和最大化按钮
+			dialogBoxTitle.append('<div class="dialog-box-title-button"><div class="button-wrap"><div class="dialog-box-title-button-mini"></div></div><div class="button-wrap"><div class="dialog-box-title-button-close"></div></div></div><div class="clear"></div>')
+			//消息呈现框
+			dialogBox.append('<div class="dialog-box-top"><div class="dialog-box-top-left"></div><div class="dialog-box-top-right"></div><div class="dialog-box-top-middle"><div class="dialog-box-top-panel-title"></div><div class="dialog-box-top-panel"></div></div><div class="clear"></div></div>');
+			//消息呈现框和消息输入框中间的间隔
+			dialogBox.append('<div class="dialog-box-middle"><div class="dialog-box-middle-left"></div><div class="dialog-box-middle-right"></div><div class="dialog-box-middle-middle"></div><div class="clear"></div></div>');
+			//消息输入框
+			dialogBox.append('<div class="dialog-box-down"><div class="dialog-box-down-left"></div><div class="dialog-box-down-right"></div><div class="dialog-box-down-middle"><div class="dialog-box-down-panel-title"></div><div class="dialog-box-down-panel"><textarea class="dialog-box-down-panel-text" scroll="no"></textarea></div></div><div class="clear"></div></div>');
+			//消息发送按钮的容器
+			dialogBox.append('<div class="dialog-box-footer"><div class="dialog-box-footer-left"></div><div class="dialog-box-footer-middle"></div><div class="dialog-box-footer-right"></div><div class="clear"></div></div>');
+			//消息面板的底边
+			dialogBox.append('<div class="dialog-box-bottom"><div class="dialog-box-bottom-left"></div><div class="dialog-box-bottom-right"></div><div class="dialog-box-bottom-middle"></div></div>');
+			//消息面板的发送按钮，文字提醒等工具
+			dialogBox.find('.dialog-box-footer-middle').append('<div class="dialog-box-footer-middle-text"><span class="dialog-box-footer-middle-text-number">0</span>/150字</div><div class="dialog-box-send-button"></div><div class="prompt-massages"><div class="prompt-massages-img"></div><span class="prompt-massages-text"></span></div>');
+			//可以发送消息
+			this.send=true;
+			//添加用户名称
+			this.setUserNameForTitle();
+			//显示所有消息
+			this.showMessageSet();
+			//设置对话窗口可以拖动
+			this.proxyDraggable();
+			//绑定事件
+			this.bindEvent();
+			//为对话框绑定计时器
+			// this.bindTimer();
+		},
+		setUserNameForTitle:function(){
+			var id = this.params.id;
+			var userName = this.params.userName;
+			var titleValue = "你正在与"+userName+"聊天";
+			//设置窗口的标题
+			this.dialogBox.find('.title-user-name span').text(titleValue);
+		},
+		getMessages:function(){
+			var panel = jQ(document.getElementById('dialogBox'+this.params.id)).find('.dialog-box-top-panel');
+			var self = this;
+			Sale.getMessageTime;
+			var id = this.params.id;
+			jQ.post(this.params.acceptMsgUrl,{object_id: this.params.id},function(data) {
+
+				jQ.each(data.conversationList, function(i, value) {
+					var megData = {
+						msg: value.message.content,
+						time: new Date(parseInt(value.createDate)).format("MM-dd hh:mm")
+					};
+					data.conversationList[i] = megData;
+				});
+				
+				jQ.each(data.conversationList, function(i, ms){
+					self.acceptMessage(id,ms);
+				});
+			});
+		},
+		bindEvent:function(){
+			var self = this;
+			jQ(document.getElementById('dialogBox'+this.params.id)).delegate('.dialog-box-title-button-mini','click',function(){
+				//删除当前对话窗口
+				self.clearOldDialogBox();
+				//删除其他用户列表的窗口打开状态
+				jQ('.show-dialog').removeClass('show-dialog');
+			});
+			jQ(document.getElementById('dialogBox'+this.params.id)).delegate('.dialog-box-title-button-mini','mouseover',function(){
+				jQ(this).addClass('mini-mouse-over');
+			});
+			jQ(document.getElementById('dialogBox'+this.params.id)).delegate('.dialog-box-title-button-mini','mouseout',function(){
+				jQ(this).removeClass('mini-mouse-over');
+			});
+			jQ(document.getElementById('dialogBox'+this.params.id)).delegate('.dialog-box-title-button-close','click',function(){
+				//删除当前对话窗口
+				self.clearOldDialogBox();
+				//删除其他用户列表的窗口打开状态
+				jQ('.show-dialog').removeClass('show-dialog');
+			});
+			jQ(document.getElementById('dialogBox'+this.params.id)).delegate('.dialog-box-title-button-close','mouseover',function(){
+				jQ(this).addClass('close-mouse-over');
+			});
+			jQ(document.getElementById('dialogBox'+this.params.id)).delegate('.dialog-box-title-button-close','mouseout',function(){
+				jQ(this).removeClass('close-mouse-over');
+			});
+			
+			jQ(document.getElementById('dialogBox'+this.params.id)).delegate('.dialog-box-send-button','click',function(e){
+				self.validateSendMessage();
+				e.stopPropagation();
+			});
+			jQ(document.getElementById('dialogBox'+this.params.id)).delegate('.dialog-box-send-button','mouseover',function(){
+				jQ(this).addClass('send-button-over');
+			});
+			jQ(document.getElementById('dialogBox'+this.params.id)).delegate('.dialog-box-send-button','mouseout',function(){
+				jQ(this).removeClass('send-button-over');
+			});
+			var txtare = jQ(document.getElementById('dialogBox'+this.params.id)).find('.dialog-box-down-panel-text');
+			//判读输入的字符长度
+			if(jQ.browser.msie){
+				//绑定两个事件，因为IE8-使用propertychange事件，而IE9+使用input事件、用户可能在IE9环境下，启动IE7模式。
+				txtare.bind("input", function() {
+					self.inputLimit(jQ(this));
+				}); 
+				txtare.bind("propertychange", function() {
+					self.inputLimit(jQ(this));
+				});				 
+			}else{
+				txtare.bind("input", function() {
+					self.inputLimit(jQ(this));
+				}); 
+			}
+			txtare.keydown(function(e){
+				//enter快捷键
+				if(e.which == 13){
+					self.validateSendMessage(e);
+				}
+			});
+			txtare.keypress(function(e){
+				//防止消息框换行
+				if(e.which==13)e.preventDefault();
+			});
+
+			
+			jQ('.dialog-box-top-panel').click(function(e){
+				e.stopPropagation();
+			});
+			jQ('.dialog-box-top-panel').bind("mouseover", function(e) {  
+                e.stopPropagation();
+            });  
+			jQ('.dialog-box-top-panel').bind("mouseout", function(e) {  
+                e.stopPropagation();
+            }); 
+			jQ('.dialog-box-down-panel-text').click(function(e){
+				e.stopPropagation();
+			});
+		},
+		inputLimit:function(jDom){
+			
+			var len = Sale.strlen(jDom.val());
+			var newLen = 300-len;
+			var span = jQ(document.getElementById('dialogBox'+this.params.id)).find('.dialog-box-footer-middle-text-number');
+			var prompt = jQ(document.getElementById('dialogBox'+this.params.id)).find('.prompt-massages');
+			var lastLen = Math.ceil(len/2);
+			span.html(lastLen);
+			if(newLen < 21){
+				span.css('color','red');
+			}else {
+				span.css('color','black');
+			}
+			//超出文本框长度不允许发送
+			if(newLen < 0 )
+			{
+				this.send = false;
+				prompt.show();
+				prompt.find('.prompt-massages-text').text(Sale.overLength);
+			} else{
+				this.send = true;
+				prompt.hide();
+			};
+		},
+		validateSendMessage:function(){
+			var self = this,
+				panelText = jQ(document.getElementById('dialogBox'+self.params.id)).find('.dialog-box-down-panel-text');
+			//文本框内容是否超出
+			if(!self.send){
+				panelText.focus();
+				return;
+			}
+			//用户输入的文字
+			var text = jQ.trim(panelText.val());
+			//消息为空时提示用户
+			if(text==''){
+				var prompt = jQ(document.getElementById('dialogBox'+this.params.id)).find('.prompt-massages');
+				prompt.show();
+				prompt.find('.prompt-massages-text').text(Sale.nullText);
+				return;
+			}
+			panelText.val('');
+			jQ(document.getElementById('dialogBox'+self.params.id)).find('.dialog-box-footer-middle-text-number').html('0');
+			//发送消息
+			Sale.sendFunction(self,self.params.id,text);
+		},
+		sendSuccessMessage:function(text,time){
+			//找到消息显示面板
+			var panel = jQ(document.getElementById('dialogBox'+this.params.id)).find('.dialog-box-top-panel'),
+				container = jQ('<div class="send-container"></div>').appendTo(panel);
+				container.append('<div class="send-time float"></div><div class="send-message float"></div><div class="clear"></div>');
+				// 插入对话泡泡
+				var msgContainer = '<div class="level5"><div class="level2"><div class="level4"><div class="level6"><div class="level8"><div class="level1"><div class="level3"><div class="level7"><div class="level9 send-text"></div></div></div></div></div></div></div></div></div>';
+				container.find('.send-message').append(msgContainer);
+				// 发送时间
+				container.find('.send-time').text(time);
+				//插入发送的文字
+				var sendText = container.find('.send-text').text(text);
+				//让滚动条在最下方。
+				panel.scrollTop(panel[0].scrollHeight);
+			// }).error(function(){
+				// var sendText = container.find('.send-message');
+				//插入发送的文字
+				// sendText.append("<span style='color:red;'>网络异常，请联系管理员！</span>");
+			// });
+		},
+		sendErrorMessage:function(text,time){
+			//找到消息显示面板
+			var panel = jQ(document.getElementById('dialogBox'+this.params.id)).find('.dialog-box-top-panel'),
+				container = jQ('<div class="send-container"></div>').appendTo(panel);
+			container.append('<div class="send-time float"></div><div class="send-message float"></div><div class="clear"></div>');
+			var sendText = container.find('.send-message');
+			//插入错误的文字
+			sendText.append("<span style='color:red;'>网络异常，请联系管理员！</span>");
+		}
+	};
+
+}(window.jQuery);

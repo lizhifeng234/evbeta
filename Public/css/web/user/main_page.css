@@ -1,0 +1,18 @@
+@import url(../../quote/grid.css);@import url(../../quote/input.css);
+
+/*灰色模块*/
+.mp_gray_block01 { background:#f0f0f0; padding:20px; margin-top:1px; min-height:140px; line-height:200%;}
+.mp_gray_block01 td { vertical-align:top;}
+.mp_gray_block01 .imgbox { width:100px; height:100px; padding:5px; border:#cacaca 1px solid; background:#FFF;}
+.name { width:300px; font-size:16px; color:#de2220; font-family:"微软雅黑";}
+
+/*商家动态*/
+.mp_me_dy{background:#fafafa}
+.mp_me_dy_ul td { vertical-align:top;}
+.mp_me_dy_ul li { border-bottom:#ccc 1px dotted; padding:20px 10px;}
+.l_img { width:50px; height:50px; border:#CCC 1px solid; float:left;}
+.fb { float:left; margin-right:40px; margin-bottom:20px; text-align:center;}
+.fb .img { margin-bottom:10px;}
+.sp1{width:200px; height:360px; float:left; margin-top:10px; margin-left:10px; padding:10px 15px; background:#FFF}
+
+.d1{ height:72px;}

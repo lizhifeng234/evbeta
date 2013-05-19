@@ -1,0 +1,103 @@
+@import url(../quote/grid.css);@import url(../quote/input.css);
+.headbg0{background:url(../../img/web/header_bg.png) left bottom repeat-x; padding-top:2px;}
+
+.modal {
+position: fixed;
+top: 10%;
+left: 50%;
+z-index: 1050;
+width: 560px;
+margin-left: -280px;
+background-color: #ffffff;
+border: 1px solid #999;
+border: 1px solid rgba(0, 0, 0, 0.3);
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+outline: none;
+-webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding-box;
+background-clip: padding-box;
+}
+.modal.fade {
+top: -25%;
+-webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
+-moz-transition: opacity 0.3s linear, top 0.3s ease-out;
+-o-transition: opacity 0.3s linear, top 0.3s ease-out;
+transition: opacity 0.3s linear, top 0.3s ease-out;
+}
+.modal.fade.in {
+top: 10%;
+}
+.modal-header {
+padding: 9px 15px;
+border-bottom: 1px solid #eee;
+}
+.fade {
+opacity: 0;
+-webkit-transition: opacity 0.15s linear;
+-moz-transition: opacity 0.15s linear;
+-o-transition: opacity 0.15s linear;
+transition: opacity 0.15s linear;
+}
+.fade.in {
+opacity: 1;
+}
+:focus {
+outline: -webkit-focus-ring-color auto 5px;
+}
+.hide {
+display: none;
+}
+.modal-header .close {
+margin-top: 2px;
+}
+button.close {
+padding: 0;
+cursor: pointer;
+background: transparent;
+border: 0;
+-webkit-appearance: none;
+}
+.close {
+float: right;
+font-size: 20px;
+font-weight: bold;
+line-height: 20px;
+color: #000000;
+text-shadow: 0 1px 0 #ffffff;
+opacity: 0.2;
+filter: alpha(opacity=20);
+}
+.modal-header h3 {
+margin: 0;
+line-height: 30px;
+}
+h3 {
+font-size: 24.5px;
+}
+.modal-body {
+position: relative;
+max-height: 400px;
+padding: 15px;
+overflow-y: auto;
+}
+.modal-backdrop, .modal-backdrop.fade.in {
+opacity: 0.8;
+filter: alpha(opacity=80);
+}
+.modal-backdrop.fade {
+opacity: 0;
+}
+.modal-backdrop {
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1040;
+background-color: #000000;
+}
