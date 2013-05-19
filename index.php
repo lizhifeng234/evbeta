@@ -8,5 +8,8 @@
 	define('APP_PATH','./');
 	define('RUNTIME_PATH', './cache/');
 	define('ROOT', dirname(__FILE__));
-	require THINK_PATH.'ThinkPHP.php';//test
+	require THINK_PATH.'ThinkPHP.php';
+	
+	
+	
 ?>
