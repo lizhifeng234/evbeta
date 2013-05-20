@@ -6,10 +6,10 @@
 		<link href="/evbeta/__PUBLIC__/css/global.css" rel="stylesheet" type="text/css" />
 		<link href="/evbeta/__PUBLIC__/css/web/ui-dialogBox.css" rel="stylesheet" type="text/css" />
 		<link href="/evbeta/__PUBLIC__/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />	
-	<link href="http://static.soulagou.com/css/member_center/alone/main_page.css" rel="stylesheet" type="text/css" />
+	<link href="/evbeta/__PUBLIC__/css/web/user/main_page.css" rel="stylesheet" type="text/css" />
 
 	</head>
-	<body>
+	<body class="bg">
 	    <div id="wrap">
 	    	<!--Header Start-->
 
