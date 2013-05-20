@@ -6,14 +6,14 @@
 		<link href="/evbeta/__PUBLIC__/css/global.css" rel="stylesheet" type="text/css" />
 		<link href="/evbeta/__PUBLIC__/css/web/ui-dialogBox.css" rel="stylesheet" type="text/css" />
 		<link href="/evbeta/__PUBLIC__/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />	
-	<link href="http://static.soulagou.com/css/member_center/alone/main_page.css" rel="stylesheet" type="text/css" />
+	<link href="/evbeta/__PUBLIC__/css/web/user/main_page.css" rel="stylesheet" type="text/css" />
 		
 		<script type="text/javascript" src="/evbeta/__PUBLIC__/js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/member/profile.js"></script>
 
 	</head> 
-	<body>
-	    <div id="wrap">
+	<body class="bg">
+	    <div id="wrap" class="font">
 	    	<!--Header Start-->
 <div id="header">
 	<div class="pg_w">
@@ -21,7 +21,7 @@
 			
 			<div class="dfr pdt40">
 				<span class="w1">你好，</span>
-				<span class="b2 txs14 txw1 mgr30">lzf2342012</span>
+				<span class="b2 txw1 mgr30">lzf2342012</span>
 				<span>
 					
 					<a href="/j_spring_security_logout" class="txd1 w1 mgr20">安全退出</a>
@@ -38,7 +38,7 @@
 	        <div class="pg_w">
 	            <table width="100%" border="0" cellspacing="0" cellpadding="0">
 	              <tr>
-	                <td width="200" class="l_col">
+	                <td width="200" class="l_col txvt">
 	                	<!--Left Menu Start-->
 	                	
 <div id="accordion">
@@ -47,7 +47,7 @@
 		<img src="http://static.soulagou.com/img/member_center/bar_personal.png" />
 	</div>
 
-	<ul class=" mgt10 txs14">
+	<ul class=" mgt10 user">
 			
 		<li id="menu_home"><a href="/">首页</a></li>
 		<li id="menu_profile"><a href="/profile">个人信息</a></li>
@@ -67,22 +67,8 @@
 			<a href="/">个人管理</a> &gt; 个人信息
 		</div>
 	
-		<div class="mgt30">
-			<div class="dfl dfl_title01">
-				
-				
-				
-				<a href="/profile" class="on">个人信息</a>
-				<a href="/password">修改密码</a>
-				<a href="/portrait">头像设置</a>
-			</div>
-			<div class="clear"></div>
-		</div>
-	
 		<div class="mp_me_dy">
-			<div class="x_b01">
-				<span class="r2">输入真实资料，小搜可以更聪明地帮你推荐商品和好友哦~</span>
-			</div>
+
 			<div class="block3">
 				<form id="profileForm" action="/profile" method="post">
 					<table class="block_table mgt14" width="100%" border="0"
@@ -101,19 +87,25 @@
 						<tr>
 							<th width="22%"><span class="th">手机：</span></th>
 							<td>
-								<p>515611891515</p><a href="/evbeta/User/Member/cert">修改认证</a>
 								
+								<p>515611891515</p>					
+							</td>
+							<td width="300">
+								<a href="/evbeta/User/Member/cert">修改</a>
 							</td>
 						</tr>
 						<tr>
 							<th width="22%"><span class="th">邮箱：</span></th>
 							<td>
-								<p>156151515@qq.com</p><a href="/evbeta/User/Member/cert">修改认证</a>
 								
+								<p>156151515@qq.com</p>	
+							</td>
+							<td>
+								<a  href="/evbeta/User/Member/cert">修改</a>	
 							</td>
 						</tr>
 						<tr>
-							<th width="22%" class="txvt"><span class="th">出生年月：</span></th>
+							<th width="22%"><span class="th">生日：</span></th>
 							<td>
 								<span class="mgr20">
 									<select id="year"></select>年
@@ -125,7 +117,9 @@
 									<select id="day"></select>日
 								</span>
 								<input id="birthday" name="birthday" type="hidden" value=""/>
-								<p class="mgt10 r2">每年生日，小搜将为你精心准备大礼哦！</p>
+							</td>
+							<td>
+								<p class="r2">每年生日，部分商家可能有特殊优惠哦！</p>
 							</td>
 						</tr>
 						<tr>
