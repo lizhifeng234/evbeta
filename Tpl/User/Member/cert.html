@@ -6,14 +6,14 @@
 		<link href="/evbeta/__PUBLIC__/css/global.css" rel="stylesheet" type="text/css" />
 		<link href="/evbeta/__PUBLIC__/css/web/ui-dialogBox.css" rel="stylesheet" type="text/css" />
 		<link href="/evbeta/__PUBLIC__/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
-		<link href="http://static.soulagou.com/css/member_center/alone/main_page.css" rel="stylesheet" type="text/css" />
+		<link href="/evbeta/__PUBLIC__/css/web/user/main_page.css" rel="stylesheet" type="text/css" />
 
 		<script type="text/javascript" src="/evbeta/__PUBLIC__/js/jquery-1.8.3.min.js"></script>
 		<script type="text/javascript" src="/evbeta/__PUBLIC__/js/member/profile.js"></script>
 
 	</head>
-	<body>
-		<div id="wrap">
+	<body class="bg">
+		<div id="wrap" class="txs16">
 			<!--Header Start-->
 			<div id="header">
 				<div class="pg_w">
@@ -34,66 +34,40 @@
 			<div class="pg_w">
 				<table width="100%" border="0" cellspacing="0" cellpadding="0">
 					<tr>
-						<td width="200" class="l_col"><!--Left Menu Start-->
+						<td width="200" class="l_col txvt">
+	                	<!--Left Menu Start-->
 						<div id="accordion">
-
+						
 							<div class="">
 								<img src="http://static.soulagou.com/img/member_center/bar_personal.png" />
 							</div>
-
-							<ul class=" mgt10 txs14">
-
-								<li id="menu_home">
-									<a href="/">首页</a>
-								</li>
-								<li id="menu_profile">
-									<a href="/profile">个人信息</a>
-								</li>
-								<li id="menu_favorite">
-									<a href="/fav/commodities">我的收藏</a>
-								</li>
-								<li id="menu_ticket">
-									<a href="/ticket/list">我的优惠券</a>
-								</li>
+						
+							<ul class=" mgt10 user_list">
+								<li id="menu_home"><a href="/evbeta/User/Member/">首页</a></li>
+								<li id="menu_profile"><a href="/evbeta/User/Member/profile" target="_blank">个人信息</a></li>
+								<li id="menu_favorite"><a href="/evbeta/User/Member/concern" target="_blank">我的关注</a></li>
+								<li id="menu_favorite"><a href="/evbeta/User/Member/cert" target="_blank">手机邮箱认证</a></li>
+								<li id="menu_favorite"><a href="/evbeta/User/Member/card" target="_blank">二维码个人名片</a></li>
 							</ul>
-
-						</div><!--Left Menu End--></td>
+						
+						</div>
+	                	<!--Left Menu End-->
+	                </td>
 						<td class="r_col"><!--Right Content Start-->
 						<div class="r_w">
 							<div class="r_breadcrumb">
 
 								<a href="/">个人管理</a> &gt; 个人信息
 							</div>
-
-							<div class="mgt30">
-								<div class="dfl dfl_title01">
-
-									<a href="/profile" class="on">个人信息</a>
-									<a href="/password">修改密码</a>
-									<a href="/portrait">头像设置</a>
-								</div>
-								<div class="clear"></div>
-							</div>
-
-							<div class="mp_gray_block02">
-								<p>
-									用户名：<span class="name">lzf2342012</span>
-								</p>
-								<p>
-									登录邮箱：lizhifeng234@qq.com
-								</p>
-							</div>
-
-							<div class="mp_me_dy">
-								<div class="block3">
+						<div class="mp_me_dy">
+								<div class="block3 card">
 									<form id="profileForm" action="/cert_email" method="post">
 										<table class="block_table mgt14" width="100%" border="0"
 										cellspacing="0" cellpadding="0">
 											<tr>
 												<th width="22%"><span class="th">输入邮箱：</span></th>
 												<td>
-												<input id="email" name="email" class="inp_text persent47" type="text" value=""/>
-												<input type="submit" class="inp_btn btn_brown" value="发送" />
+												<input id="email" name="email" class="inp_text persent47" type="text" value=""/>						<input type="submit" class="inp_btn btn_brown" value="发送" />
 												</td>
 											</tr>
 											<tr>
@@ -103,6 +77,7 @@
 												</td>
 											</tr>
 											<tr>
+												<th></th>
 												<td>
 												<input type="submit" class="inp_btn btn_brown" value="确 定" />
 												</td>

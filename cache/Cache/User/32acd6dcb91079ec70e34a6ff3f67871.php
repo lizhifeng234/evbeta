@@ -13,7 +13,7 @@
 
 	</head> 
 	<body class="bg">
-	    <div id="wrap" class="font">
+	    <div id="wrap" class="txs16">
 	    	<!--Header Start-->
 <div id="header">
 	<div class="pg_w">
@@ -47,12 +47,12 @@
 		<img src="http://static.soulagou.com/img/member_center/bar_personal.png" />
 	</div>
 
-	<ul class=" mgt10 user">
-			
-		<li id="menu_home"><a href="/">首页</a></li>
-		<li id="menu_profile"><a href="/profile">个人信息</a></li>
-		<li id="menu_favorite"><a href="/fav/commodities">我的收藏</a></li>
-		<li id="menu_ticket"><a href="/ticket/list">我的优惠券</a></li>
+	<ul class=" mgt10 user_list">
+		<li id="menu_home"><a href="/evbeta/User/Member/">首页</a></li>
+		<li id="menu_profile"><a href="/evbeta/User/Member/profile" target="_blank">个人信息</a></li>
+		<li id="menu_favorite"><a href="/evbeta/User/Member/concern" target="_blank">我的关注</a></li>
+		<li id="menu_favorite"><a href="/evbeta/User/Member/cert" target="_blank">手机邮箱认证</a></li>
+		<li id="menu_favorite"><a href="/evbeta/User/Member/card" target="_blank">二维码个人名片</a></li>
 	</ul>
 
 </div>
@@ -135,15 +135,6 @@
 									<select id="district"></select>
 								</span>
 								<input id="location" name="location" type="hidden" value=""/>
-							</td>
-						</tr>
-						<tr>
-							<th width="22%"></th>
-							<td>
-								<table id="districts" class="sq" width="100%" border="0" cellspacing="0"
-									cellpadding="0">
-								</table>
-								<input id="businessDistricts" name="businessDistricts" type="hidden" value=""/>
 							</td>
 						</tr>
 						<tr>

@@ -10,7 +10,7 @@
 
 	</head>
 	<body class="bg">
-	    <div id="wrap">
+	    <div id="wrap" class="txs16">
 	    	<!--Header Start-->
 
 <div id="header">
@@ -19,7 +19,7 @@
 			
 			<div class="dfr pdt40">
 				<span class="w1">你好，</span>
-				<span class="b2 txs14 txw1 mgr30">lzf2342012</span>
+				<span class="b2 txw1 mgr30">lzf2342012</span>
 				<span>
 					
 					<a href="/j_spring_security_logout" class="txd1 w1 mgr20">安全退出</a>
@@ -36,7 +36,7 @@
 	        <div class="pg_w">
 	            <table width="100%" border="0" cellspacing="0" cellpadding="0">
 	              <tr>
-	                <td width="200" class="l_col">
+	                <td width="200" class="l_col txvt">
 	                	<!--Left Menu Start-->
 <div id="accordion">
 
@@ -44,7 +44,7 @@
 		<img src="http://static.soulagou.com/img/member_center/bar_personal.png" />
 	</div>
 
-	<ul class=" mgt10 txs14">
+	<ul class=" mgt10 user_list">
 		<li id="menu_home"><a href="/evbeta/User/Member/">首页</a></li>
 		<li id="menu_profile"><a href="/evbeta/User/Member/profile" target="_blank">个人信息</a></li>
 		<li id="menu_favorite"><a href="/evbeta/User/Member/concern" target="_blank">我的关注</a></li>
@@ -71,11 +71,11 @@
 							<img src="http://static.soulagou.com/img/www-web/defa_user.jpg" width="100" height="100" />
 						</div>
 						<div>
-							<span class="dfr">
+							<span class="dfr txs12">
 								
 								<a href="/evbeta/User/Member/password" target="_blank">修改密码</a>
 							</span>
-							<span class="dfl">
+							<span class="dfl txs12">
 								
 								<a href="/evbeta/User/Member/portrait" target="_blank">修改头像</a>
 							</span>
@@ -93,11 +93,23 @@
 			<div class="x_b01">
 				<span class="">商家动态</span>
 			</div>
-			
+			<ul class="user_index">
+				<li><span>2013.06.01</span><a href="">天使連線旗下EV街正式上線，30天免費加入</a></li>
+				<li><span>2013.06.01</span><a href="">天使連線旗下EV街正式上線，30天免費加入</a></li>
+				<li><span>2013.06.01</span><a href="">天使連線旗下EV街正式上線，30天免費加入</a></li>
+				<li><span>2013.06.01</span><a href="">天使連線旗下EV街正式上線，30天免費加入</a></li>
+				<li><span>2013.06.01</span><a href="">天使連線旗下EV街正式上線，30天免費加入</a></li>
+				<li><span>2013.06.01</span><a href="">天使連線旗下EV街正式上線，30天免費加入</a></li>
+				<li><span>2013.06.01</span><a href="">天使連線旗下EV街正式上線，30天免費加入</a></li>
+				<li><span>2013.06.01</span><a href="">天使連線旗下EV街正式上線，30天免費加入</a></li>
+				<li><span>2013.06.01</span><a href="">天使連線旗下EV街正式上線，30天免費加入</a></li>
+				<li><span>2013.06.01</span><a href="">天使連線旗下EV街正式上線，30天免費加入</a></li>
+			</ul>
 			
 			<div class="clear"></div>
+			<div id="" class="page">共1页<a href="?page=1">上一页</a><span>1</span><a href="?page=1">下一页</a></div>
 		</div>
-		<div id="" class="page">共1页<a href="?page=1">上一页</a><span>1</span><a href="?page=1">下一页</a></div>
+		
 	</div>
 
 	                	<!--Right Content End-->

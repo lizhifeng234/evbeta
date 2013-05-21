@@ -6,11 +6,11 @@
 		<link href="/evbeta/__PUBLIC__/css/global.css" rel="stylesheet" type="text/css" />
 		<link href="/evbeta/__PUBLIC__/css/web/ui-dialogBox.css" rel="stylesheet" type="text/css" />
 		<link href="/evbeta/__PUBLIC__/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />	
-	<link href="http://static.soulagou.com/css/member_center/alone/main_page.css" rel="stylesheet" type="text/css" />
+	<link href="/evbeta/__PUBLIC__/css/web/user/main_page.css" rel="stylesheet" type="text/css" />
 
 	</head>
-	<body>
-	    <div id="wrap">
+	<body class="bg">
+	    <div id="wrap" class="txs16">
 	    	<!--Header Start-->
 
 <div id="header">
@@ -36,7 +36,7 @@
 	        <div class="pg_w">
 	            <table width="100%" border="0" cellspacing="0" cellpadding="0">
 	              <tr>
-	                <td width="200" class="l_col">
+	                <td width="200" class="l_col txvt">
 	                	<!--Left Menu Start-->
 <div id="accordion">
 
@@ -44,12 +44,12 @@
 		<img src="http://static.soulagou.com/img/member_center/bar_personal.png" />
 	</div>
 
-	<ul class=" mgt10 txs14">
+	<ul class=" mgt10 user_list">
 		<li id="menu_home"><a href="/evbeta/User/Member/">首页</a></li>
 		<li id="menu_profile"><a href="/evbeta/User/Member/profile" target="_blank">个人信息</a></li>
 		<li id="menu_favorite"><a href="/evbeta/User/Member/concern" target="_blank">我的关注</a></li>
-		<li id="menu_favorite"><a href="/evbeta/User/Member/concern" target="_blank">二维码名片</a></li>
 		<li id="menu_favorite"><a href="/evbeta/User/Member/cert" target="_blank">手机邮箱认证</a></li>
+		<li id="menu_favorite"><a href="/evbeta/User/Member/card" target="_blank">二维码个人名片</a></li>
 	</ul>
 
 </div>
@@ -71,17 +71,19 @@
 							显示二维码个人名片
 						</div>
 					</td>
-					<td class="pdl18">
+					<td class="pdl18 card">
 						<form>
-							姓名：<input type="text" name="name"><br>
-							电话：<input type="text" name="name"><br>
-							邮箱：<input type="text" name="name"><br>
-							qq:<input type="text" name="name"><br>
-							单位：<input type="text" name="name"><br>
-							职位：<input type="text" name="name"><br>
-							网址：<input type="text" name="name"><br>
-							住址：<input type="text" name="name"><br>
-							<input class="button1" id="submit" value="生成" type="submit">
+							<table>
+							<tr><td>姓名：</td><td><input type="text" name="name"></td></tr>
+							<tr><td>电话：</td><td><input type="text" name="name"></td></tr>
+							<tr><td>邮箱：</td><td><input type="text" name="name"></td></tr>
+							<tr><td>qq:</td><td><input type="text" name="name"></td></tr>
+							<tr><td>单位：</td><td><input type="text" name="name"></td></tr>
+							<tr><td>职位：</td><td><input type="text" name="name"></td></tr>
+							<tr><td>网址：</td><td><input type="text" name="name"></td></tr>
+							<tr><td>住址：</td><td><input type="text" name="name"></td></tr>
+							<tr><td></td><td><a class="btn_brown" href="" style="display: block;line-height:47px;text-align:center">生成</a></td>
+							</table>
 						</form>
 					</td>
 				</tr>

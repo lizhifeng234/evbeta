@@ -6,10 +6,10 @@
 		<link href="/evbeta/__PUBLIC__/css/global.css" rel="stylesheet" type="text/css" />
 		<link href="/evbeta/__PUBLIC__/css/web/ui-dialogBox.css" rel="stylesheet" type="text/css" />
 		<link href="/evbeta/__PUBLIC__/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
-		<link href="http://static.soulagou.com/css/member_center/alone/main_page.css" rel="stylesheet" type="text/css" />
+		<link href="/evbeta/__PUBLIC__/css/web/user/main_page.css" rel="stylesheet" type="text/css" />
 	</head>
-	<body>
-		<div id="wrap">
+	<body class="bg">
+		<div id="wrap"  class="txs16">
 			<!--Header Start-->
 
 			<div id="header">
@@ -37,39 +37,30 @@
 							<div class="">
 								<img src="http://static.soulagou.com/img/member_center/bar_personal.png" />
 							</div>
-							<ul class=" mgt10 txs14">
-								<li id="menu_home">
-									<a href="/">首页</a>
-								</li>
-								<li id="menu_profile">
-									<a href="/profile">个人信息</a>
-								</li>
-								<li id="menu_favorite">
-									<a href="/fav/commodities">我的收藏</a>
-								</li>
-								<li id="menu_ticket">
-									<a href="/ticket/list">我的优惠券</a>
-								</li>
+							<ul class=" mgt10 user_list">
+								<li id="menu_home"><a href="/evbeta/User/Member/">首页</a></li>
+								<li id="menu_profile"><a href="/evbeta/User/Member/profile" target="_blank">个人信息</a></li>
+								<li id="menu_favorite"><a href="/evbeta/User/Member/concern" target="_blank">我的关注</a></li>
+								<li id="menu_favorite"><a href="/evbeta/User/Member/cert" target="_blank">手机邮箱认证</a></li>
+								<li id="menu_favorite"><a href="/evbeta/User/Member/card" target="_blank">二维码个人名片</a></li>
 							</ul>
 
 						</div><!--Left Menu End--></td>
-						<td class="r_col"><!--Right Content Start-->
+						<td class="r_col txvt"><!--Right Content Start-->
 						<div class="r_w">
 							<div class="r_breadcrumb">
 
 								<a href="/">个人管理</a> &gt; 我的关注
 							</div>
 
-							<div class="mgt30">
+							<div class="mgt30 r_breadcrumb">
 								<h2>商家关注</h2>
 								<div class="dfl dfl_title01">
 									<a href="/fav/outlets">关注分类</a>
 								</div>
 								<div class="clear"></div>
-							</div>
-
-							<div class="m_col_div">
-								<table class="m_col_table" width="100%" border="0" cellspacing="0"
+								<div class="m_col_div">
+								<table class="m_col_table concern" width="100%" border="0" cellspacing="0"
 								cellpadding="0">
 									<tr>									
 										<th width="42%">商家名称</th>
@@ -77,14 +68,25 @@
 										<th width="12%">关注人气</th>
 										<th class="last_r">操作</th>
 									</tr>
-
+									<tr>									
+										<td width="42%">商家名称</td>
+										<td width="12%">关注时间</td>
+										<td width="12%">关注人气</td>
+										<td class="last_r">操作</td>
+									</tr>
+									<tr>									
+										<td width="42%">商家名称</td>
+										<td width="12%">关注时间</td>
+										<td width="12%">关注人气</td>
+										<td class="last_r">操作</td>
+									</tr>
 								</table>
 							</div>
 
 							<div id="" class="page">
 								共1页<a href="?page=1">上一页</a><span>1</span><a href="?page=1">下一页</a>
 							</div>
-
+							</div>
 						</div><!--Right Content End--></td>
 					</tr>
 				</table>

@@ -1,7 +1,7 @@
 @import url(../../quote/grid.css);@import url(../../quote/input.css);
 
 /*灰色模块*/
-.mp_gray_block01 { background:#f0f0f0; padding:20px; margin-top:1px; min-height:140px; line-height:200%;}
+.mp_gray_block01 { background:white; padding:20px; margin-top:1px; min-height:140px; line-height:200%;box-shadow: 0 1px 1px #ccc;margin:10px;}
 .mp_gray_block01 td { vertical-align:top;}
 .mp_gray_block01 .imgbox { width:100px; height:100px; padding:5px; border:#cacaca 1px solid; background:#FFF;}
 .name { width:300px; font-size:16px; color:#de2220; font-family:"微软雅黑";}
@@ -20,6 +20,12 @@
 /*白色模块*/
 #accordion,.mp_me_dy,.r_breadcrumb{padding:5px;background:white;box-shadow: 0 1px 1px #ccc;margin:10px;}
 .block_table tr{height: 50px;}
-.user li{height:30px;}
-.font{font-size:16px;}
-
+.user_list li{height:30px;}
+.concern{background:gray;color:white;}
+.card input{height:25px;width:250px;}
+.block_table select{height:30px;}
+.user_index{margin:10px;}
+.user_index li span{float:right;}
+.user_index li{line-height:30px;}
+.page{text-align:center;}
+.page a{margin:0 10px;}
