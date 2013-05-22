@@ -2091,3 +2091,26 @@ INFO: [ view_end ] --START--
 INFO: Run ShowPageTrace Behavior [ RunTime:0.003208s ]
 INFO: [ view_end ] --END-- [ RunTime:0.003787s ]
 
+[ 2013-05-21T21:50:47+08:00 ] 127.0.0.1 /evbeta/User/Member/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005465s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003822s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004747s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005380s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032904s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004575s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003531s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002283s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015517s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004019s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004647s ]
+

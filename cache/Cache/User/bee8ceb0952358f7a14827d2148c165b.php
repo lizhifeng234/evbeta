@@ -41,15 +41,13 @@
 							<div class="">
 								<img src="http://static.soulagou.com/img/member_center/bar_personal.png" />
 							</div>
-						
 							<ul class=" mgt10 user_list">
 								<li id="menu_home"><a href="/evbeta/User/Member/">首页</a></li>
-								<li id="menu_profile"><a href="/evbeta/User/Member/profile" target="_blank">个人信息</a></li>
-								<li id="menu_favorite"><a href="/evbeta/User/Member/concern" target="_blank">我的关注</a></li>
-								<li id="menu_favorite"><a href="/evbeta/User/Member/cert" target="_blank">手机邮箱认证</a></li>
-								<li id="menu_favorite"><a href="/evbeta/User/Member/card" target="_blank">二维码个人名片</a></li>
+								<li id="menu_profile"><a href="/evbeta/User/Member/profile">个人信息</a></li>
+								<li id="menu_favorite"><a href="/evbeta/User/Member/concern">我的关注</a></li>
+								<li id="menu_favorite"><a href="/evbeta/User/Member/cert">手机邮箱认证</a></li>
+								<li id="menu_favorite"><a href="/evbeta/User/Member/card">二维码个人名片</a></li>
 							</ul>
-						
 						</div>
 	                	<!--Left Menu End-->
 	                </td>
@@ -60,20 +58,20 @@
 								<a href="/">个人管理</a> &gt; 个人信息
 							</div>
 						<div class="mp_me_dy">
-								<div class="block3 card">
+								<div class="block3">
 									<form id="profileForm" action="/cert_email" method="post">
 										<table class="block_table mgt14" width="100%" border="0"
 										cellspacing="0" cellpadding="0">
 											<tr>
 												<th width="22%"><span class="th">输入邮箱：</span></th>
 												<td>
-												<input id="email" name="email" class="inp_text persent47" type="text" value=""/>						<input type="submit" class="inp_btn btn_brown" value="发送" />
+												<input id="email" name="email" class="inp_text persent47 input" type="text" value=""/>						<input type="submit" class="inp_btn btn_brown" value="发送" />
 												</td>
 											</tr>
 											<tr>
 												<th width="22%"><span class="th">输入邮箱的验证码：</span></th>
 												<td>
-												<input id="realName" name="realName" class="inp_text persent47" type="text" value=""/>
+												<input id="realName" name="realName" class="inp_text persent47 input" type="text" value=""/>
 												</td>
 											</tr>
 											<tr>
@@ -92,20 +90,14 @@
 											<tr>
 												<th width="22%"><span class="th">手机：</span></th>
 												<td>
-												<input id="mobile" name="mobile" class="inp_text persent47" type="text" value=""/>
+												<input id="mobile" name="mobile" class="inp_text persent47 input" type="text" value=""/>
 												<input type="submit" class="inp_btn btn_brown" value="发送" />
 												</td>
 											</tr>
-											<th width="22%" class="txvt"><span class="th">输入手机的验证码：</span></th>
+											<th width="22%"><span class="th">输入手机的验证码：</span></th>
 											<td>
-											<input id="mobile" name="mobile" class="inp_text persent47" type="text" value=""/>
+											<input id="mobile" name="mobile" class="inp_text persent47 input" type="text" value=""/>
 											</td>
-					</tr>
-					<tr>
-						<th width="22%"></th>
-						<td>
-						<input id="businessDistricts" name="businessDistricts" type="hidden" value=""/>
-						</td>
 					</tr>
 					<tr>
 						<th></th>

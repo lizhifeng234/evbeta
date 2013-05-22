@@ -46,10 +46,10 @@
 
 	<ul class=" mgt10 user_list">
 		<li id="menu_home"><a href="/evbeta/User/Member/">首页</a></li>
-		<li id="menu_profile"><a href="/evbeta/User/Member/profile" target="_blank">个人信息</a></li>
-		<li id="menu_favorite"><a href="/evbeta/User/Member/concern" target="_blank">我的关注</a></li>
-		<li id="menu_favorite"><a href="/evbeta/User/Member/cert" target="_blank">手机邮箱认证</a></li>
-		<li id="menu_favorite"><a href="/evbeta/User/Member/card" target="_blank">二维码个人名片</a></li>
+		<li id="menu_profile"><a href="/evbeta/User/Member/profile">个人信息</a></li>
+		<li id="menu_favorite"><a href="/evbeta/User/Member/concern">我的关注</a></li>
+		<li id="menu_favorite"><a href="/evbeta/User/Member/cert">手机邮箱认证</a></li>
+		<li id="menu_favorite"><a href="/evbeta/User/Member/card">二维码个人名片</a></li>
 	</ul>
 
 </div>
@@ -73,11 +73,11 @@
 						<div>
 							<span class="dfr txs12">
 								
-								<a href="/evbeta/User/Member/password" target="_blank">修改密码</a>
+								<a href="/evbeta/User/Member/password">修改密码</a>
 							</span>
 							<span class="dfl txs12">
 								
-								<a href="/evbeta/User/Member/portrait" target="_blank">修改头像</a>
+								<a href="/evbeta/User/Member/portrait">修改头像</a>
 							</span>
 						</div>
 					</td>

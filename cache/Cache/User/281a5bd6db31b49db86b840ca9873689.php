@@ -10,21 +10,12 @@
 		<link href="/evbeta/__PUBLIC__/css/global.css" rel="stylesheet" type="text/css" />
 		<link href="/evbeta/__PUBLIC__/css/web/ui-dialogBox.css" rel="stylesheet" type="text/css" />
 		<link href="/evbeta/__PUBLIC__/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />	
-	<link href="http://static.soulagou.com/css/member_center/alone/main_page.css" rel="stylesheet" type="text/css" />
-
-		
-
-		
+	<link href="/evbeta/__PUBLIC__/css/web/user/main_page.css" rel="stylesheet" type="text/css" />
 		
 	</head>
-	<body>
-	    <div id="wrap">
+	<body class="bg">
+	    <div id="wrap" class="txs16">
 	    	<!--Header Start-->
-	        
-
-
-
-
 
 <div id="header">
 	<div class="pg_w">
@@ -49,32 +40,22 @@
 	        <div class="pg_w">
 	            <table width="100%" border="0" cellspacing="0" cellpadding="0">
 	              <tr>
-	                <td width="200" class="l_col">
+	                <td width="200" class="l_col txvt">
 	                	<!--Left Menu Start-->
-	                	
-
-
-
-
-
 <div id="accordion">
 
 	<div class="">
 		<img src="http://static.soulagou.com/img/member_center/bar_personal.png" />
 	</div>
 
-	<ul class=" mgt10 txs14">
-		
-		
-		
-		
-		
-		<li id="menu_home"><a href="/">首页</a></li>
-		<li id="menu_profile"><a href="/profile">个人信息</a></li>
-		<li id="menu_favorite"><a href="/fav/commodities">我的收藏</a></li>
-		<li id="menu_ticket"><a href="/ticket/list">我的优惠券</a></li>
+	<ul class=" mgt10">
+<ul class=" mgt10 user_list">
+		<li id="menu_home"><a href="/evbeta/User/Member/">首页</a></li>
+		<li id="menu_profile"><a href="/evbeta/User/Member/profile">个人信息</a></li>
+		<li id="menu_favorite"><a href="/evbeta/User/Member/concern">我的关注</a></li>
+		<li id="menu_favorite"><a href="/evbeta/User/Member/cert">手机邮箱认证</a></li>
+		<li id="menu_favorite"><a href="/evbeta/User/Member/card">二维码个人名片</a></li>
 	</ul>
-
 </div>
 	                	<!--Left Menu End-->
 	                </td>
@@ -86,21 +67,6 @@
 			
 			<a href="/">个人管理</a> &gt; 头像设置
 		</div>
-
-		<div class="mgt30">
-			<div class="dfl dfl_title01">
-				
-				
-				
-				<a href="/profile">个人信息</a>
-				<a href="/password">修改密码</a>
-				<a href="/portrait" class="on">头像设置</a>
-			</div>
-			<div class="clear"></div>
-		</div>
-		
-		
-
 		<div class="mp_me_dy">
 			
 			<form action="/portrait" method="post" enctype="multipart/form-data">

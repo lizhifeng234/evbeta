@@ -46,15 +46,13 @@
 	<div class="">
 		<img src="http://static.soulagou.com/img/member_center/bar_personal.png" />
 	</div>
-
 	<ul class=" mgt10 user_list">
 		<li id="menu_home"><a href="/evbeta/User/Member/">首页</a></li>
-		<li id="menu_profile"><a href="/evbeta/User/Member/profile" target="_blank">个人信息</a></li>
-		<li id="menu_favorite"><a href="/evbeta/User/Member/concern" target="_blank">我的关注</a></li>
-		<li id="menu_favorite"><a href="/evbeta/User/Member/cert" target="_blank">手机邮箱认证</a></li>
-		<li id="menu_favorite"><a href="/evbeta/User/Member/card" target="_blank">二维码个人名片</a></li>
+		<li id="menu_profile"><a href="/evbeta/User/Member/profile">个人信息</a></li>
+		<li id="menu_favorite"><a href="/evbeta/User/Member/concern">我的关注</a></li>
+		<li id="menu_favorite"><a href="/evbeta/User/Member/cert">手机邮箱认证</a></li>
+		<li id="menu_favorite"><a href="/evbeta/User/Member/card">二维码个人名片</a></li>
 	</ul>
-
 </div>
 	                	<!--Left Menu End-->
 	                </td>
@@ -91,7 +89,7 @@
 								<p>515611891515</p>					
 							</td>
 							<td width="300">
-								<a href="/evbeta/User/Member/cert">修改</a>
+								<a href="/evbeta/User/Member/cert" target="_blank">修改</a>
 							</td>
 						</tr>
 						<tr>
@@ -101,7 +99,7 @@
 								<p>156151515@qq.com</p>	
 							</td>
 							<td>
-								<a  href="/evbeta/User/Member/cert">修改</a>	
+								<a  href="/evbeta/User/Member/cert" target="_blank">修改</a>	
 							</td>
 						</tr>
 						<tr>

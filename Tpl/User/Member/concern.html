@@ -29,22 +29,23 @@
 			<!--Header End-->
 
 			<div class="pg_w">
-				<table width="100%" border="0" cellspacing="0" cellpadding="0">
-					<tr>
-						<td width="200" class="l_col"><!--Left Menu Start-->
+	            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	              <tr>
+	                <td width="200" class="l_col txvt">
+	                	<!--Left Menu Start-->
 						<div id="accordion">
-
+						
 							<div class="">
 								<img src="http://static.soulagou.com/img/member_center/bar_personal.png" />
 							</div>
+						
 							<ul class=" mgt10 user_list">
 								<li id="menu_home"><a href="/evbeta/User/Member/">首页</a></li>
-								<li id="menu_profile"><a href="/evbeta/User/Member/profile" target="_blank">个人信息</a></li>
-								<li id="menu_favorite"><a href="/evbeta/User/Member/concern" target="_blank">我的关注</a></li>
-								<li id="menu_favorite"><a href="/evbeta/User/Member/cert" target="_blank">手机邮箱认证</a></li>
-								<li id="menu_favorite"><a href="/evbeta/User/Member/card" target="_blank">二维码个人名片</a></li>
+								<li id="menu_profile"><a href="/evbeta/User/Member/profile">个人信息</a></li>
+								<li id="menu_favorite"><a href="/evbeta/User/Member/concern">我的关注</a></li>
+								<li id="menu_favorite"><a href="/evbeta/User/Member/cert">手机邮箱认证</a></li>
+								<li id="menu_favorite"><a href="/evbeta/User/Member/card">二维码个人名片</a></li>
 							</ul>
-
 						</div><!--Left Menu End--></td>
 						<td class="r_col txvt"><!--Right Content Start-->
 						<div class="r_w">
@@ -54,35 +55,57 @@
 							</div>
 
 							<div class="mgt30 r_breadcrumb">
-								<h2>商家关注</h2>
+								<h2>商家关注</h2><br />
 								<div class="dfl dfl_title01">
-									<a href="/fav/outlets">关注分类</a>
+									<a href="/fav/outlets">所有分类</a>
+									<a href="/fav/outlets">餐饮</a>
+									<a href="/fav/outlets">生活</a>
+									<a href="/fav/outlets">旅游</a>
+									<a href="/fav/outlets">购物</a>
 								</div>
+								<br /><br />
 								<div class="clear"></div>
 								<div class="m_col_div">
-								<table class="m_col_table concern" width="100%" border="0" cellspacing="0"
-								cellpadding="0">
+								<table class="m_col_table concern" cellspacing="2" width="100%" border="0" cellpadding="0">
 									<tr>									
 										<th width="42%">商家名称</th>
-										<th width="12%">关注时间</th>
-										<th width="12%">关注人气</th>
+										<th width="20%">关注时间</th>
+										<th width="12%">人气</th>
 										<th class="last_r">操作</th>
 									</tr>
 									<tr>									
-										<td width="42%">商家名称</td>
-										<td width="12%">关注时间</td>
-										<td width="12%">关注人气</td>
-										<td class="last_r">操作</td>
+										<td>易维网</td>
+										<td>2013-06-01</td>
+										<td>551615</td>
+										<td class="last_r"><a href="">取消关注</a></td>
 									</tr>
 									<tr>									
-										<td width="42%">商家名称</td>
-										<td width="12%">关注时间</td>
-										<td width="12%">关注人气</td>
-										<td class="last_r">操作</td>
+										<td>易维网</td>
+										<td>2013-06-01</td>
+										<td>551615</td>
+										<td class="last_r"><a href="">取消关注</a></td>
+									</tr>
+									<tr>									
+										<td>易维网</td>
+										<td>2013-06-01</td>
+										<td>551615</td>
+										<td class="last_r"><a href="">取消关注</a></td>
+									</tr>
+									<tr>									
+										<td>易维网</td>
+										<td>2013-06-01</td>
+										<td>551615</td>
+										<td class="last_r"><a href="">取消关注</a></td>
+									</tr>
+									<tr>									
+										<td>易维网</td>
+										<td>2013-06-01</td>
+										<td>551615</td>
+										<td class="last_r"><a href="">取消关注</a></td>
 									</tr>
 								</table>
 							</div>
-
+							<br />
 							<div id="" class="page">
 								共1页<a href="?page=1">上一页</a><span>1</span><a href="?page=1">下一页</a>
 							</div>

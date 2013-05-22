@@ -21,11 +21,16 @@
 #accordion,.mp_me_dy,.r_breadcrumb{padding:5px;background:white;box-shadow: 0 1px 1px #ccc;margin:10px;}
 .block_table tr{height: 50px;}
 .user_list li{height:30px;}
-.concern{background:gray;color:white;}
-.card input{height:25px;width:250px;}
+table.concern{background:gray;color:white;text-align: center;}
+table.concern tr{height:40px;background:white}
+table.concern tr:hover{background:#F1F1F1}
+.concern th{background:#E1E1E1;color:#e21454;font-weight: bold;font-size: 18px;}
+.concern td{color:black;}
+.input{height:30px;width:250px;font-size:16px;}
 .block_table select{height:30px;}
 .user_index{margin:10px;}
 .user_index li span{float:right;}
-.user_index li{line-height:30px;}
+.user_index li{line-height:30px;border-bottom:1px dashed gray;}
 .page{text-align:center;}
 .page a{margin:0 10px;}
+.r_col a{color:#0099FF}
