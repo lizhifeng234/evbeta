@@ -1,0 +1,126 @@
+/*图片调用 repeat_y_1px*/
+.dfl_title01 a:hover, .dfl_title01 a.on { background-image:url(../../img/outlet_manager/repeat_y_1px.png); background-repeat:repeat-y;}
+/*通栏宽度*/
+.pg_w { width:950px; margin:0 auto; min-height:100%;}
+/*页头*/
+#header { height:78px; background:#191919 url(../../../img/outlet_manager/repeat_x_1px.png) 0px -567px repeat-x;}
+/*通栏外容器01*/
+.block1 { height:64px; line-height:64px; width:100%; background:#5f5f5f; color:#ffffff; }
+.block1 a { color:#ffffff;}
+.block1 a:hover { color:#ffffff;}
+.block1 .block_table .l { float:left; font-size:20px; font-family:"微软雅黑";}
+.block1 .block_table .r { float:right; margin-right:30px; font-size:12px;}
+/*通栏外容器02*/
+.block2 { height:56px; line-height:56px; width:100%; border-bottom:#c3c3c3 1px solid;}
+/*通栏外容器03*/
+.block3 {width:100%;}
+/*通栏外容器03表格*/
+.block3 .block_table th, .block3 .block_table td { padding:14px 0px; vertical-align:middle;}
+.block_table th { text-align:right;}
+.block_table th .th { font-family:"微软雅黑"; font-size:14px; padding-right:30px;}
+.block_table td { text-align:left;}
+/*通栏外容器04*/
+.block4 { height:30px; line-height:30px; margin-top:30px; width:100%;} 
+/*通栏外容器05*/
+.block5 {width:100%;}
+/*占位*/
+.b_height01 { height:60px;}
+/*左右栏布局*/
+.l_col { width:200px; background:#e8e8e8; vertical-align:top;}
+.r_col {vertical-align:top;}
+.yt_t { height:100%;}
+.yt_t_td { height:78px;}
+.yt_b { height:100%; margin:0 auto;}
+/*通栏外容器宽度*/
+.m_w { width:930px; padding:0 10px; margin:0 auto;}
+/*右栏外容器宽度*/
+.r_w { margin:0 auto;}
+/*右栏左右分格表格01*/
+.r_col_t01 {}
+.r_col_t01 th, .r_col_t01 td { padding:14px 0px; vertical-align:middle;}
+.r_col_t01 th { text-align:right;}
+.r_col_t01 th .th { font-size:14px;}
+.r_col_t01 td { text-align:left;}
+/*右栏 文本域*/
+.r_textarea_box { background:#FFF; border:#9a9a9a 1px solid; width:95%; float:left; line-height:18px; height:auto; min-height:54px; margin-bottom:12px; resize:none;}
+.r_textarea { background:#FFF; border:#9a9a9a 1px solid; width:99%; font-size:12px; line-height:1.5;  height:160px; resize:none;}
+.textarea_b_t { width:99%;}
+/*右栏标题01*/
+.dfl_title01 { width:50%; height:24px;}
+.dfl_title01 a { padding:3px 6px 4px; margin-right:16px; float:left; color:#666; font-size:14px; font-family:"微软雅黑";}
+.dfl_title01 a:hover, .dfl_title01 a.on { background-color:#7b1d16; background-position:-300px 0; color:#FFF; text-decoration:none;}
+
+.dfr_tt a{float:right;margin-right:0px; margin-left:15px;}
+
+/*灰色容器01*/
+.gray_block01 { margin-top:30px; width:100%; background:#f8f8f8;}
+.gray_block01 .title01 { font-size:16px; font-family:"微软雅黑"; margin:0 10px; line-height:38px; border-bottom:#ffffff 1px solid; padding-left:40px; vertical-align:text-bottom;}
+.gray_block01 .title01 .title01_x { font-size:12px; font-family:"宋体";}
+/*灰色容器01表格*/
+.gray_block01 .block_table th, .gray_block01 .block_table td { padding:14px 0px; vertical-align:middle;}
+.gray_block01 th { text-align:right;}
+.gray_block01 th .th { font-family:"微软雅黑"; font-size:14px; padding-right:30px;}
+.gray_block01 td { text-align:left;}
+/*右栏整栏表格01*/
+.m_col_div { border:#d7d7d7 1px solid; border-right:0px; border-bottom:0px; margin-top:5px;}
+.m_col_table {  }
+.m_col_table th {background:#f2f2f2; line-height:36px; text-align:center; border-bottom:#d7d7d7 1px solid; border-right:f2f2f2 1px solid; }
+.m_col_table th.last_r { border-right:#d7d7d7 1px solid;}
+.m_col_table td {background:#fff; border-bottom:#d7d7d7 1px solid; border-right:#d7d7d7 1px solid; line-height:64px; text-align:center; }
+.m_col_table td p{ line-height:150%; margin-top:2px; margin-bottom:2px;}
+.m_col_table td .js { color:#e57d18; font-weight:bold;}
+.m_col_table td .chs_stock a { }
+.m_col_table td .pro_tt_ta td { border:0px;}
+.m_col_table td .pro_tt_ta td.pro_chec{ width:13px; padding-left:10px; text-align:left;}
+.m_col_table td .pro_tt_ta td.pro_img{ width:80px; height:80px; padding:11px 0px 11px 10px;}
+.m_col_table td .pro_tt_ta td.pro_img img { width:80px; height:80px;}
+.m_col_table td .pro_tt_ta td.pro_tt { padding-left:10px; padding-right:4px;}
+.m_col_table td .ticket_title { color:#5285bf; font-weight:bold;text-align:left; max-height:36px; overflow:hidden;}
+.m_col_table td .ticket_title a { color:#5285bf;}
+.m_col_table td .ticket_title a .keywords { color:#d04429;}
+.m_col_table td .ticket_valid { color:#afafaf;text-align:left;}
+.m_col_table td.bulk_operations { height:32px; text-align:left;}
+/*产品属性表格*/
+.pro_t_ta {}
+.pro_t_ta tr.g th, .pro_t_ta tr.g td { background:#f5f5f5;}
+.pro_t_ta th, .pro_t_ta td { line-height:40px; padding:0px;}
+.pro_t_ta th { text-align:right;}
+.pro_t_ta .tcxl { width:35%; background:#FFF; border:#9a9a9a 1px solid; height:34px; padding-left:4px;}
+.pro_t_ta .tcxl .tcin { padding-right:26px; height:34px; background: url(../../../img/outlet_manager/align_r_icon.png) right -63px no-repeat;}
+.pro_t_ta tr.g td .size_table { background:#bababa;}
+.pro_t_ta tr.g td .size_table th, .pro_t_ta tr.g td .size_table td { padding:0px; text-align:center;}
+.pro_t_ta tr.g td .size_table th { background:#dcdcdc; line-height:26px;}
+.pro_t_ta tr.g td .size_table td { background:#f5f5f5; line-height:36px;}
+.pro_t_ta tr.g td .size_table td .ta_pad1px { padding:1px;}
+.pro_t_ta tr.g td .size_table td .ta_pad1px .bor1px { border:#9a9a9a 1px solid;}
+.pro_t_ta tr.g td .size_table td .ta_pad1px .bor1px .inp_text { text-align:center; font-size:16px; height:32px; border:0px; padding:0px; margin:0px; background:#fff;}
+.bg_white { background:#FFF; padding:6px;}
+.bg_gray { background:#f5f5f5; padding:6px;}
+.pro_t_ta td .writeable { background:#f5f5f5; border:#f5f5f5 1px solid; height:28px; line-height:28px; vertical-align:middle; width:80px; margin-top:-2px;}
+.pro_t_ta td .writeable:hover { cursor:pointer;}
+.pro_t_ta td .on { background:#fff; border:#dddddd 1px solid; height:28px; line-height:28px; vertical-align:middle; width:80px; margin-top:-2px; cursor:text;}
+.pro_t_ta td .on:hover { cursor:text;}
+/*pp*/
+.pp_seed { float:left; padding:3px 4px; border:#cc2222 1px solid; line-height:12px; margin:0px 8px 10px 0px;}
+.pp_seed img { vertical-align:middle; margin-top:-1px; }
+.sele_pp { display:block; float:left; line-height:12px; padding:4px 5px; background:#991e1e; color:#FFF; margin:0px 8px 10px 0px;}
+.sele_pp:hover { color:yellow; text-decoration:none;}
+
+/*list page*/
+.page { color:#717171; text-align:right; margin-top:12px;}
+.page a {padding:3px;}
+.page a:hover, .page a.on { background:#b62626; color:#FFF; text-decoration:none;}
+.page span {padding:3px; background:#b62626; color:#FFF; text-decoration:none;}
+.page span:hover, .page span.on { background:#b62626; color:#FFF; text-decoration:none;}
+/*notice*/
+.notice { border:#ff9393 1px solid; padding:6px 10px 6px 62px; line-height:22px; background:#fbffba url(../../../img/outlet_manager/warning01.png) 12px 50% no-repeat; color:#ff5454;}
+/*错误提示*/
+.error_mes .notice { width:60%; margin:0 auto;}
+/*暂无内容的提示*/
+.none_nr { text-align:center; padding:80px 0 120px; font-size:14px;}
+
+.wpqie { background:#F00; color:#FFF; padding:0 06px;}
+.wpqie .r1, .wpqie .r2 { color:#fff;}
+
+
+

@@ -3,25 +3,18 @@
 	<head>
 		<title>
 			
-	个人管理 - 修改密码
+	商家管理 - 修改密码
 
 		</title>
 		
 		<link href="/evbeta/__PUBLIC__/css/global.css" rel="stylesheet" type="text/css" />
-		<link href="/evbeta/__PUBLIC__/css/web/ui-dialogBox.css" rel="stylesheet" type="text/css" />
-		<link href="/evbeta/__PUBLIC__/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />	
-	<link href="http://static.soulagou.com/css/member_center/alone/main_page.css" rel="stylesheet" type="text/css" />
-		
-		
+<link href="/evbeta/__PUBLIC__/css/web/ui-dialogBox.css" rel="stylesheet" type="text/css" />
+<link href="/evbeta/__PUBLIC__/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />	
+	<link href="/evbeta/__PUBLIC__/css/web/user/over_view.css" rel="stylesheet" type="text/css" />
 	</head>
-	<body>
-	    <div id="wrap">
+	<body class="bg">
+	    <div id="wrap" class="txs16">
 	    	<!--Header Start-->
-	        
-
-
-
-
 
 <div id="header">
 	<div class="pg_w">
@@ -29,16 +22,24 @@
 			
 			<div class="dfr pdt40">
 				<span class="w1">你好，</span>
-				<span class="b2 txs14 txw1 mgr30">lzf2342012</span>
+				<span class="b2 txw1 mgr30">lzf2342012</span>
 				<span>
 					
 					<a href="/j_spring_security_logout" class="txd1 w1 mgr20">安全退出</a>
 				</span>
+				<!--  
+				<span style="display:none">
+					<a href="#" class="txd1 w1 mgr20">修改密码</a>
+				</span>
+				-->
 			</div>
 		
 		<div class="pdt11 pdl10">
-			<a href="http://www.soulagou.com"><img src="http://static.soulagou.com/img/member_center/header_logo.png" /></a>
+			<a href="http://sso.soulagou.com/login?service=http://www.soulagou.com/j_client_security_check">
+				<img src="http://static.soulagou.com/img/outlet_manager/header_logo.png" />
+			</a>
 		</div>
+		<div class="clear"></div>
 	</div>
 </div>
 	        <!--Header End-->
@@ -46,32 +47,23 @@
 	        <div class="pg_w">
 	            <table width="100%" border="0" cellspacing="0" cellpadding="0">
 	              <tr>
-	                <td width="200" class="l_col">
+	                <td width="200" class="txvt">
 	                	<!--Left Menu Start-->
-	                	
-
-
-
-
 
 <div id="accordion">
-
-	<div class="">
-		<img src="http://static.soulagou.com/img/member_center/bar_personal.png" />
-	</div>
-
-	<ul class=" mgt10 txs14">
-		
-		
-		
-		
-		
-		<li id="menu_home"><a href="/">首页</a></li>
-		<li id="menu_profile"><a href="/profile">个人信息</a></li>
-		<li id="menu_favorite"><a href="/fav/commodities">我的收藏</a></li>
-		<li id="menu_ticket"><a href="/ticket/list">我的优惠券</a></li>
+<ul class="menu_list01">
+		<li id="background_home" style="display: none;"><a href="/evbeta/User/Storer/">商户后台首页</a></li>
+		<li id="shopset"><a href="/evbeta/User/Storer/store">店铺设置</a></li>
+		<li id="shopset"><a href="/evbeta/User/Storer/cert_info">店铺认证</a></li>
+		<li><a href="/evbeta/User/Storer/password" >修改密码</a></li>
+		<li><a href="/evbeta/User/Storer/add.html">发布优惠资讯活动</a></li>
+		<li id="promotional"><a href="/evbeta/User/Storer/news.html">我的优惠资讯活动</a></li>
+		<li><a href="/evbeta/User/Storer/cert">手机邮箱认证</a></li>
+		<li><a href="/evbeta/User/Storer/client" >我的关注者</a></li>
+		<li><a href="/evbeta/User/Storer/card" >商铺二维码管理</a></li>
+		<li id="promotional">以下网页尚未创建</li>	
+		<li><a href="/evbeta/User/Storer/password" >--批量信息页二维码</a></li>	
 	</ul>
-
 </div>
 	                	<!--Left Menu End-->
 	                </td>
@@ -81,24 +73,9 @@
 	<div class="r_w">
 		<div class="r_breadcrumb">
 			
-			<a href="/">个人管理</a> &gt; 修改密码
+			<a href="/">商家管理</a> &gt; 修改密码
 		</div>
-
-		<div class="mgt30">
-			<div class="dfl dfl_title01">
-				
-				
-				
-				<a href="/profile">个人信息</a>
-				<a href="/password" class="on">修改密码</a>
-				<a href="/portrait">头像设置</a>
-			</div>
-			<div class="clear"></div>
-		</div>
-		
-		
-
-		<div class="mp_me_dy">
+		<div class="logobod">
 			<div class="block3">
 				<form id="passwordForm" action="/password" method="post">
 					<table class="block_table mgt14" width="100%" border="0"
@@ -106,21 +83,21 @@
 						<tr>
 							<th width="22%"><span class="th">旧密码：</span></th>
 							<td>
-								<input id="oldPassword" name="oldPassword" class="inp_text persent47" type="password" value=""/>
+								<input id="oldPassword" name="oldPassword" class="input inp_text persent47" type="password" value=""/>
 								
 							</td>
 						</tr>
 						<tr>
 							<th width="22%"><span class="th">新密码：</span></th>
 							<td>
-								<input id="newPassword" name="newPassword" class="inp_text persent47" type="password" value=""/>
+								<input id="newPassword" name="newPassword" class="input inp_text persent47" type="password" value=""/>
 								
 							</td>
 						</tr>
 						<tr>
 							<th width="22%"><span class="th">确认密码：</span></th>
 							<td>
-								<input id="retypeNewPsssword" name="retypeNewPsssword" class="inp_text persent47" type="password" value=""/>
+								<input id="retypeNewPsssword" name="retypeNewPsssword" class="input inp_text persent47" type="password" value=""/>
 								
 							</td>
 						</tr>

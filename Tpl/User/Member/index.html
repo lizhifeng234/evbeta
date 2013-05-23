@@ -13,10 +13,8 @@
 	    <div id="wrap" class="txs16">
 	    	<!--Header Start-->
 
-<div id="header">
+<div class="bg_index yt_t_td">
 	<div class="pg_w">
-		
-			
 			<div class="dfr pdt40">
 				<span class="w1">你好，</span>
 				<span class="b2 txw1 mgr30">lzf2342012</span>

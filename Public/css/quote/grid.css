@@ -26,7 +26,7 @@ a:hover{text-decoration:underline;color:#e21454;}
 .bg01 { background:url(../../img/web/body_bg01.png) center top repeat;}
 .bg_index { background:#303539;}
 /*header*/
-#header { width:100%; margin:0px; padding: 20px 0; background:black;}
+#header { width:100%; margin:0px; padding:0; background:url(../../img/web/header_bg.png) left top repeat-x;}
 .header_t { padding:20px 0 40px; position:relative;}
 .header_b { overflow:visible; border-bottom:#e21454 2px solid;}
 .header_b .pg_w { position:relative;}

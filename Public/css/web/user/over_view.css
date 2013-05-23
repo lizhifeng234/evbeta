@@ -1,0 +1,20 @@
+@import url(grid.css);@import url(input.css);@import url(pop.css);
+
+.bg{background:#f0f0f0}
+.logobod img{ border:#999 1px solid}
+.icon{width:51px; height:30px; background:url(../../../img/outlet_manager/align_l_icon.png) no-repeat}
+.icon1{ background-position:0 -602px;}
+.icon2{ background-position:0 -643px;}
+.icon3{ background-position:0 -682px;}
+.icon4{ background-position:0 -722px;}
+.bod1{border:#e69898 1px solid; padding-bottom:16px}
+.bod2{border:#e6d498 1px solid; padding-bottom:16px}
+.bod3{border:#408f3e 1px solid; padding-bottom:16px}
+.bod4{border:#e69898 1px solid; padding-bottom:16px}
+.bod5{border:#aaaaaa 1px solid; padding-bottom:16px}
+.inp_text{height:30px;}
+#accordion, .logobod,.r_breadcrumb{padding: 5px;background: white;box-shadow: 0 1px 1px #ccc;margin: 10px;}
+.logobod{width:730px;}
+.logobod p{display:inline;}
+.logobod a{float:right;margin-right:200px;}
+.logobod input{vertical-align: middle;font-size:16px;}

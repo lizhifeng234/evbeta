@@ -3,28 +3,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>搜啦购 - 商户店铺设置</title>
-<link href="http://static.soulagou.com/css/global.css" rel="stylesheet" type="text/css" />
-<link href="http://static.soulagou.com/css/web-im/sale-ui-dialogBox.css" rel="stylesheet" type="text/css" />
-<link href="http://static.soulagou.com/css/outlet_manager/quote/grid.css" rel="stylesheet" type="text/css" />
-<link href="http://static.soulagou.com/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
-<link href="http://static.soulagou.com/css/plugin/TogglePanels.css" rel="stylesheet" type="text/css" />
+<link href="/evbeta/__PUBLIC__/css/global.css" rel="stylesheet" type="text/css" />
+<link href="/evbeta/__PUBLIC__/css/web/ui-dialogBox.css" rel="stylesheet" type="text/css" />
+<link href="/evbeta/__PUBLIC__/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />	
+	<link href="/evbeta/__PUBLIC__/css/web/user/over_view.css" rel="stylesheet" type="text/css" />
+	<link href="/evbeta/__PUBLIC__/css/web/user/upLoad.css" rel="stylesheet" type="text/css" />
 
-	<link href="http://static.soulagou.com/css/plugin/upLoad1.1.css" rel="stylesheet" type="text/css" />
-	<link href="http://static.soulagou.com/css/outlet_manager/alone/admin_ticket_pub.css" rel="stylesheet" type="text/css" />
-	<link href="http://static.soulagou.com/css/outlet_manager/alone/shopset_merchant.css" rel="stylesheet" type="text/css" />
-
-
-<script type="text/javascript" src="http://static.soulagou.com/js/base/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="http://static.soulagou.com/js/plugin/jquery-ui-1.9.2.custom.min.js"></script>
-<script type="text/javascript" src="http://static.soulagou.com/js/plugin/underscore-min.js"></script>
-
-<script type="text/javascript" src="http://static.soulagou.com/js/plugin/TogglePanels.js"></script>
-
-	<script type="text/javascript" src="http://static.soulagou.com/js/plugin/swfupload.js"></script>
-	<script type="text/javascript" src="http://static.soulagou.com/js/plugin/swfupload.queue.js"></script>
-	<script type="text/javascript" src="http://static.soulagou.com/js/plugin/fileprogress.js"></script>
-	<script type="text/javascript" src="http://static.soulagou.com/js/plugin/handlers.js"></script>
-	<script type="text/javascript" src="http://static.soulagou.com/js/plugin/upLoad1.1.js"></script>
+<script type="text/javascript" src="/evbeta/__PUBLIC__/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/swfupload.js"></script>
+	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/swfupload.queue.js"></script>
+	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/fileprogress.js"></script>
+	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/handlers.js"></script>
+	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/upLoad.js"></script>
 
 <title>搜啦购 - 商户店铺设置</title>
 </head>
@@ -34,13 +24,6 @@
 		<tr>
 			<td class="yt_t_td">
 				<!--这里放页头--> 
-				
-
-
-
-
-
-
 
 <div id="header">
 	<div class="pg_w">
@@ -147,14 +130,6 @@
 			<a href="/">商家管理</a> &gt; 
 			<a href="/outlet/setting">店铺管理</a> &gt; 店铺设置
 		</div>
-		<div class="mgt15 mgb20">
-			<div class="dfl dfl_title01">
-				<a href="/evbeta/User/Storer/store">店铺设置</a>
-				<a href="#" class="on">店铺实景图</a>
-			</div>
-			<div class="clear"></div>
-		</div>
-		
 		<form id="outletSettingForm" action="/outlet/setting" method="POST">
 			<table class="r_col_t01" width="100%" border="0" cellspacing="0" cellpadding="0">
 				

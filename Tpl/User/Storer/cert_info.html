@@ -3,28 +3,19 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>搜啦购 - 商户认证 - 步骤2（提交认证资料）</title>
+<link href="/evbeta/__PUBLIC__/css/global.css" rel="stylesheet" type="text/css" />
+<link href="/evbeta/__PUBLIC__/css/web/ui-dialogBox.css" rel="stylesheet" type="text/css" />
+<link href="/evbeta/__PUBLIC__/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />	
+	<link href="/evbeta/__PUBLIC__/css/web/user/over_view.css" rel="stylesheet" type="text/css" />
+	<link href="/evbeta/__PUBLIC__/css/web/user/upLoad.css" rel="stylesheet" type="text/css" />
 
-<link href="http://static.soulagou.com/css/global.css" rel="stylesheet" type="text/css" />
-<link href="http://static.soulagou.com/css/outlet_manager/quote/grid.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="http://static.soulagou.com/css/plugin/jquery-ui-1.9.2.custom.min.css">
-<link href="http://static.soulagou.com/css/outlet_manager/alone/admin_register.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/evbeta/__PUBLIC__/js/jquery-1.8.3.min.js"></script>
 
-	<link href="http://static.soulagou.com/css/outlet_manager/alone/settled02.css" rel="stylesheet" type="text/css" />
-	<link href="http://static.soulagou.com/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
-	<link href="http://static.soulagou.com/css/plugin/upLoad1.1.css" rel="stylesheet" type="text/css" />
-	<link href="http://static.soulagou.com/css/outlet_manager/alone/admin_ticket_pub.css" rel="stylesheet" type="text/css" />
-
-
-<script type="text/javascript" src="http://static.soulagou.com/js/plugin/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="http://static.soulagou.com/js/plugin/jquery-ui-1.9.2.custom.min.js"></script>
-
-	<script type="text/javascript" src="http://static.soulagou.com/js/plugin/swfupload.js"></script>
-	<script type="text/javascript" src="http://static.soulagou.com/js/plugin/swfupload.queue.js"></script>
-	<script type="text/javascript" src="http://static.soulagou.com/js/plugin/fileprogress.js"></script>
-	<script type="text/javascript" src="http://static.soulagou.com/js/plugin/handlers.js"></script>
-	<script type="text/javascript" src="http://static.soulagou.com/js/plugin/upLoad1.1.js"></script>
-	<script type="text/javascript" src="http://static.soulagou.com/js/outlet_manager/alone/merchant_setting02.js"></script>
-
+	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/swfupload.js"></script>
+	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/swfupload.queue.js"></script>
+	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/fileprogress.js"></script>
+	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/handlers.js"></script>
+	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/upLoad.js"></script>
 </head>
 <body>
 	<div id="wrap">

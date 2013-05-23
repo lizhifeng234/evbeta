@@ -15,7 +15,7 @@
 	<body class="bg">
 	    <div id="wrap" class="txs16">
 	    	<!--Header Start-->
-<div id="header">
+<div class="bg_index">
 	<div class="pg_w">
 		
 			

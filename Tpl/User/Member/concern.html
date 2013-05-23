@@ -12,7 +12,7 @@
 		<div id="wrap"  class="txs16">
 			<!--Header Start-->
 
-			<div id="header">
+			<div class="bg_index">
 				<div class="pg_w">
 
 					<div class="dfr pdt40">
@@ -55,7 +55,6 @@
 							</div>
 
 							<div class="mgt30 r_breadcrumb">
-								<h2>商家关注</h2><br />
 								<div class="dfl dfl_title01">
 									<a href="/fav/outlets">所有分类</a>
 									<a href="/fav/outlets">餐饮</a>

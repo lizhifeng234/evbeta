@@ -1,0 +1,28 @@
+.upLoadPanel{
+	text-align:center;
+	float:left;
+}
+.imageViewPanel{
+	position:relative;
+}
+.imageViewPanel .loadImage,.waitImage{
+	float:left;
+}
+.imageViewPanel .waitImage{
+	display:none;
+	height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.imageViewPanel .loadImage{
+	position:relative;
+}
+.imageViewPanel .closeImg{
+	bottom: 0;
+    display: none;
+    position: absolute;
+    right: 0;
+}
+.imageViewPanel .fsUploadProgress,.btnCancel,.fsUploadProgress{
+	display:none;
+}

@@ -3,32 +3,23 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>EV街 - 商户店铺设置</title>
-		<link href="http://static.soulagou.com/css/global.css" rel="stylesheet" type="text/css" />
-		<link href="http://static.soulagou.com/css/web-im/sale-ui-dialogBox.css" rel="stylesheet" type="text/css" />
-		<link href="http://static.soulagou.com/css/outlet_manager/quote/grid.css" rel="stylesheet" type="text/css" />
-		<link href="http://static.soulagou.com/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
-		<link href="http://static.soulagou.com/css/plugin/TogglePanels.css" rel="stylesheet" type="text/css" />
+	<link href="/evbeta/__PUBLIC__/css/global.css" rel="stylesheet" type="text/css" />
+	<link href="/evbeta/__PUBLIC__/css/web/ui-dialogBox.css" rel="stylesheet" type="text/css" />
+	<link href="/evbeta/__PUBLIC__/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />	
+	<link href="/evbeta/__PUBLIC__/css/web/user/over_view.css" rel="stylesheet" type="text/css" />
+	<link href="/evbeta/__PUBLIC__/css/web/user/upLoad.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="/evbeta/__PUBLIC__/js/jquery-1.8.3.min.js"></script>
 
-		<link href="http://static.soulagou.com/css/plugin/upLoad1.1.css" rel="stylesheet" type="text/css" />
-		<link href="http://static.soulagou.com/css/outlet_manager/alone/admin_ticket_pub.css" rel="stylesheet" type="text/css" />
-		<link href="http://static.soulagou.com/css/outlet_manager/alone/shopset_merchant.css" rel="stylesheet" type="text/css" />
-
-		<script type="text/javascript" src="http://static.soulagou.com/js/base/jquery-1.8.3.min.js"></script>
-		<script type="text/javascript" src="http://static.soulagou.com/js/plugin/jquery-ui-1.9.2.custom.min.js"></script>
-		<script type="text/javascript" src="http://static.soulagou.com/js/plugin/underscore-min.js"></script>
-
-		<script type="text/javascript" src="http://static.soulagou.com/js/plugin/TogglePanels.js"></script>
-
-		<script type="text/javascript" src="http://static.soulagou.com/js/plugin/swfupload.js"></script>
-		<script type="text/javascript" src="http://static.soulagou.com/js/plugin/swfupload.queue.js"></script>
-		<script type="text/javascript" src="http://static.soulagou.com/js/plugin/fileprogress.js"></script>
-		<script type="text/javascript" src="http://static.soulagou.com/js/plugin/handlers.js"></script>
-		<script type="text/javascript" src="http://static.soulagou.com/js/plugin/upLoad1.1.js"></script>
-
+		
+		<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/swfupload.js"></script>
+		<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/swfupload.queue.js"></script>
+		<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/fileprogress.js"></script>
+		<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/handlers.js"></script>
+		<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/upLoad.js"></script>
 		<title>搜啦购 - 商户店铺设置</title>
 	</head>
 	<body>
-		<table class="yt_t" width="100%" border="0" cellspacing="0"
+		<table class="txs16" width="100%" border="0" cellspacing="0"
 		cellpadding="0">
 			<tr>
 				<td class="yt_t_td"><!--这里放页头-->
@@ -54,83 +45,26 @@
 				</div><!--这里放页头 end--></td>
 			</tr>
 			<tr>
-				<td valign="top">
+				<td valign="top" class="bg">
 				<table class="yt_b" width="950" border="0" cellspacing="0"
 				cellpadding="0">
 					<tr>
-						<td width="200" class="l_col"><!--header 此段注释内调用左栏内容-->
+						<td width="200" class="txvt"><!--header 此段注释内调用左栏内容-->
 						<div id="accordion">
-							<input id="backHomeBtn" class="index_b" type="button"/>
-							<h3 class="menu_title01">
-							<div class="menu_title_div">
-								<a href="#"></a>
-							</div></h3>
 							<ul class="menu_list01">
-								<li id="background_home" style="display: none;"><a href="#"/>">商户后台首页</a>
-								</li>
-								<li id="admin_info">
-									<a href="/outlet/info">基本信息</a>
-								</li>
-								<li id="shopset">
-									<a href="/outlet/setting">店铺设置</a>
-								</li>
-								<!--
-								<li><a href="">物流设置</a></li>
-								<li><a href="">投诉管理</a></li>
-								-->
-							</ul>
-							<h3 class="menu_title02">
-							<div class="menu_title_div">
-								<a href="#"></a>
-							</div></h3>
-							<ul class="menu_list02">
-								<li id="commodity_item_0">
-									<a href="/commodity/category/list.html" >发布商品</a>
-								</li>
-								<li id="commodity_item_1">
-									<a href="/commodity/list.html?commodityType=GENERAL&commodityActive=ADD&page=1&pageSize=10">正价商品</a>
-								</li>
-								<li id="commodity_item_2">
-									<a href="/commodity/list.html?commodityType=SALE&commodityActive=ADD&page=1&pageSize=10">折扣商品</a>
-								</li>
-								<li id="commodity_item_3">
-									<a href="/commodity/list.html?commodityType=CLEAR&commodityActive=ADD&page=1&pageSize=10">清仓商品</a>
-								</li>
-							</ul>
-							<h3 class="menu_title03">
-							<div class="menu_title_div">
-								<a href="#"></a>
-							</div></h3>
-							<ul class="menu_list03">
-								<li id="commodity_ticket_item_0">
-									<a href="/commodity/ticket/pub.html" >发布优惠券</a>
-								</li>
-								<li id="commodity_ticket_item_1">
-									<a href="/commodity/ticket/list.html?commodityType=GOLDEN_TICKET&commodityActive=ADD&page=1&pageSize=10">代金券</a>
-								</li>
-								<li id="commodity_ticket_item_2">
-									<a href="/commodity/ticket/list.html?commodityType=SALE_TICKET&commodityActive=ADD&page=1&pageSize=10">折扣券</a>
-								</li>
-								<li id="commodity_ticket_item_3">
-									<a href="/commodity/ticket/list.html?commodityType=CLEAR_TICKET&commodityActive=ADD&page=1&pageSize=10">推广券</a>
-								</li>
-							</ul>
-							<h3 class="menu_title04">
-							<div class="menu_title_div">
-								<a href="#"></a>
-							</div></h3>
-							<ul class="menu_list04">
-								<li id="news">
-									<a href="/outlet/news/list?page=1">新闻动态</a>
-								</li>
-								<li id="promotional">
-									<a href="/outlet/promotional/list?page=1">微活动</a>
-								</li>
-								<li id="commodity">
-									<a href="/outlet/microCommodity/list?page=1">微商品</a>
-								</li>
-							</ul>
-
+		<li id="background_home"><a href="/evbeta/User/Storer/">商户首页</a></li>
+		<li id="shopset"><a href="/evbeta/User/Storer/store">店铺设置</a></li>
+		<li id="shopset"><a href="/evbeta/User/Storer/scene">店铺实景图</a></li>
+		<li id="shopset"><a href="/evbeta/User/Storer/cert_info">店铺认证</a></li>		
+		<li><a href="/evbeta/User/Storer/password" >修改密码</a></li>
+		<li><a href="/evbeta/User/Storer/add.html">发布优惠活动</a></li>
+		<li id="promotional"><a href="/evbeta/User/Storer/news.html">我的优惠活动</a></li>
+		<li><a href="/evbeta/User/Storer/cert">手机邮箱认证</a></li>
+		<li><a href="/evbeta/User/Storer/client" >关注我的</a></li>
+		<li><a href="/evbeta/User/Storer/card" >商铺二维码管理</a></li>
+		<li id="promotional">以下网页尚未创建</li>	
+		<li><a href="/evbeta/User/Storer/password" >--批量信息页二维码</a></li>	
+	</ul>
 						</div><!--header 此段注释内调用左栏内容 end--></td>
 						<td class="r_col"><!--header 此段注释内调用右栏内容-->
 						<div class="r_w">
@@ -138,25 +72,18 @@
 
 								<a href="/evbeta/User/Storer/">商家管理</a> &gt; 店铺设置
 							</div>
-							<div class="mgt15 mgb20">
-								<div class="dfl dfl_title01">
-									<a href="#" class="on">店铺设置</a>
-									<a href="/evbeta/User/Storer/scene">店铺实景图</a>
-								</div>
-								<div class="clear"></div>
-							</div>
-
+							
 							<form id="outletSettingForm" action="/outlet/setting" method="POST" enctype="multipart/form-data">
-								<table class="r_col_t01" width="100%" border="0" cellspacing="0" cellpadding="0">
+								<table class="logobod" width="100%" border="0" cellspacing="10" cellpadding="0">
 									<tr>
-										<th width="20%"><span class="r1">*</span><span class="th">名称：</span></th>
+										<th width="15%"><span class="r1">*</span><span class="th">名称：</span></th>
 										<td>
 										<input id="name" name="name" class="inp_text persent35" type="text" value="<?php echo ($shopinfo[0]['shopname']); ?>" maxlength="20"/>
 										<input id="outletId" name="outletId" type="hidden" value="af5dc9fcaf5945808b2a79efa9aac7a2"/>
 										</td>
 									</tr>
 									<tr>
-										<th width="18%" class="txvt"><span class="th">LOGO：</span></th>
+										<th width="15%" class="txvt"><span class="th">LOGO：</span></th>
 										<td>
 										<div class="upLoadPanel up_m_box txal" params="{'name':'logo'}">
 											<div class="in imageViewPanel">
@@ -165,7 +92,7 @@
 														<td width="118" align="center">
 														<div class="thumb_img_box02 loadImage">
 
-															<img height="42" width="116" src='http://static.soulagou.com/img/outlet_manager/up_default01.jpg' />
+															<img height="111" width="110" src='http://static.soulagou.com/img/outlet_manager/up_default01.jpg' />
 
 															<img class="closeImg" src='http://static.soulagou.com/img/plugin/x1.jpg' />
 															<div class="clear"></div>
@@ -184,14 +111,14 @@
 									</tr>
 
 									<tr>
-										<th width="20%"><span class="r1">*</span><span class="th">连锁品牌：</span></th>
+										<th width="15%"><span class="r1">*</span><span class="th">连锁品牌：</span></th>
 										<td>
 										<select id="brandId" name="brandId" class="inp_text dfl persent20 mgr10 select01">
 											<option value="837">peoleo</option><option value="999999" selected="selected">其他</option><option value="117">韩太郎韩国烤肉吧</option><option value="383">711</option><option value="103">加太贺</option><option value="108">古比甜品</option><option value="109">宜北町</option><option value="110">小馋熊快乐涮涮锅</option><option value="113">一点味餐厅</option><option value="31">LV</option><option value="114">香蒂法餐厅</option><option value="896">紫宝</option><option value="895">鞋柜</option><option value="897">NAY</option><option value="898">热风</option><option value="899">美国骆驼</option><option value="82">Mind Bridge</option><option value="48">雅诗兰黛</option><option value="46">薇姿</option><option value="2">长虹</option><option value="1">TCL</option><option value="115">尊品牛排</option><option value="42">曼秀雷敦</option><option value="47">雅芳</option><option value="61">德克士</option><option value="64">刘一手</option><option value="65">六婆串串香</option><option value="66">麦当劳</option><option value="67">味千拉面</option><option value="68">乡村基</option><option value="69">元祖蛋糕</option><option value="70">重庆德庄火锅</option><option value="71">澳优</option><option value="73">多美滋</option><option value="74">惠氏</option><option value="76">强生</option><option value="51">博洋</option><option value="72">贝因美</option><option value="11">COSTA COFFEE</option><option value="94">六福珠宝</option><option value="95">明牌珠宝</option><option value="96">千禧之星</option><option value="97">施华洛世奇</option><option value="98">谢瑞麟TSL</option><option value="59">维科</option><option value="60">紫罗兰</option><option value="10">新飞</option><option value="9">西门子</option><option value="7">联想</option><option value="6">海信</option><option value="5">海尔</option><option value="75">美赞臣</option><option value="25">达芙妮</option><option value="93">老凤祥</option><option value="105">FRESH</option><option value="106">FRESH.M</option><option value="107">皇家肥牛</option><option value="3">飞利浦</option><option value="8">美的</option><option value="4">格力</option><option value="104">茶与布朗</option><option value="112">锅台闽涮涮小火锅</option><option value="99">周大福</option><option value="49">玉兰油</option><option value="118">必胜客</option><option value="111">冰雪皇后</option><option value="100">周生生</option><option value="90">雅戈尔</option><option value="50">自然堂</option><option value="45">珀莱雅</option><option value="43">欧莱雅</option><option value="17">太平洋影城</option><option value="18">万达影城</option><option value="19">星巴克</option><option value="38">金利来</option><option value="24">彪马</option><option value="21">ecco</option><option value="35">鳄鱼恤</option><option value="26">接吻猫</option><option value="20">竹叶青</option><option value="29">千百度</option><option value="30">思加图</option><option value="32">半坡</option><option value="33">达派</option><option value="27">李宁</option><option value="36">红谷</option><option value="37">鸿星尔克</option><option value="39">骆驼</option><option value="40">七匹狼</option><option value="41">兰蔻</option><option value="360">乐友孕婴童</option><option value="361">麦笛儿</option><option value="362">安卡米拉</option><option value="363">小天才</option><option value="364">嗒嘀嗒</option><option value="365">小泰克</option><option value="366">万代</option><option value="367">Mothercare</option><option value="368">KENZO</option><option value="369">LEGO</option><option value="370">Banlie</option><option value="371">乐之翼儿童乐园</option><option value="372">宝贝秀</option><option value="373">成都英孚教育</option><option value="374">金宝贝</option><option value="375">马连奴&middot;奥兰迪</option><option value="376">潮汇</option><option value="377">车居驿</option><option value="378">HOLY MOLY</option><option value="379">营养生活</option><option value="380">览虫</option><option value="381">红旗连锁</option><option value="382">布兰奇洗衣连锁</option><option value="23">百丽</option><option value="355">屈臣氏</option><option value="356">蜜丝佛陀</option><option value="358">安竹堂</option><option value="359">艾美家</option><option value="833">贝拉维拉</option><option value="351">娇兰</option><option value="352">贝玲妃</option><option value="353">时尚殿堂</option><option value="354">美丽田园SPA</option><option value="15">诗丽堂</option><option value="357">流行美</option><option value="836">IAM27</option><option value="384">福奈特</option><option value="385">宝仁堂</option><option value="85">波司登</option><option value="83">阿迪达斯</option><option value="87">杰克琼斯</option><option value="89">七匹狼</option><option value="28">耐克</option><option value="801">雅漾</option><option value="803">加太贺</option><option value="804">茶与布朗</option><option value="806">肯德基</option><option value="807">皇家肥牛</option><option value="808">古比甜品</option><option value="809">宜北町</option><option value="810">小馋熊快乐涮涮锅</option><option value="811">冰雪皇后</option><option value="52">多喜爱</option><option value="53">孚日大</option><option value="54">富安娜</option><option value="55">红富士</option><option value="57">南方寝饰</option><option value="58">水星</option><option value="77">雀巢</option><option value="78">圣元</option><option value="79">完达山</option><option value="80">伊利</option><option value="829">Roem</option><option value="86">海澜之家</option><option value="822">香蒂法餐厅</option><option value="824">尊品牛排财富又一城店</option><option value="34">稻草人</option><option value="56">梦洁</option><option value="84">百家好</option><option value="91">金九福</option><option value="92">金至尊</option><option value="812">乡村基</option><option value="813">乡村基</option><option value="814">锅台闽涮涮小火锅</option><option value="815">锅台闽涮涮小火锅</option><option value="816">一点味餐厅</option><option value="831">海澜之家</option><option value="832">衣念</option><option value="63">肯德基</option><option value="62">金汉斯</option><option value="818">九牧王</option><option value="817">麦考林</option><option value="819">秋野原</option><option value="820">夏娃的诱惑</option><option value="823">南梦</option><option value="821">比音勒芬</option><option value="825">声雨竹</option><option value="826">鄂尔多斯</option><option value="827">太平鸟男装</option><option value="828">361度</option><option value="830">乐町</option><option value="81">E.land</option><option value="835">雅戈尔</option><option value="838">Jeep童装</option><option value="846">耐克</option><option value="861">美石咖啡</option><option value="869">必胜客</option><option value="871">金汉斯</option><option value="873">良木缘</option><option value="88">拉夏贝尔</option><option value="875">茶奈儿</option><option value="876">宾GO牛排</option><option value="877">榴芒泰</option><option value="879">德斯堡</option><option value="880">侑荣寿司</option><option value="881">北京烤鸭</option><option value="882">77法餐厅</option><option value="883">赛百味</option><option value="884">金韩城</option><option value="885">欧洲房子</option><option value="886">恒记甜品</option><option value="888">小天鹅火锅</option><option value="889">早安巴黎</option><option value="890">茜茜烤肉</option><option value="891">鱼游天下</option><option value="893">鱼骨头</option><option value="870">Lee</option><option value="839">Hugo Boss</option><option value="874">杰西</option><option value="872">Jeep</option><option value="840">Chloe</option><option value="841">诺贝达</option><option value="842">ALEX BRUNI</option><option value="843">CRUFF</option><option value="844">罗茜奥</option><option value="847">乐斯菲斯</option><option value="848">匡威</option><option value="849">CAT</option><option value="850">李维斯</option><option value="851">马克华菲</option><option value="852">DEVIL NUT</option><option value="853">都宝路</option><option value="854">杉国志</option><option value="855">美特斯邦威</option><option value="856">Basic house</option><option value="857">足浪漫</option><option value="858">易菲</option><option value="860">古木夕羊</option><option value="862">伊丝艾拉</option><option value="864">I&#39;M DAVID</option><option value="866">CC&amp;DD</option><option value="865">左转九十度</option><option value="867">小熊维尼</option><option value="892">迷尚澳门豆捞</option><option value="894">达芙妮</option><option value="14">良木缘</option><option value="12">UME影城</option><option value="859">迪赛尼斯</option><option value="44">欧珀莱</option><option value="13">安薇塔茶屋</option><option value="802">碎蝶音乐咖啡</option>
 										</select></td>
 									</tr>
 									<tr>
-										<th width="20%"><span class="th">经营范围：</span></th>
+										<th width="15%"><span class="th">经营范围：</span></th>
 										<td>
 										<select id="businessScopeId" name="businessScopeId" class="inp_text dfl persent20 mgr10 select01">
 											<option value="1">品牌服饰</option><option value="2">护肤美妆</option><option value="3">鞋帽配饰</option><option value="4">皮具箱包</option><option value="5">珠宝饰品</option><option value="6">母婴亲子</option><option value="7">美食餐饮</option><option value="8">休闲娱乐</option><option value="9">旅游酒店</option><option value="10">数码电器</option><option value="11">家居家纺</option><option value="12">生活服务</option><option value="100" selected="selected">其他</option><option value="14">汽车用品</option>
@@ -199,17 +126,17 @@
 									</tr>
 
 									<tr>
-										<th width="20%" class="txvt"><span class="th">简介：</span></th>
+										<th width="15%" class="txvt"><span class="th">简介：</span></th>
 										<td>										<textarea id="description" name="description" class="r_textarea_box"></textarea></td>
 									</tr>
 									<tr>
-										<th width="26%"><span class="r1">*</span><span class="th">所在位置：</span></th>
+										<th width="15%"><span class="r1">*</span><span class="th">所在位置：</span></th>
 										<td colspan="2"><select id="provinceId" name="provinceId" class="inp_text"></select><select id="cityId" name="cityId" class="inp_text"></select><select id="districtId" name="districtId" class="inp_text"></select><select id="businessDistrictId" name="businessDistrictId" class="inp_text"></select>
 										<input id="areas" name="areas" type="hidden" value="00000001_00000002_00000007_00000054"/>
 										</td>
 									</tr>
 									<tr>
-										<th width="22%"></th>
+										<th width="15%"></th>
 										<td width="47%">
 										<input id="address" name="address" class="inp_text persent95" type="text" value="新社区" maxlength="99"/>
 										<input id="longitude" name="longitude" type="hidden" value="103.988429"/>
@@ -218,36 +145,36 @@
 										<td></td>
 									</tr>
 									<tr>
-										<th width="22%"><span class="r1">*</span><span class="th">联系人：</span></th>
+										<th width="15%"><span class="r1">*</span><span class="th">联系人：</span></th>
 										<td width="47%">
 										<input id="contact" name="contact" class="inp_text persent47" type="text" value="<?php echo ($shopinfo[0]['charger']); ?>" maxlength="15"/>
 										</td>
 										<td></td>
 									</tr>
 									<tr>
-										<th width="22%"><span class="th">手机号码：</span></th>
+										<th width="15%"><span class="th">手机号码：</span></th>
 										<td width="47%">
-										<p>
-											45664196816
-										</p><a href="/evbeta/User/Storer/cert">修改认证</a></td>
+										<a href="/evbeta/User/Storer/cert">修改</a>
+										<p>45664196816</p>
+										</td>
 										<td></td>
 									</tr>
 									<tr>
-										<th width="22%"><span class="th">电子邮箱：</span></th>
+										<th width="15%"><span class="th">电子邮箱：</span></th>
 										<td width="47%">
-										<p>
-											45664196816@qq.com
-										</p><a href="/evbeta/User/Storer/cert">修改认证</a></td>
+										<a href="/evbeta/User/Storer/cert">修改</a>
+										<p>45664196816@qq.com</p>
+										</td>
 										<td></td>
 									</tr>
 									<tr>
-										<th width="20%"><span class="th">QQ号：</span></th>
+										<th width="15%"><span class="th">QQ号：</span></th>
 										<td>
 										<input id="qq" name="qq" class="inp_text persent35" type="text" value="" maxlength="20"/>
 										<span class="mgl20 g1">用于离线接收买家发起的咨询对话</span></td>
 									</tr>
 									<tr>
-										<th width="22%"><span class="th">固定电话：</span></th>
+										<th><span class="th">固定电话：</span></th>
 										<td width="47%">
 										<input id="areaCode" name="areaCode" class="inp_text persent20" type="text" value="<?php echo ($shopinfo[0]['telephone']); ?>" maxlength="12"/>
 										
@@ -255,7 +182,7 @@
 										<td></td>
 									</tr>
 									<tr>
-										<th width="22%"></th>
+										<th></th>
 										<td width="47%">
 										<input type="submit" class="inp_btn btn_redarrow" value="保存信息" />
 										</td>
