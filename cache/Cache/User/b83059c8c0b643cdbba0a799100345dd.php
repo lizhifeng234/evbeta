@@ -28,7 +28,7 @@
 
 						<div class="dfr pdt40">
 							<span class="w1">你好，</span>
-							<span class="b2 txs14 txw1 mgr30">lzf2342012</span>
+							<span class="b2 txw1 mgr30">lzf2342012</span>
 							<span> <a href="/j_spring_security_logout" class="txd1 w1 mgr20">安全退出</a> </span>
 							<!--
 							<span style="display:none">
@@ -51,26 +51,29 @@
 					<tr>
 						<td width="200" class="txvt"><!--header 此段注释内调用左栏内容-->
 						<div id="accordion">
-							<ul class="menu_list01">
-		<li id="background_home"><a href="/evbeta/User/Storer/">商户首页</a></li>
-		<li id="shopset"><a href="/evbeta/User/Storer/store">店铺设置</a></li>
-		<li id="shopset"><a href="/evbeta/User/Storer/scene">店铺实景图</a></li>
-		<li id="shopset"><a href="/evbeta/User/Storer/cert_info">店铺认证</a></li>		
-		<li><a href="/evbeta/User/Storer/password" >修改密码</a></li>
+<ul class="menu_list01">
+		<li class="home"><a href="/evbeta/User/Storer/">商户首页</a></li>		
+		<li class="top">店铺信息</li>	
 		<li><a href="/evbeta/User/Storer/add.html">发布优惠活动</a></li>
-		<li id="promotional"><a href="/evbeta/User/Storer/news.html">我的优惠活动</a></li>
-		<li><a href="/evbeta/User/Storer/cert">手机邮箱认证</a></li>
-		<li><a href="/evbeta/User/Storer/client" >关注我的</a></li>
-		<li><a href="/evbeta/User/Storer/card" >商铺二维码管理</a></li>
-		<li id="promotional">以下网页尚未创建</li>	
-		<li><a href="/evbeta/User/Storer/password" >--批量信息页二维码</a></li>	
+		<li><a href="/evbeta/User/Storer/news.html">管理优惠活动</a></li>						
+		<li><a href="/evbeta/User/Storer/client" >关注我的</a></li>		
+		<li class="top">店铺管理</li>	
+		<li class="on"><a href="/evbeta/User/Storer/store">店铺设置</a></li>
+		<li><a href="/evbeta/User/Storer/card" >店铺二维码</a></li>
+		<li><a href="/evbeta/User/Storer/scene">店铺实景图</a></li>		
+		<li><a href="/evbeta/User/Storer/cert_info" target="_blank">店铺认证</a></li>						
+		<li class="top">账号设置</li>	
+		<li><a href="/evbeta/User/Storer/password" >修改密码</a></li>
+		<li><a href="/evbeta/User/Storer/cert">手机邮箱认证</a></li>				
+		<li class="top">以下网页尚未创建</li>	
+		<li><a href="#" >--批量信息页二维码</a></li>	
 	</ul>
 						</div><!--header 此段注释内调用左栏内容 end--></td>
 						<td class="r_col"><!--header 此段注释内调用右栏内容-->
 						<div class="r_w">
 							<div class="r_breadcrumb">
 
-								<a href="/evbeta/User/Storer/">商家管理</a> &gt; 店铺设置
+								<a href="/evbeta/User/Storer/">店铺管理</a> &gt; 店铺设置
 							</div>
 							
 							<form id="outletSettingForm" action="/outlet/setting" method="POST" enctype="multipart/form-data">
@@ -168,15 +171,9 @@
 										<td></td>
 									</tr>
 									<tr>
-										<th width="15%"><span class="th">QQ号：</span></th>
-										<td>
-										<input id="qq" name="qq" class="inp_text persent35" type="text" value="" maxlength="20"/>
-										<span class="mgl20 g1">用于离线接收买家发起的咨询对话</span></td>
-									</tr>
-									<tr>
 										<th><span class="th">固定电话：</span></th>
 										<td width="47%">
-										<input id="areaCode" name="areaCode" class="inp_text persent20" type="text" value="<?php echo ($shopinfo[0]['telephone']); ?>" maxlength="12"/>
+										<input id="areaCode" name="areaCode" class="inp_text persent47" type="text" value="<?php echo ($shopinfo[0]['telephone']); ?>" maxlength="12"/>
 										
 										</td>
 										<td></td>
@@ -184,7 +181,7 @@
 									<tr>
 										<th></th>
 										<td width="47%">
-										<input type="submit" class="inp_btn btn_redarrow" value="保存信息" />
+										<input type="submit" class="inp_btn btn_brown" value="保存信息" />
 										</td>
 										<td></td>
 									</tr>

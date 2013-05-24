@@ -9,7 +9,7 @@
 	<link href="/evbeta/__PUBLIC__/css/web/user/over_view.css" rel="stylesheet" type="text/css" />
 	<link href="/evbeta/__PUBLIC__/css/web/user/upLoad.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="/evbeta/__PUBLIC__/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/swfupload.js"></script>
 	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/swfupload.queue.js"></script>
 	<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/fileprogress.js"></script>
@@ -26,12 +26,12 @@
 				<!--这里放页头--> 
 
 <div id="header">
-	<div class="pg_w">
+	<div class="pg_w txs16">
 		
 			
 			<div class="dfr pdt40">
 				<span class="w1">你好，</span>
-				<span class="b2 txs14 txw1 mgr30">lzf2342012</span>
+				<span class="b2 txw1 mgr30">lzf2342012</span>
 				<span>
 					
 					<a href="/j_spring_security_logout" class="txd1 w1 mgr20">安全退出</a>
@@ -57,65 +57,34 @@
 			</td>
 		</tr>
 		<tr>
-			<td valign="top">
+			<td valign="top" class="bg txs16">
 				<table class="yt_b" width="950" border="0" cellspacing="0"
 					cellpadding="0">
 					<tr>
-						<td width="200" class="l_col">
+						<td width="200" class="txvt">
 							<!--header 此段注释内调用左栏内容--> 
 							
 
 
 
 <div id="accordion">
-	<input id="backHomeBtn" class="index_b" type="button"/>
-	<h3 class="menu_title01">
-		<div class="menu_title_div">
-			<a href="#"></a>
-		</div>
-	</h3>
-	<ul class="menu_list01">
-		<li id="background_home" style="display: none;"><a href="#"/>">商户后台首页</a></li>
-		<li id="admin_info"><a href="/outlet/info">基本信息</a></li>
-		<li id="shopset"><a href="/outlet/setting">店铺设置</a></li>
-		<!--
-		<li><a href="">物流设置</a></li>
-		<li><a href="">投诉管理</a></li>
-		-->
+<ul class="menu_list01">
+		<li class="home"><a href="/evbeta/User/Storer/">商户首页</a></li>		
+		<li class="top">店铺信息</li>	
+		<li><a href="/evbeta/User/Storer/add.html">发布优惠活动</a></li>
+		<li><a href="/evbeta/User/Storer/news.html">管理优惠活动</a></li>						
+		<li><a href="/evbeta/User/Storer/client" >关注我的</a></li>		
+		<li class="top">店铺管理</li>	
+		<li><a href="/evbeta/User/Storer/store">店铺设置</a></li>
+		<li><a href="/evbeta/User/Storer/card" >店铺二维码</a></li>
+		<li class="on"><a href="/evbeta/User/Storer/scene">店铺实景图</a></li>		
+		<li><a href="/evbeta/User/Storer/cert_info" target="_blank">店铺认证</a></li>						
+		<li class="top">账号设置</li>	
+		<li><a href="/evbeta/User/Storer/password" >修改密码</a></li>
+		<li><a href="/evbeta/User/Storer/cert">手机邮箱认证</a></li>				
+		<li class="top">以下网页尚未创建</li>	
+		<li><a href="#" >--批量信息页二维码</a></li>	
 	</ul>
-	<h3 class="menu_title02">
-		<div class="menu_title_div">
-			<a href="#"></a>
-		</div>
-	</h3>
-	<ul class="menu_list02">
-		<li id="commodity_item_0"><a href="/commodity/category/list.html" >发布商品</a></li>
-		<li id="commodity_item_1"><a href="/commodity/list.html?commodityType=GENERAL&commodityActive=ADD&page=1&pageSize=10">正价商品</a></li>
-		<li id="commodity_item_2"><a href="/commodity/list.html?commodityType=SALE&commodityActive=ADD&page=1&pageSize=10">折扣商品</a></li>
-		<li id="commodity_item_3"><a href="/commodity/list.html?commodityType=CLEAR&commodityActive=ADD&page=1&pageSize=10">清仓商品</a></li>
-	</ul>
-	<h3 class="menu_title03">
-		<div class="menu_title_div">
-			<a href="#"></a>
-		</div>
-	</h3>
-	<ul class="menu_list03">
-		<li id="commodity_ticket_item_0"><a href="/commodity/ticket/pub.html" >发布优惠券</a></li>
-		<li id="commodity_ticket_item_1"><a href="/commodity/ticket/list.html?commodityType=GOLDEN_TICKET&commodityActive=ADD&page=1&pageSize=10">代金券</a></li>
-		<li id="commodity_ticket_item_2"><a href="/commodity/ticket/list.html?commodityType=SALE_TICKET&commodityActive=ADD&page=1&pageSize=10">折扣券</a></li>
-		<li id="commodity_ticket_item_3"><a href="/commodity/ticket/list.html?commodityType=CLEAR_TICKET&commodityActive=ADD&page=1&pageSize=10">推广券</a></li>
-	</ul>
-	<h3 class="menu_title04">
-		<div class="menu_title_div">
-			<a href="#"></a>
-		</div>
-	</h3>
-	<ul class="menu_list04">
-		<li id="news"><a href="/outlet/news/list?page=1">新闻动态</a></li>
-		<li id="promotional"><a href="/outlet/promotional/list?page=1">微活动</a></li>
-		<li id="commodity"><a href="/outlet/microCommodity/list?page=1">微商品</a></li>
-	</ul>
-	
 </div>
  
 							<!--header 此段注释内调用左栏内容 end-->
@@ -127,11 +96,10 @@
 		<div class="r_breadcrumb">
 			
 			
-			<a href="/">商家管理</a> &gt; 
-			<a href="/outlet/setting">店铺管理</a> &gt; 店铺设置
+			<a href="/">店铺管理</a>  &gt; 店铺实景图
 		</div>
 		<form id="outletSettingForm" action="/outlet/setting" method="POST">
-			<table class="r_col_t01" width="100%" border="0" cellspacing="0" cellpadding="0">
+			<table class="logobod" width="100%" border="0" cellspacing="0" cellpadding="0">
 				
 				<tr>
 					<th width="18%" class="txvt"><span class="th">LOGO：</span></th>
@@ -145,7 +113,7 @@
 												
 													
 													
-														<img height="42" width="116" src='http://static.soulagou.com/img/outlet_manager/up_default01.jpg' /> 
+														<img height="111" width="110" src='http://static.soulagou.com/img/outlet_manager/up_default01.jpg' /> 
 													
 												
 												<img class="closeImg" src='http://static.soulagou.com/img/plugin/x1.jpg' />

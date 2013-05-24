@@ -52,17 +52,21 @@
 
 <div id="accordion">
 <ul class="menu_list01">
-		<li id="background_home" style="display: none;"><a href="/evbeta/User/Storer/">商户后台首页</a></li>
-		<li id="shopset"><a href="/evbeta/User/Storer/store">店铺设置</a></li>
-		<li id="shopset"><a href="/evbeta/User/Storer/cert_info">店铺认证</a></li>
-		<li><a href="/evbeta/User/Storer/password" >修改密码</a></li>
-		<li><a href="/evbeta/User/Storer/add.html">发布优惠资讯活动</a></li>
-		<li id="promotional"><a href="/evbeta/User/Storer/news.html">我的优惠资讯活动</a></li>
-		<li><a href="/evbeta/User/Storer/cert">手机邮箱认证</a></li>
-		<li><a href="/evbeta/User/Storer/client" >我的关注者</a></li>
-		<li><a href="/evbeta/User/Storer/card" >商铺二维码管理</a></li>
-		<li id="promotional">以下网页尚未创建</li>	
-		<li><a href="/evbeta/User/Storer/password" >--批量信息页二维码</a></li>	
+		<li class="home"><a href="/evbeta/User/Storer/">商户首页</a></li>		
+		<li class="top">店铺信息</li>	
+		<li><a href="/evbeta/User/Storer/add.html">发布优惠活动</a></li>
+		<li><a href="/evbeta/User/Storer/news.html">管理优惠活动</a></li>						
+		<li><a href="/evbeta/User/Storer/client" >关注我的</a></li>		
+		<li class="top">店铺管理</li>	
+		<li><a href="/evbeta/User/Storer/store">店铺设置</a></li>
+		<li><a href="/evbeta/User/Storer/card" >店铺二维码</a></li>
+		<li><a href="/evbeta/User/Storer/scene">店铺实景图</a></li>		
+		<li><a href="/evbeta/User/Storer/cert_info" target="_blank">店铺认证</a></li>						
+		<li class="top">账号设置</li>	
+		<li class="on"><a href="/evbeta/User/Storer/password" >修改密码</a></li>
+		<li><a href="/evbeta/User/Storer/cert">手机邮箱认证</a></li>				
+		<li class="top">以下网页尚未创建</li>	
+		<li><a href="#" >--批量信息页二维码</a></li>	
 	</ul>
 </div>
 	                	<!--Left Menu End-->
@@ -73,7 +77,7 @@
 	<div class="r_w">
 		<div class="r_breadcrumb">
 			
-			<a href="/">商家管理</a> &gt; 修改密码
+			<a href="/">账号设置</a> &gt; 修改密码
 		</div>
 		<div class="logobod">
 			<div class="block3">

@@ -50,7 +50,6 @@
 	</div>
 </div>
 
-
 				<!--这里放页头 end-->
 			</td>
 		</tr>
@@ -62,25 +61,24 @@
 						<td width="200" class="txvt">
 							<!--header 此段注释内调用左栏内容--> 
 							
-
-
-
 <div id="accordion">
 	<ul class="menu_list01">
-		<li id="background_home" style="display: none;"><a href="/evbeta/User/Storer/">商户后台首页</a></li>
-		<li id="shopset"><a href="/evbeta/User/Storer/store">店铺设置</a></li>
-		<li id="shopset"><a href="/evbeta/User/Storer/cert_info">店铺认证</a></li>
+		<li class="home"><a href="/evbeta/User/Storer/">商户首页</a></li>		
+		<li class="top">店铺信息</li>	
+		<li class="on"><a href="/evbeta/User/Storer/add.html">发布优惠活动</a></li>
+		<li><a href="/evbeta/User/Storer/news.html">管理优惠活动</a></li>						
+		<li><a href="/evbeta/User/Storer/client" >关注我的</a></li>		
+		<li class="top">店铺管理</li>	
+		<li><a href="/evbeta/User/Storer/store">店铺设置</a></li>
+		<li><a href="/evbeta/User/Storer/card" >店铺二维码</a></li>
+		<li><a href="/evbeta/User/Storer/scene">店铺实景图</a></li>		
+		<li><a href="/evbeta/User/Storer/cert_info" target="_blank">店铺认证</a></li>						
+		<li class="top">账号设置</li>	
 		<li><a href="/evbeta/User/Storer/password" >修改密码</a></li>
-		<li><a href="/evbeta/User/Storer/add.html">发布优惠活动</a></li>
-		<li id="promotional"><a href="/evbeta/User/Storer/news.html">我的优惠活动</a></li>
-		<li><a href="/evbeta/User/Storer/cert">手机邮箱认证</a></li>
-		<li><a href="/evbeta/User/Storer/client" >关注我的</a></li>
-		<li><a href="/evbeta/User/Storer/card" >商铺二维码管理</a></li>
-		<li id="promotional">以下网页尚未创建</li>	
-		<li><a href="/evbeta/User/Storer/password" >--批量信息页二维码</a></li>	
+		<li><a href="/evbeta/User/Storer/cert">手机邮箱认证</a></li>				
+		<li class="top">以下网页尚未创建</li>	
+		<li><a href="#" >--批量信息页二维码</a></li>	
 	</ul>
-	
-	
 </div>
  
 							<!--header 此段注释内调用左栏内容 end-->
@@ -92,21 +90,21 @@
 <form id="newsFormBean" action="add" method="POST">
 		<div class="r_w">
 			<div class="r_breadcrumb">
-				<a href="#">商家管理</a> &gt; <a href="/outlet/promotional/list">优惠活动</a>
+				<a href="#">店铺信息</a> 
 				&gt; 发布优惠活动
 			</div>
 			<table class="logobod" width="100%" border="0" cellspacing="10"
 				cellpadding="0">
 				
 				<tr>
-					<th width="20%" style="text-align: inherit;"><span class="th">标题：</span></th>
+					<th width="10%" style="text-align: inherit;"><span class="th">标题：</span></th>
 					<td>
 						<input id="id" name="id" type="hidden" value=""/>
 						<input id="title" name="title" class="inp_text persent70" type="text" value="" maxlength="30"/>
 					</td>
 				</tr>
 				<tr>
-					<th width="20%" style="text-align: inherit;"><span class="th">类别：</span></th>
+					<th  style="text-align: inherit;"><span class="th">类别：</span></th>
 					<td>
 					<select id="newType" name="newType" style="height: 30px;">
 						<option value="">选择类别</option>
@@ -128,11 +126,11 @@
 				</td>
 				</tr>
 				<tr>
-					<th width="20%" class="txvt" style="text-align: inherit;"><span class="th">内容：</span></th>
+					<th class="txvt" style="text-align: inherit;"><span class="th">内容：</span></th>
 					<td>
 					
                           <div class="r_textarea_box">
-							<textarea id="desc" name="content" style="width: 522px;height: 200px;"></textarea>
+							<textarea id="desc" name="content" style="width: 588px;height: 200px;"></textarea>
 						</div>
 						<p class="textarea_b_t">
 							<span class="dfr descTotal">剩余<span class="r1 descLength">5000</span>字
@@ -141,12 +139,12 @@
 					</td>
 				</tr>
 				<tr>
-					<th width="20%">&nbsp;</th>
+					<th>&nbsp;</th>
 					<td><input type="submit" class="inp_btn btn_brown" value="发 布" />
 					</td>
 				</tr>
 				<tr>
-					<th width="20%">&nbsp;</th>
+					<th>&nbsp;</th>
 					<td>&nbsp;</td>
 				</tr>
 			</table>

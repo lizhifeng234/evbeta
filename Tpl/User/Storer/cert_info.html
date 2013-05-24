@@ -23,12 +23,12 @@
 		
 
 <div id="header">
-	<div class="pg_w">
+	<div class="pg_w txs16">
 		
 			
 			<div class="dfr pdt40">
 				<span class="w1">你好，</span>
-				<span class="b2 txs14 txw1 mgr30">lzf2342012</span>
+				<span class="b2 txw1 mgr30">lzf2342012</span>
 				<span>
 					
 					<a href="/j_spring_security_logout" class="txd1 w1 mgr20">安全退出</a>

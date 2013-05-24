@@ -47,8 +47,8 @@
 .textarea_b_t { width:99%;}
 /*右栏标题01*/
 .dfl_title01 { width:50%; height:24px;}
-.dfl_title01 a { padding:3px 6px 4px; margin-right:16px; float:left; color:#666; font-size:14px; font-family:"微软雅黑";}
-.dfl_title01 a:hover, .dfl_title01 a.on { background-color:#7b1d16; background-position:-300px 0; color:#FFF; text-decoration:none;}
+.dfl_title01 a { padding:3px 6px 4px; margin-right:16px; float:left; color:white; font-size:16px; font-family:"微软雅黑";background:#66ccff;}
+.dfl_title01 a:hover, .dfl_title01 a.on { background-color:#e21454; background-position:-300px 0; color:#FFF; text-decoration:none;}
 
 .dfr_tt a{float:right;margin-right:0px; margin-left:15px;}
 
@@ -63,10 +63,12 @@
 .gray_block01 td { text-align:left;}
 /*右栏整栏表格01*/
 .m_col_div { border:#d7d7d7 1px solid; border-right:0px; border-bottom:0px; margin-top:5px;}
-.m_col_table {  }
-.m_col_table th {background:#f2f2f2; line-height:36px; text-align:center; border-bottom:#d7d7d7 1px solid; border-right:f2f2f2 1px solid; }
+.m_col_table { background:gray; }
+.m_col_table tr{background:white;}
+.m_col_table tr:hover{background:#F1F1F1}
+.m_col_table th {background: #E1E1E1;color: #e21454;font-weight: bold;font-size: 18px; line-height:40px;}
 .m_col_table th.last_r { border-right:#d7d7d7 1px solid;}
-.m_col_table td {background:#fff; border-bottom:#d7d7d7 1px solid; border-right:#d7d7d7 1px solid; line-height:64px; text-align:center; }
+.m_col_table td {line-height:40px; text-align:center; }
 .m_col_table td p{ line-height:150%; margin-top:2px; margin-bottom:2px;}
 .m_col_table td .js { color:#e57d18; font-weight:bold;}
 .m_col_table td .chs_stock a { }
@@ -107,11 +109,11 @@
 .sele_pp:hover { color:yellow; text-decoration:none;}
 
 /*list page*/
-.page { color:#717171; text-align:right; margin-top:12px;}
+.page { color:#717171; text-align:center; margin-top:12px;}
 .page a {padding:3px;}
-.page a:hover, .page a.on { background:#b62626; color:#FFF; text-decoration:none;}
-.page span {padding:3px; background:#b62626; color:#FFF; text-decoration:none;}
-.page span:hover, .page span.on { background:#b62626; color:#FFF; text-decoration:none;}
+.page a:hover, .page a.on { background:#e21454; color:#FFF; text-decoration:none;}
+.page span {padding:3px; background:#e21454; color:#FFF; text-decoration:none;}
+.page span:hover, .page span.on { background:#e21454; color:#FFF; text-decoration:none;}
 /*notice*/
 .notice { border:#ff9393 1px solid; padding:6px 10px 6px 62px; line-height:22px; background:#fbffba url(../../../img/outlet_manager/warning01.png) 12px 50% no-repeat; color:#ff5454;}
 /*错误提示*/

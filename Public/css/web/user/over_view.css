@@ -18,3 +18,11 @@
 .logobod p{display:inline;}
 .logobod a{float:right;margin-right:200px;}
 .logobod input{vertical-align: middle;font-size:16px;}
+.imgbox{border:1px solid black;height:150px;}
+.input{line-height:30px;width:300px;font-size: 16px;}
+.menu_list01 li{line-height:30px;}
+.menu_list01 .home a{background:#66ccff;color:white;font-weight:bold;width:170px;height:30px;display:block;text-align:center;}
+.menu_list01 .home a:hover{text-decoration:none;}
+.menu_list01 .top {color:#66ccff;font-weight:bold;}
+.menu_list01 .on{border-right:4px solid #66ccff;border-bottom:1px solid #66ccff}
+.imgbox{margin-top:10px;margin-left:10px;}

@@ -2,89 +2,77 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title> 个人管理 - 认证 </title>
-
-		<link href="/evbeta/__PUBLIC__/css/global.css" rel="stylesheet" type="text/css" />
-		<link href="/evbeta/__PUBLIC__/css/web/ui-dialogBox.css" rel="stylesheet" type="text/css" />
-		<link href="/evbeta/__PUBLIC__/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
-		<link href="http://static.soulagou.com/css/member_center/alone/main_page.css" rel="stylesheet" type="text/css" />
-
-		<script type="text/javascript" src="/evbeta/__PUBLIC__/js/jquery-1.8.3.min.js"></script>
-		<script type="text/javascript" src="/evbeta/__PUBLIC__/js/member/profile.js"></script>
+	<link href="/evbeta/__PUBLIC__/css/global.css" rel="stylesheet" type="text/css" />
+	<link href="/evbeta/__PUBLIC__/css/web/ui-dialogBox.css" rel="stylesheet" type="text/css" />
+	<link href="/evbeta/__PUBLIC__/css/plugin/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />	
+	<link href="/evbeta/__PUBLIC__/css/web/user/over_view.css" rel="stylesheet" type="text/css" />
 
 	</head>
 	<body>
-		<div id="wrap">
-			<!--Header Start-->
-			<div id="header">
-				<div class="pg_w">
+				<!--这里放页头--> 
 
-					<div class="dfr pdt40">
-						<span class="w1">你好，</span>
-						<span class="b2 txs14 txw1 mgr30">lzf2342012</span>
-						<span> <a href="/j_spring_security_logout" class="txd1 w1 mgr20">安全退出</a> </span>
-					</div>
-
-					<div class="pdt11 pdl10">
-						<a href="http://www.soulagou.com"><img src="http://static.soulagou.com/img/member_center/header_logo.png" /></a>
-					</div>
-				</div>
+<div id="header">
+	<div class="pg_w txs16">
+		
+			
+			<div class="dfr pdt40">
+				<span class="w1">你好，</span>
+				<span class="b2 txw1 mgr30">lzf2342012</span>
+				<span>
+					
+					<a href="/j_spring_security_logout" class="txd1 w1 mgr20">安全退出</a>
+				</span>
+				<!--  
+				<span style="display:none">
+					<a href="#" class="txd1 w1 mgr20">修改密码</a>
+				</span>
+				-->
 			</div>
+		
+		<div class="pdt11 pdl10">
+			<a href="http://sso.soulagou.com/login?service=http://www.soulagou.com/j_client_security_check">
+				<img src="http://static.soulagou.com/img/outlet_manager/header_logo.png" />
+			</a>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
 			<!--Header End-->
-
-			<div class="pg_w">
+			  <div  class="bg txs16">
+			
+			<div class="pg_w bg txs16">
 				<table width="100%" border="0" cellspacing="0" cellpadding="0">
 					<tr>
-						<td width="200" class="l_col"><!--Left Menu Start-->
+						<td width="200" class="txvt"><!--Left Menu Start-->
 						<div id="accordion">
-
-							<div class="">
-								<img src="http://static.soulagou.com/img/member_center/bar_personal.png" />
-							</div>
-
-							<ul class=" mgt10 txs14">
-
-								<li id="menu_home">
-									<a href="/">首页</a>
-								</li>
-								<li id="menu_profile">
-									<a href="/profile">个人信息</a>
-								</li>
-								<li id="menu_favorite">
-									<a href="/fav/commodities">我的收藏</a>
-								</li>
-								<li id="menu_ticket">
-									<a href="/ticket/list">我的优惠券</a>
-								</li>
-							</ul>
+<ul class="menu_list01">
+		<li class="home"><a href="/evbeta/User/Storer/">商户首页</a></li>		
+		<li class="top">店铺信息</li>	
+		<li><a href="/evbeta/User/Storer/add.html">发布优惠活动</a></li>
+		<li><a href="/evbeta/User/Storer/news.html">管理优惠活动</a></li>						
+		<li><a href="/evbeta/User/Storer/client" >关注我的</a></li>		
+		<li class="top">店铺管理</li>	
+		<li><a href="/evbeta/User/Storer/store">店铺设置</a></li>
+		<li><a href="/evbeta/User/Storer/card" >店铺二维码</a></li>
+		<li><a href="/evbeta/User/Storer/scene">店铺实景图</a></li>		
+		<li><a href="/evbeta/User/Storer/cert_info" target="_blank">店铺认证</a></li>						
+		<li class="top">账号设置</li>	
+		<li><a href="/evbeta/User/Storer/password" >修改密码</a></li>
+		<li class="on"><a href="/evbeta/User/Storer/cert">手机邮箱认证</a></li>				
+		<li class="top">以下网页尚未创建</li>	
+		<li><a href="#" >--批量信息页二维码</a></li>	
+	</ul>
+	</ul>
 
 						</div><!--Left Menu End--></td>
 						<td class="r_col"><!--Right Content Start-->
 						<div class="r_w">
 							<div class="r_breadcrumb">
 
-								<a href="/">个人管理</a> &gt; 个人信息
+								<a href="/">账号设置</a> &gt; 个人信息
 							</div>
 
-							<div class="mgt30">
-								<div class="dfl dfl_title01">
-
-									<a href="/profile" class="on">个人信息</a>
-									<a href="/password">修改密码</a>
-									<a href="/portrait">头像设置</a>
-								</div>
-								<div class="clear"></div>
-							</div>
-
-							<div class="mp_gray_block02">
-								<p>
-									用户名：<span class="name">lzf2342012</span>
-								</p>
-								<p>
-									登录邮箱：lizhifeng234@qq.com
-								</p>
-							</div>
-
-							<div class="mp_me_dy">
+							<div class="mp_me_dy r_breadcrumb">
 								<div class="block3">
 									<form id="profileForm" action="/cert_email" method="post">
 										<table class="block_table mgt14" width="100%" border="0"
@@ -103,6 +91,7 @@
 												</td>
 											</tr>
 											<tr>
+												<th></th>
 												<td>
 												<input type="submit" class="inp_btn btn_brown" value="确 定" />
 												</td>
@@ -141,6 +130,7 @@
 				</table>
 				</form>
 			</div>
+		</div>
 		</div>
 		</div>
 		<!--Right Content End-->
