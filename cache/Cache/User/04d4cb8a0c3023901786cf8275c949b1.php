@@ -10,7 +10,7 @@
 
 <title>搜啦购 - 商家后台</title>
 </head>
-<body> 
+<body  class="bg"> 
 	<table class="yt_t" width="100%" border="0" cellspacing="0"
 		cellpadding="0">
 		<tr>
@@ -47,7 +47,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td valign="top" class="bg">
+			<td valign="top">
 				<table class="yt_b" width="950" border="0" cellspacing="0"
 					cellpadding="0">
 					<tr>
@@ -56,7 +56,7 @@
 <div id="accordion">
 	<ul class="menu_list01">
 		<li class="home"><a href="/evbeta/User/Storer/">商户首页</a></li>		
-		<li class="top">信息发布</li>	
+		<li class="top">店铺信息</li>	
 		<li class="on"><a href="/evbeta/User/Storer/add.html">发布优惠活动</a></li>
 		<li><a href="/evbeta/User/Storer/news.html">管理优惠活动</a></li>						
 		<li><a href="/evbeta/User/Storer/client" >关注我的</a></li>		

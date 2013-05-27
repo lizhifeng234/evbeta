@@ -18,7 +18,7 @@
 		<script type="text/javascript" src="/evbeta/__PUBLIC__/js/web/user/upLoad.js"></script>
 		<title>搜啦购 - 商户店铺设置</title>
 	</head>
-	<body>
+	<body class="bg">
 		<table class="txs16" width="100%" border="0" cellspacing="0"
 		cellpadding="0">
 			<tr>
@@ -45,7 +45,7 @@
 				</div><!--这里放页头 end--></td>
 			</tr>
 			<tr>
-				<td valign="top" class="bg">
+				<td valign="top">
 				<table class="yt_b" width="950" border="0" cellspacing="0"
 				cellpadding="0">
 					<tr>

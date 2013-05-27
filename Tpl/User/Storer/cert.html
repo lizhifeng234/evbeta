@@ -8,7 +8,7 @@
 	<link href="/evbeta/__PUBLIC__/css/web/user/over_view.css" rel="stylesheet" type="text/css" />
 
 	</head>
-	<body>
+	<body class="bg">
 				<!--这里放页头--> 
 
 <div id="header">
@@ -38,7 +38,7 @@
 	</div>
 </div>
 			<!--Header End-->
-			  <div  class="bg txs16">
+			  <div  class="txs16">
 			
 			<div class="pg_w bg txs16">
 				<table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -69,7 +69,7 @@
 						<div class="r_w">
 							<div class="r_breadcrumb">
 
-								<a href="/">账号设置</a> &gt; 个人信息
+								<a href="/">账号设置</a> &gt; 手机认证
 							</div>
 
 							<div class="mp_me_dy r_breadcrumb">

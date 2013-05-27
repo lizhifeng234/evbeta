@@ -69,7 +69,7 @@
 	<div class="r_w">
 		<div class="r_breadcrumb">
 			
-			<a href="/">店铺管理</a> &gt; 首页
+			<a href="#">店铺管理</a> &gt; 店铺二维码
 		</div>
 		<div class="mp_gray_block01 r_breadcrumb">
 			<table width="100%" border="0" cellspacing="0" cellpadding="0">

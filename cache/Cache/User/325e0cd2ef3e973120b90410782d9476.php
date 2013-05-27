@@ -126,6 +126,48 @@
 				</td>
 				</tr>
 				<tr>
+					<th  style="text-align: inherit;"><span class="th">时间：</span></th>
+					<td>
+					<select id="newType" name="newType" style="height: 30px;">
+						<option value="">年</option>
+						<option value="2013">2013</option>
+						<option value="2014">2014</option>
+						<option value="2015">2015</option>
+					</select>
+					<select id="newType" name="newType" style="height: 30px;">
+						<option value="">月</option>
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+					</select>
+					<select id="newType" name="newType" style="height: 30px;">
+						<option value="">日</option>
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+					</select>
+				至
+					<select id="newType" name="newType" style="height: 30px;">
+						<option value="">年</option>
+						<option value="2013">2013</option>
+						<option value="2014">2014</option>
+						<option value="2015">2015</option>
+					</select>
+					<select id="newType" name="newType" style="height: 30px;">
+						<option value="">月</option>
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+					</select>
+					<select id="newType" name="newType" style="height: 30px;">
+						<option value="">日</option>
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+					</select>
+				</td>
+				</tr>
+				<tr>
 					<th class="txvt" style="text-align: inherit;"><span class="th">内容：</span></th>
 					<td>
 					

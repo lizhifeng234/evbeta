@@ -21,7 +21,7 @@
 			
 			<div class="dfr pdt40">
 				<span class="w1">你好，</span>
-				<span class="b2 txs14 txw1 mgr30">lzf2342012</span>
+				<span class="b2 txw1 mgr30">lzf2342012</span>
 				<span>
 					
 					<a href="/j_spring_security_logout" class="txd1 w1 mgr20">安全退出</a>
@@ -82,8 +82,8 @@
 				<table class="m_col_table" width="100%" border="0" cellspacing="1"
 					cellpadding="0">
 					<tr>
-						<th width="82%">优惠活动标题</th>
-						<th class="last_r">操作</th>
+						<th width="70%">优惠活动标题</th>
+						<th class="last_r">管理</th>
 					</tr>
 					
 					

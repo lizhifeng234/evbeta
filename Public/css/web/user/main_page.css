@@ -34,3 +34,7 @@ table.concern tr:hover{background:#F1F1F1}
 .page{text-align:center;}
 .page a{margin:0 10px;}
 .r_col a{color:#0099FF}
+.user_list li a{height:30px; line-height:30px; display: block;}
+.user_list .home a{background:#66ccff;color:white;font-weight:bold;width:170px;height:30px;display:block;text-align:center;line-height:30px;}
+.user_list .home a:hover{text-decoration:none;}
+.user_list .on{border-right:4px solid #66ccff;border-bottom:1px solid #66ccff}
