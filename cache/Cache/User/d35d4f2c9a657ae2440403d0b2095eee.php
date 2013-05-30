@@ -52,20 +52,20 @@
 	<ul class="menu_list01">
 		<li class="home"><a href="/evbeta/User/Storer/">商户首页</a></li>		
 		<li class="top">店铺信息</li>	
-		<li><a href="/evbeta/User/Storer/add.html">发布优惠活动</a></li>
-		<li class="on"><a href="/evbeta/User/Storer/news.html">管理优惠活动</a></li>						
-		<li><a href="/evbeta/User/Storer/client" >关注我的</a></li>		
+		<li><a href="/evbeta/User/Storer/add.html">发布优惠活动<em></em></a></li>
+		<li class="on"><a href="/evbeta/User/Storer/news.html">管理优惠活动<em></em></a></li>						
+		<li><a href="/evbeta/User/Storer/client" >关注我的<em></em></a></li>		
 		<li class="top">店铺管理</li>	
-		<li><a href="/evbeta/User/Storer/store">店铺设置</a></li>
-		<li><a href="/evbeta/User/Storer/card" >店铺二维码</a></li>
-		<li><a href="/evbeta/User/Storer/scene">店铺实景图</a></li>		
-		<li><a href="/evbeta/User/Storer/cert_info" target="_blank">店铺认证</a></li>						
+		<li><a href="/evbeta/User/Storer/store">店铺设置<em></em></a></li>
+		<li><a href="/evbeta/User/Storer/card" >店铺二维码<em></em></a></li>
+		<li><a href="/evbeta/User/Storer/scene">店铺实景图<em></em></a></li>		
+		<li><a href="/evbeta/User/Storer/cert_info" target="_blank">店铺认证<em></em></a></li>						
 		<li class="top">账号设置</li>	
-		<li><a href="/evbeta/User/Storer/password" >修改密码</a></li>
-		<li><a href="/evbeta/User/Storer/cert">手机邮箱认证</a></li>				
+		<li><a href="/evbeta/User/Storer/password" >修改密码<em></em></a></li>
+		<li><a href="/evbeta/User/Storer/cert">手机邮箱认证<em></em></a></li>				
 		<li class="top">以下网页尚未创建</li>	
 		<li><a href="#" >--批量信息页二维码</a></li>	
-	</ul>
+	</ul>	
 </div>
  
 							<!--header 此段注释内调用左栏内容 end-->
@@ -87,6 +87,18 @@
 					</tr>
 					
 					
+							<tr>
+								<td>
+									<p class="ticket_title oflp" style="text-align: center;" >6.1号儿童节，童鞋一律5折</p>
+								</td>
+								<td><a href="">修改</a>&nbsp;&nbsp;<a href="">删除</a></td>
+							</tr>
+						<tr>
+								<td>
+									<p class="ticket_title oflp" style="text-align: center;" >6.1号儿童节，童鞋一律5折</p>
+								</td>
+								<td><a href="">修改</a>&nbsp;&nbsp;<a href="">删除</a></td>
+							</tr>
 							<tr>
 								<td>
 									<p class="ticket_title oflp" style="text-align: center;" >6.1号儿童节，童鞋一律5折</p>

@@ -66,8 +66,8 @@
 			<div class="clear"></div>
 		</div>
 		<div class="z">	
-			<a id="menu_top" href="#">首页</a>
-			<a id="menu_microCommodity" href="/microCommodity/all">微活动</a>
+			<a href="#">首页</a>
+			<a class="on" href="#">微活动</a>
 			<a id="menu_tickets" href="/items/ticket/all">今日活动</a>
 			<a id="menu_items" href="/evbeta/Home/mall/">商家广场</a>
 			<a id="menu_mall" href="/mall/list">品牌</a>
@@ -82,150 +82,51 @@
 		
 		<!-- Content Start -->
 	    <div id="content">
-	<div class="white_box mgb30">
-           <div class="bo">
-           	<h3 class="dfl bobt">TOP店铺</h3>
-			<div class="clear"></div>
-           </div>
-           <div class="bosh">
-           	<div class="rank">
-               	<ul class="ur">
-                   	<li class="c1">
-                       	<div class="r_num"></div>
-                           <div class="r_img"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank"><img src="http://static.soulagou.com/img/www-web/rank/shop1.jpg" /></a></div>
-                           
-                           <div class="r_rmsp">
-                           	<p class="t">最新优惠</p>
-                               <div>
-                               	<ul class="news">
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               	</ul>
-                                   <div class="clear"></div>
-                               </div>
-                           </div>                           
-                           <div class="r_info">
-                           	<p class="t mgb10"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank">潮汇 - 优品天地</a><img title="搜啦认证" class="txvt mgl05" src="http://static.soulagou.com/img/www-web/rz01.png" /></p>
-                           	<p class="area">商圈:丰泽广场</p>
-								<a class="zan" href="">
-									<p>赞</p>
-									<span>45648</span>
-								</a>
-								<a class="see" href="">
-									<p>关注</p>
-									<span>645</span>
-								</a>
-                           </div>
-                           <div class="clear"></div>
-                       </li>
-                       <li class="c2">
-                       	<div class="r_num"></div>
-                           <div class="r_img"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank"><img src="http://static.soulagou.com/img/www-web/rank/shop1.jpg" /></a></div>
-                           
-                           <div class="r_rmsp">
-                           	<p class="t">最新优惠</p>
-                               <div>
-                               	<ul class="news">
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               	</ul>
-                                   <div class="clear"></div>
-                               </div>
-                           </div>                           
-                           <div class="r_info">
-                           	<p class="t mgb10"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank">潮汇 - 优品天地</a><img title="搜啦认证" class="txvt mgl05" src="http://static.soulagou.com/img/www-web/rz01.png" /></p>
-                           	<p class="area">商圈:丰泽广场</p>
-								<a class="zan" href="">
-									<p>赞</p>
-									<span>45648</span>
-								</a>
-								<a class="see" href="">
-									<p>关注</p>
-									<span>645</span>
-								</a>
-                           </div>
-                           <div class="clear"></div>
-                       </li>
-                       <li class="c3">
-                       	<div class="r_num"></div>
-                           <div class="r_img"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank"><img src="http://static.soulagou.com/img/www-web/rank/shop1.jpg" /></a></div>
-                           
-                           <div class="r_rmsp">
-                           	<p class="t">最新优惠</p>
-                               <div>
-                               	<ul class="news">
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               	</ul>
-                                   <div class="clear"></div>
-                               </div>
-                           </div>                           
-                           <div class="r_info">
-                           	<p class="t mgb10"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank">潮汇 - 优品天地</a><img title="搜啦认证" class="txvt mgl05" src="http://static.soulagou.com/img/www-web/rz01.png" /></p>
-                           	<p class="area">商圈:丰泽广场</p>
-								<a class="zan" href="">
-									<p>赞</p>
-									<span>45648</span>
-								</a>
-								<a class="see" href="">
-									<p>关注</p>
-									<span>645</span>
-								</a>
-                           </div>
-                           <div class="clear"></div>
-                       </li>
-                   </ul>
-                   <div class="clear"></div>
-               </div>
-           </div>
-       </div>
 
 	<div class="white_box mgb30">
 		<div class="bo">
-			<h3 class="dfl bobt">合作伙伴</h3>
+			<h3 class="dfl bobt">最新优惠</h3>
 			<div class="clear"></div>
 		</div>
-		<div class="lb">
-			
-				<div class="dy">
-					<div class="imgbox">
-						<a href="http://www.soulagou.com/outlet/1359536756972"><img src="http://tmp.images.soulagou.com/5c0b44796ffa1437c33d122398d152d4_soulagou_1.jpg" /></a>
-					</div>
-					<div class="bgbox">
-						<p><a href="http://www.soulagou.com/outlet/1359536756972">百丝财富又一城店</a></p>
-						<p>地址：府青路二段2号财富又一城</p>
-						<a href="#" class="icon_t" title="XXXX商圈">sdfsdsd</a>
-					</div>
-				</div>
-			
-				<div class="dy">
-					<div class="imgbox">
-						<a href="http://www.soulagou.com/outlet/1359685873616"><img src="http://tmp.images.soulagou.com/801dfd4495d282b5ada14cb613751454_soulagou_1.jpg" /></a>
-					</div>
-					<div class="bgbox">
-						<p><a href="http://www.soulagou.com/outlet/1359685873616">舒卷鞋财富又一城店</a></p>
-						<p>地址：府青路二段2号财富又一城</p>
-						<a href="#" class="icon_t" title="XXXX商圈">sdfsdsd</a>
-					</div>
-				</div>
-			
-				<div class="dy">
-					<div class="imgbox">
-						<a href="http://www.soulagou.com/outlet/1359772698606"><img src="http://tmp.images.soulagou.com/111d07911405fa8e42d7b0e61d1d6bf0_soulagou_1.jpg" /></a>
-					</div>
-					<div class="bgbox">
-						<p><a href="http://www.soulagou.com/outlet/1359772698606">艾美家居店优品天地店</a></p>
-						<p>地址：青羊大道99号优品天地购物广场</p>
-						<a href="#" class="icon_t" title="XXXX商圈">sdfsdsd</a>
-					</div>
-				</div>
-			
+			<div class="evartlist_main">
+				<div class="list">
+				   <div class="left">
+				   <img src="二维码开发/网站优惠/wal.png" />
+				   <div class="content">
+				       <p class="title"><a href="">优惠标题--现在都是浪费空间阿斯兰的开发将阿斯顿</a></p>
+				       <p class="abstract">简介：介绍我们的团队，一起奋斗。简介：介绍我们的团队，一起简介：介绍我们的团队，一起简介：介绍我们的团队，一起简介：介绍我们的团队，一起</p>
+				   </div>
+				   </div>
+				   <div class="right">
+				      <div class="left"></div>
+				      <div class="right"></div>
+				   </div>
+				 </div>
+				 <div class="list">
+				   <div class="left">
+				   <img src="二维码开发/网站优惠/wal.png" />
+				   <div class="content">
+				       <p class="title"><a href="">优惠标题--现在都是浪费空间阿斯兰的开发将阿斯顿</a></p>
+				       <p class="abstract">简介：介绍我们的团队，一起奋斗。简介：介绍我们的团队，一起简介：介绍我们的团队，一起简介：介绍我们的团队，一起简介：介绍我们的团队，一起</p>
+				   </div>
+				   </div>
+				   <div class="right">
+				      <div class="left"></div>
+				      <div class="right"></div>
+				   </div>
+				 </div><div class="list">
+				   <div class="left">
+				   <img src="二维码开发/网站优惠/wal.png" />
+				   <div class="content">
+				       <p class="title"><a href="">优惠标题--现在都是浪费空间阿斯兰的开发将阿斯顿</a></p>
+				       <p class="abstract">简介：介绍我们的团队，一起奋斗。简介：介绍我们的团队，一起简介：介绍我们的团队，一起简介：介绍我们的团队，一起简介：介绍我们的团队，一起</p>
+				   </div>
+				   </div>
+				   <div class="right">
+				      <div class="left"></div>
+				      <div class="right"></div>
+				   </div>
+				 </div>
 			<div class="clear"></div>
 		</div>
 	</div>

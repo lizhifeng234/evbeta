@@ -76,18 +76,13 @@
 			<div class="clear"></div>
 		</div>
 		<div class="z">
-			
-						
-			
-			<a id="menu_home" href="/">首页</a>
-			<a id="menu_microCommodity" href="/microCommodity/all">微播</a>
-			<a id="menu_tickets" href="/items/ticket/all">优惠券</a>
-			<a id="menu_items" href="/items/all">商品</a>
-			<a id="menu_mall" href="/mall/list">购物中心</a>
-			<a id="menu_market" href="/market/list">商场超市</a>
-			<!-- <a id="menu_brand" href="/brand/list">连锁店</a> -->
-			<a id="menu_brand" href="#">连锁店</a>
-			<a id="menu_top" href="/rank">店铺排行</a>
+			<a id="menu_top" href="/evbeta/Home/Index/">首页</a>
+			<a id="menu_microCommodity" href="/evbeta/Home/Index/news_list">微活动</a>
+			<a id="menu_tickets" href="/evbeta/Home/Index/activity">今日活动</a>
+			<a id="menu_items" href="/evbeta/Home/mall/">商家广场</a>
+			<a id="menu_mall" href="/evbeta/Home/Index/brand">品牌</a>
+			<a id="menu_market" href="/evbeta/Home/Index/code">二维码</a>
+			<a id="menu_market" href="/evbeta/Home/Index/about">关于我们</a>
 			<div class="clear"></div>
 		</div>
 	</div>

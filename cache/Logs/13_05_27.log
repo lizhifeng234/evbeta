@@ -1,0 +1,2274 @@
+[ 2013-05-27T20:02:59+08:00 ] 127.0.0.1 /evbeta/User/Storer/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005784s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.036093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036702s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.025395s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.024304s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.012801s ]
+INFO: [ view_template ] --END-- [ RunTime:0.013428s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.059725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060793s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003884s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.006214s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002966s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018888s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005190s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005783s ]
+
+[ 2013-05-27T20:02:59+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-27T20:02:59+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-27T20:03:10+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004664s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005286s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003072s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002317s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002916s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030343s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002579s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002481s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001837s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011867s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002784s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003338s ]
+
+[ 2013-05-27T20:03:10+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-27T20:03:15+08:00 ] 127.0.0.1 /evbeta/User/Storer/add.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002524s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003148s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002704s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001553s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002498s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027490s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001928s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001793s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001179s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009253s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002351s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002907s ]
+
+[ 2013-05-27T20:03:16+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-27T20:03:20+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002619s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003241s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003027s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002232s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003152s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029770s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002302s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002764s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002123s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012280s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003181s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003743s ]
+
+[ 2013-05-27T20:03:20+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-27T20:03:23+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002440s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003081s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002814s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001789s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002398s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042653s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001595s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001803s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001141s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008837s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003211s ]
+
+[ 2013-05-27T20:03:23+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-27T20:03:30+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002396s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003021s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002627s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002611s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024536s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001602s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001913s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001252s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009013s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002613s ]
+
+[ 2013-05-27T20:03:30+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-27T20:03:43+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002299s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002915s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002715s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001562s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002174s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024123s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001619s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002091s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001295s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009097s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002033s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002589s ]
+
+[ 2013-05-27T20:03:43+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002404s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003027s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002968s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001566s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002169s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023498s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002132s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001887s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001667s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009790s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002395s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003307s ]
+
+[ 2013-05-27T20:03:43+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-27T20:04:01+08:00 ] 127.0.0.1 /evbeta/User/Storer/store
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002342s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003244s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.025639s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.026381s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002749s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003524s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036052s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001885s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001812s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001145s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008615s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002033s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002588s ]
+
+[ 2013-05-27T20:04:33+08:00 ] 127.0.0.1 /evbeta/Home/Index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002330s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002952s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002631s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004788s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005381s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.171276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171893s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001783s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001830s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001154s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009316s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002045s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002607s ]
+
+[ 2013-05-27T20:06:04+08:00 ] 127.0.0.1 /evbeta/Home/Index/news
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004728s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003714s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002378s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003271s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.041077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041662s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002375s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002788s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002301s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012303s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003192s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003770s ]
+
+[ 2013-05-27T20:06:05+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:06:13+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:08:54+08:00 ] ERR: (ThinkException) 非法操作:mall
+[ 2013-05-27T20:09:01+08:00 ] 127.0.0.1 /evbeta/Home/mall/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002577s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003207s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002922s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004778s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005382s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.047933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048527s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002823s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002941s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002104s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012800s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003083s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003649s ]
+
+[ 2013-05-27T20:09:02+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:09:02+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:09:11+08:00 ] 127.0.0.1 /evbeta/Home/mall/store
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002636s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003254s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003984s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002665s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003283s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.064780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065379s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003373s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004288s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002049s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014892s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003492s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004064s ]
+
+[ 2013-05-27T20:09:11+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:09:11+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:09:11+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:09:12+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:09:28+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:09:28+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:09:28+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:37:02+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006339s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.013509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014411s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.017869s ]
+INFO: [ view_template ] --END-- [ RunTime:0.018579s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.140933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141548s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002806s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002165s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015353s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004164s ]
+
+[ 2013-05-27T20:37:02+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:40:12+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005086s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003325s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004591s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005203s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038084s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002704s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002766s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002315s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014174s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003110s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003670s ]
+
+[ 2013-05-27T20:40:13+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:41:41+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003500s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003187s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001859s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002557s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040728s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002254s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002134s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001577s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010707s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002580s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003151s ]
+
+[ 2013-05-27T20:41:42+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:45:39+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005659s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006279s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003793s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003784s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004687s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041397s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002997s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003227s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002262s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013610s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004386s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004966s ]
+
+[ 2013-05-27T20:45:40+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:46:15+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002272s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002879s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002628s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002187s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002780s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036194s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002759s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002526s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002614s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013117s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002824s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003387s ]
+
+[ 2013-05-27T20:46:15+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:52:20+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005533s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006160s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003466s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002389s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002991s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036676s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002474s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002534s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001921s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011454s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003105s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003689s ]
+
+[ 2013-05-27T20:52:20+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:53:12+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003426s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002688s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002836s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003467s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043242s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002941s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002905s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002226s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013013s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003518s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004118s ]
+
+[ 2013-05-27T20:53:12+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:54:03+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002313s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002935s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002780s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002260s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002857s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038636s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002521s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002539s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002033s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011599s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003352s ]
+
+[ 2013-05-27T20:54:03+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:56:31+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005673s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006298s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003938s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002260s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002865s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036531s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002573s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002940s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002230s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012652s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003709s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004279s ]
+
+[ 2013-05-27T20:56:31+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:57:02+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005643s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006337s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004379s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002940s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003604s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041605s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003075s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002932s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002357s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013170s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003558s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004217s ]
+
+[ 2013-05-27T20:57:03+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:57:05+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002653s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003274s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003742s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002218s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002814s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034230s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002505s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002589s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001937s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011522s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002814s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003387s ]
+
+[ 2013-05-27T20:57:05+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:57:15+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002403s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003030s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002738s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001582s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002168s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030083s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001744s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001822s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001828s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009233s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002081s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002638s ]
+
+[ 2013-05-27T20:57:16+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:57:41+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002371s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003002s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002814s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001567s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002152s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034105s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003013s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001916s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001173s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010172s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002080s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002639s ]
+
+[ 2013-05-27T20:57:42+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:58:02+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002727s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003363s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002642s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001578s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002163s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028572s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001769s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001810s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001264s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009078s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002542s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003111s ]
+
+[ 2013-05-27T20:58:03+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:58:55+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002320s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002942s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003038s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002674s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003284s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038360s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002513s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002545s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001889s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011458s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002813s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003372s ]
+
+[ 2013-05-27T20:58:55+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T20:59:18+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004158s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004778s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003384s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002547s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003148s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040691s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003187s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003134s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002517s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013807s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003208s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003779s ]
+
+[ 2013-05-27T20:59:18+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:00:10+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002348s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002974s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002763s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002557s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003166s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037481s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002862s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005390s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001912s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014775s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002804s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003366s ]
+
+[ 2013-05-27T21:00:10+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:00:30+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003480s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002712s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001723s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002319s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034739s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001990s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002488s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001292s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009990s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002274s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003132s ]
+
+[ 2013-05-27T21:00:31+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:02:45+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004589s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005209s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003609s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002253s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003095s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037694s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002643s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002649s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002219s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012891s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002897s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003460s ]
+
+[ 2013-05-27T21:02:46+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:03:18+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002537s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003548s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002677s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002579s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003188s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036690s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002839s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002887s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002203s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012899s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002945s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003545s ]
+
+[ 2013-05-27T21:03:19+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:04:17+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003057s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003684s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002957s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001580s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002179s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030368s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003453s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002434s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001518s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011579s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002120s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002681s ]
+
+[ 2013-05-27T21:04:17+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:05:27+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004144s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004762s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003354s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003263s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004172s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036864s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002602s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003589s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002168s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014872s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003167s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003738s ]
+
+[ 2013-05-27T21:05:27+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:05:50+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002385s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003010s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003476s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002514s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003135s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037114s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002915s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002865s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001977s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012730s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002896s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003582s ]
+
+[ 2013-05-27T21:05:50+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:06:16+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004747s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005371s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003535s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002719s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003622s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038263s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002900s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002914s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002109s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013081s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003728s ]
+
+[ 2013-05-27T21:06:16+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:18:40+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005025s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005654s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003769s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003987s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004614s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035372s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003219s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002626s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002345s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013595s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003254s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003853s ]
+
+[ 2013-05-27T21:18:40+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:22:32+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005247s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003851s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002329s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002945s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040385s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002503s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002739s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002190s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013898s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003150s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003714s ]
+
+[ 2013-05-27T21:22:33+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:22:45+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002639s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003594s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003323s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002359s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003258s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040137s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002795s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002862s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001941s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013331s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003899s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004564s ]
+
+[ 2013-05-27T21:22:45+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:22:56+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002662s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003325s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003858s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002135s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002736s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030084s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001864s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002046s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002566s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010669s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002138s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002702s ]
+
+[ 2013-05-27T21:22:57+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:23:10+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003914s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004937s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002799s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006255s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006925s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040994s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002882s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002076s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001595s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011008s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002255s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002890s ]
+
+[ 2013-05-27T21:23:10+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005426s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004976s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003067s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003679s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037414s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002548s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003303s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002127s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012918s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003059s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003918s ]
+
+[ 2013-05-27T21:23:11+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:24:17+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002720s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003660s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002777s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001670s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002274s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033395s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002291s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002278s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001226s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010863s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002176s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002901s ]
+
+[ 2013-05-27T21:24:18+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:26:29+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004135s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004751s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003362s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002412s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003061s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039336s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002658s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003172s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002123s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013264s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003755s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004338s ]
+
+[ 2013-05-27T21:26:29+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:26:50+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007143s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003145s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001999s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002612s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040322s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002196s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002244s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001653s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010456s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002974s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003579s ]
+
+[ 2013-05-27T21:26:51+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:27:04+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002743s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003359s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002830s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003691s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004621s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.052010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052928s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002749s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003994s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002554s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014521s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003261s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003878s ]
+
+[ 2013-05-27T21:27:05+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:27:22+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003407s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003303s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002255s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003036s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043076s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002610s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003371s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003512s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014791s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002861s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003429s ]
+
+[ 2013-05-27T21:27:22+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:29:23+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004595s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005214s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003797s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002985s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003802s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039260s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002554s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002605s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002425s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012262s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003150s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003715s ]
+
+[ 2013-05-27T21:29:23+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:29:29+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002323s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002933s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002869s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002012s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002624s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029156s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002114s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001894s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001443s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010166s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002629s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003197s ]
+
+[ 2013-05-27T21:29:30+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:30:02+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003561s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002642s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001576s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002191s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036838s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001871s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002587s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001342s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009649s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002088s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002731s ]
+
+[ 2013-05-27T21:30:03+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:30:21+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003553s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003352s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004920s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005730s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.051594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052532s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004264s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005907s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002594s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019149s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.008538s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009122s ]
+
+[ 2013-05-27T21:30:22+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:30:50+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005319s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003047s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001879s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002488s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034508s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004284s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002677s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001697s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012741s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002300s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002906s ]
+
+[ 2013-05-27T21:30:51+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:31:06+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002674s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003293s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002892s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002909s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003607s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046348s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003186s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003015s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002274s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015158s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005319s ]
+
+[ 2013-05-27T21:31:07+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:31:42+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005918s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006558s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004954s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002499s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003132s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036750s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002624s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002733s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002016s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012064s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003297s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003890s ]
+
+[ 2013-05-27T21:31:43+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:35:12+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005678s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006305s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003478s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002703s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003337s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039758s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002935s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002858s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002557s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013715s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003228s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003807s ]
+
+[ 2013-05-27T21:35:12+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:35:29+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002429s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003071s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003036s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001574s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002174s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030978s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001825s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001953s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001455s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009387s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002102s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002664s ]
+
+[ 2013-05-27T21:35:29+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:35:35+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003256s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003365s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005856s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006494s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036972s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002486s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002980s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002226s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012589s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003239s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003803s ]
+
+[ 2013-05-27T21:35:35+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:35:41+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003043s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003799s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003799s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002094s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002730s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034257s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002856s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002087s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001768s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010876s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002835s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003409s ]
+
+[ 2013-05-27T21:35:41+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:36:32+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003501s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002365s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002969s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038495s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002579s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002552s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002430s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012162s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003689s ]
+
+[ 2013-05-27T21:36:32+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:36:45+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003353s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004030s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002922s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002251s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002852s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038605s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002991s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003154s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002088s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014148s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003435s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004121s ]
+
+[ 2013-05-27T21:36:45+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:36:58+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004873s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005787s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004900s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002710s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003331s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036106s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002897s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003579s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001991s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014105s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003750s ]
+
+[ 2013-05-27T21:36:58+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:37:55+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004465s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003395s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001566s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002255s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035106s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002140s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002784s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001483s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010670s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002271s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002859s ]
+
+[ 2013-05-27T21:37:56+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:38:26+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003813s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002846s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002439s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003069s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.058564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059193s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002889s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002736s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003236s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014148s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006244s ]
+
+[ 2013-05-27T21:38:28+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:40:12+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002312s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002953s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003160s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002590s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003206s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040780s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002843s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002757s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001901s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012456s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003355s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003947s ]
+
+[ 2013-05-27T21:40:12+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:40:19+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002348s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002959s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003091s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002555s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003194s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002471s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002802s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002057s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012012s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003246s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003812s ]
+
+[ 2013-05-27T21:40:19+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:40:38+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004975s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003796s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001545s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002137s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033996s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001808s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001822s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001165s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008809s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002418s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002990s ]
+
+[ 2013-05-27T21:40:39+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:41:10+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002349s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002978s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002707s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002360s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003005s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040937s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004216s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002613s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002892s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014381s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004292s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004870s ]
+
+[ 2013-05-27T21:41:11+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:41:21+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002475s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003183s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003100s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004092s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005391s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038795s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002515s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003042s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002126s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012600s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002832s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003393s ]
+
+[ 2013-05-27T21:41:21+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:42:36+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003030s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003798s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002978s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002251s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002850s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037294s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002920s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003151s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002269s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013290s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.006444s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007028s ]
+
+[ 2013-05-27T21:42:37+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:43:24+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003477s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002738s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002737s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003420s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035688s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002453s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003111s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002555s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013536s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003438s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004233s ]
+
+[ 2013-05-27T21:43:24+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:48:29+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.007733s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008384s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004233s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002267s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002976s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036095s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002947s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002628s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001990s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013114s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002885s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003516s ]
+
+[ 2013-05-27T21:48:30+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:51:00+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004811s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005382s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002260s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002868s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035246s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002855s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003014s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001927s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013003s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002934s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003502s ]
+
+[ 2013-05-27T21:51:00+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:51:29+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002305s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002967s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002649s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002303s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003354s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040048s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002897s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002655s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001895s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012596s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003569s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004149s ]
+
+[ 2013-05-27T21:51:29+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:52:10+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002337s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002951s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002689s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002087s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002702s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035065s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002433s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002080s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001533s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010252s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002252s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003209s ]
+
+[ 2013-05-27T21:52:11+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:52:41+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002330s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002949s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003120s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002295s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002897s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037099s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002534s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002899s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002266s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012589s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003358s ]
+
+[ 2013-05-27T21:52:41+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:53:03+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004121s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004744s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003736s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002266s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002880s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037876s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003648s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002817s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002862s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014977s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003360s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003926s ]
+
+[ 2013-05-27T21:53:03+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:55:07+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005141s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003641s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002425s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003369s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038272s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005515s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003593s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003194s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017828s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003875s ]
+
+[ 2013-05-27T21:55:07+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T21:56:41+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002814s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003446s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003795s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003644s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004411s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046957s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003441s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002913s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003665s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015270s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002991s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003575s ]
+
+[ 2013-05-27T21:56:41+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T22:00:06+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004068s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004681s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003729s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002671s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003298s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034857s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002855s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002661s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002859s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013139s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003229s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003793s ]
+
+[ 2013-05-27T22:00:07+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T22:01:57+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002902s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003692s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003068s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003689s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.044303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044910s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002660s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003711s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002435s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014096s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004025s ]
+
+[ 2013-05-27T22:01:57+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T22:03:15+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002538s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003478s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002269s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002904s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038813s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002833s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002631s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001964s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012582s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003227s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003800s ]
+
+[ 2013-05-27T22:03:16+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T22:03:46+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002390s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003011s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002683s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002257s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002857s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037200s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002794s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002863s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001931s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013289s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002855s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003416s ]
+
+[ 2013-05-27T22:03:47+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T22:04:27+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002649s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003277s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003046s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003800s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004744s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039652s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003194s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003307s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001915s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013320s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002951s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003630s ]
+
+[ 2013-05-27T22:04:27+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T22:04:49+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002658s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003275s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003038s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001899s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003093s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033841s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001992s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001951s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001487s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009951s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002995s ]
+
+[ 2013-05-27T22:04:50+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T22:05:24+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003081s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002798s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002694s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003314s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040474s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002766s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002887s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001917s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012412s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003143s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003720s ]
+
+[ 2013-05-27T22:05:25+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T22:05:38+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002962s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002941s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001617s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002210s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031281s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001736s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001818s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001176s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009431s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002827s ]
+
+[ 2013-05-27T22:05:38+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T22:06:11+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005546s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004093s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002528s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003829s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040818s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003210s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002784s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002081s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012804s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003517s ]
+
+[ 2013-05-27T22:06:11+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T22:06:55+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004657s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005309s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003740s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001641s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002586s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036204s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002061s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002109s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001539s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009867s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002299s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003151s ]
+
+[ 2013-05-27T22:06:55+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T22:07:26+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003733s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004421s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006311s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001810s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002436s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033093s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002188s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003032s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001311s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010898s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002739s ]
+
+[ 2013-05-27T22:07:26+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-27T22:07:49+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002963s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003092s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002397s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002998s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035418s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002808s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002758s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001978s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013170s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003119s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003763s ]
+
+[ 2013-05-27T22:07:50+08:00 ] ERR: (ThinkException) 无法加载模块:img

@@ -1,0 +1,3062 @@
+[ 2013-05-28T19:37:42+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005300s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005937s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.018474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019195s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.013793s ]
+INFO: [ view_template ] --END-- [ RunTime:0.014458s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.073959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074558s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002754s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003335s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002267s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013173s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003471s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004045s ]
+
+[ 2013-05-28T19:37:44+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:38:19+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002365s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002972s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003072s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002399s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003019s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.043970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044729s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003365s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003071s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002041s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014198s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002948s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003569s ]
+
+[ 2013-05-28T19:38:20+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:39:21+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004205s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004820s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003601s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002678s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003286s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.041287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041888s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002869s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002802s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002834s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014687s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004780s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005541s ]
+
+[ 2013-05-28T19:39:22+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:42:54+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005389s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006006s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003773s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003058s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003693s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038062s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002549s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002930s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002206s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012680s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003723s ]
+
+[ 2013-05-28T19:42:54+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:43:26+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003079s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002844s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002822s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003452s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037721s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002578s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003034s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001959s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013270s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003077s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003630s ]
+
+[ 2013-05-28T19:43:27+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:43:48+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002579s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003214s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002912s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002273s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003492s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036824s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002589s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003119s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001944s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013209s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002779s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003333s ]
+
+[ 2013-05-28T19:43:49+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:45:32+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002453s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003098s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003167s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003815s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004481s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038586s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002530s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002542s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001891s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011971s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003585s ]
+
+[ 2013-05-28T19:45:33+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:46:01+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005428s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003523s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002382s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002998s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036576s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002735s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002711s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003197s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013266s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002785s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003340s ]
+
+[ 2013-05-28T19:46:02+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:46:03+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002382s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003018s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003117s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002898s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003540s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037630s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002438s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003046s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001975s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012612s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002835s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003391s ]
+
+[ 2013-05-28T19:46:03+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:48:32+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005840s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006678s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.008193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008831s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004272s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004945s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037629s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002835s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002939s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002096s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012811s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002866s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003421s ]
+
+[ 2013-05-28T19:48:33+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:49:21+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002741s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003379s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003006s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002665s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003339s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038923s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003141s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002699s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002008s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013515s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003084s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003645s ]
+
+[ 2013-05-28T19:49:22+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:52:31+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004852s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006027s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002563s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003176s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038290s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004454s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002925s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002781s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015407s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003278s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003848s ]
+
+[ 2013-05-28T19:52:32+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:54:02+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003440s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002777s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002552s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003168s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035783s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002821s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002692s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002139s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012201s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003339s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003898s ]
+
+[ 2013-05-28T19:54:02+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:54:41+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005135s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006114s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003997s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001569s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002263s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029528s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001836s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001807s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001342s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009604s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002161s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002720s ]
+
+[ 2013-05-28T19:54:41+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:56:32+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003434s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004081s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003484s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002948s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003573s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041064s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002583s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002553s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001989s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013267s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003206s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003804s ]
+
+[ 2013-05-28T19:56:32+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:56:38+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003753s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004406s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003377s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002261s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002873s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039923s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002545s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002836s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002211s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012208s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002763s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003316s ]
+
+[ 2013-05-28T19:56:39+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:56:47+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004797s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005547s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003521s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002344s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002952s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036822s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002932s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002884s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001954s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012960s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003197s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003753s ]
+
+[ 2013-05-28T19:56:47+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:57:05+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002521s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003459s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002814s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002260s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002880s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040258s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002787s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002976s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002058s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012807s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003104s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003670s ]
+
+[ 2013-05-28T19:57:05+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:57:33+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005571s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003867s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002822s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003494s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039153s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003016s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002695s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002456s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012733s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002991s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003550s ]
+
+[ 2013-05-28T19:57:33+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T19:58:11+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002765s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003382s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003042s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001660s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002316s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031372s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002262s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002033s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001178s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009443s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002177s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002736s ]
+
+[ 2013-05-28T19:58:12+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:00:36+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006341s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006964s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005300s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002497s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003104s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034993s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002458s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002891s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002562s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012697s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003795s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004365s ]
+
+[ 2013-05-28T20:00:37+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:01:04+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002368s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002982s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003192s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002655s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003272s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035943s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002978s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002727s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002014s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013085s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003749s ]
+
+[ 2013-05-28T20:01:04+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:01:36+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003043s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003794s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001674s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002282s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028635s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001870s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001983s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001208s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010045s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003071s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003761s ]
+
+[ 2013-05-28T20:01:37+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:04:28+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004293s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005217s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003775s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002473s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003588s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036595s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002639s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002877s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003691s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014381s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002860s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003559s ]
+
+[ 2013-05-28T20:04:28+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:04:34+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:05:06+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003428s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002988s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002675s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003320s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038189s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003498s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003330s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002220s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013976s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003080s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003646s ]
+
+[ 2013-05-28T20:05:07+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:05:14+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002475s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003509s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003120s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003056s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003681s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041194s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002742s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003346s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002462s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014769s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005029s ]
+
+[ 2013-05-28T20:05:15+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:06:19+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002955s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003580s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003699s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002680s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003598s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039529s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002801s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003270s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002249s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013071s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003510s ]
+
+[ 2013-05-28T20:06:20+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:09:55+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004788s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003832s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003743s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004354s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037239s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002578s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002672s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002008s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011887s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003435s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004095s ]
+
+[ 2013-05-28T20:09:55+08:00 ] ERR: (ThinkException) 无法加载模块:css
+[ 2013-05-28T20:09:55+08:00 ] ERR: (ThinkException) 无法加载模块:css
+[ 2013-05-28T20:09:56+08:00 ] ERR: (ThinkException) 无法加载模块:css
+[ 2013-05-28T20:09:56+08:00 ] ERR: (ThinkException) 无法加载模块:css
+[ 2013-05-28T20:09:56+08:00 ] ERR: (ThinkException) 无法加载模块:css
+[ 2013-05-28T20:09:56+08:00 ] ERR: (ThinkException) 无法加载模块:css
+[ 2013-05-28T20:10:11+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002473s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003102s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002829s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002294s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003005s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034382s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002717s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002610s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001892s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012029s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003188s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003763s ]
+
+[ 2013-05-28T20:10:12+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:36:12+08:00 ] 127.0.0.1 /evbeta/Home/mall/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005738s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003538s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005707s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006386s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.142968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002585s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002678s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002178s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014083s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002973s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004993s ]
+
+[ 2013-05-28T20:36:13+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:36:13+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:36:16+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:36:20+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:36:20+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:36:27+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:42:13+08:00 ] 127.0.0.1 /evbeta/Home/Index/busart
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005068s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003791s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002797s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003428s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038414s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003027s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002952s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002016s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014638s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003407s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2013-05-28T20:42:13+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:43:42+08:00 ] 127.0.0.1 /evbeta/Home/Index/busart
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004469s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003464s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002097s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002771s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027407s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002953s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002789s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001366s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011526s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002422s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002992s ]
+
+[ 2013-05-28T20:43:42+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:45:12+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003426s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002940s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002711s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003341s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037567s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002668s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003199s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004146s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015198s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003429s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004002s ]
+
+[ 2013-05-28T20:45:12+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:47:37+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005618s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004735s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002811s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003434s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033442s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002791s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002945s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003430s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014560s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003227s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003935s ]
+
+[ 2013-05-28T20:47:37+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T20:47:38+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:49:47+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004691s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005314s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004387s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003118s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004242s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035388s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003060s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.006910s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002052s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018003s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003684s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004255s ]
+
+[ 2013-05-28T20:49:48+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T20:49:48+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:50:01+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002360s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002986s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003750s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003152s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004128s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035808s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003080s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002915s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002333s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014086s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003643s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004220s ]
+
+[ 2013-05-28T20:50:01+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T20:50:01+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:50:16+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006615s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008031s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004780s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002647s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003277s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038069s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002534s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003645s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004155s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017402s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003138s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003713s ]
+
+[ 2013-05-28T20:50:17+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T20:50:17+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:50:39+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003606s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002987s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001817s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003016s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035650s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002118s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002441s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002313s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011480s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.007068s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007669s ]
+
+[ 2013-05-28T20:50:39+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T20:50:40+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:50:51+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002571s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003293s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005638s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001601s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002222s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026503s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002281s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001949s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001204s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009234s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002975s ]
+
+[ 2013-05-28T20:50:51+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T20:50:51+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:51:04+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003016s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003639s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003142s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001827s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002439s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028935s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001966s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002334s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001237s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010406s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002493s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003064s ]
+
+[ 2013-05-28T20:51:04+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T20:51:04+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:52:29+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005009s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006215s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003859s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007421s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008066s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.050896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051514s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005353s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002736s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002243s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015127s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003459s ]
+
+[ 2013-05-28T20:52:29+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T20:52:30+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:52:55+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005048s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004531s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003239s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006865s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.043793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044409s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002836s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002908s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002241s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013611s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003278s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003941s ]
+
+[ 2013-05-28T20:52:56+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T20:52:56+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:54:08+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002590s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003218s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003260s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009240s ]
+INFO: [ view_template ] --END-- [ RunTime:0.010010s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.054762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055515s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.006110s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004242s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.006287s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.008946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027986s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004861s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005626s ]
+
+[ 2013-05-28T20:54:09+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T20:54:09+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:54:19+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002940s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003843s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002713s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001934s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002612s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027134s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003201s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002310s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001427s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011378s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002475s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003049s ]
+
+[ 2013-05-28T20:54:19+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T20:54:19+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:54:45+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005018s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006228s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003654s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002620s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003234s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038585s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003037s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002915s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002220s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012886s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003990s ]
+
+[ 2013-05-28T20:54:45+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T20:54:45+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T20:59:29+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004724s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005347s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004164s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002420s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003389s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038752s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002615s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002633s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001951s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013315s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005424s ]
+
+[ 2013-05-28T20:59:29+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T20:59:30+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:00:06+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002921s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003646s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003120s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002327s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002945s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038915s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002884s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002728s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002442s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012879s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002848s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003411s ]
+
+[ 2013-05-28T21:00:07+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:00:07+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:00:38+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002807s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003436s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003122s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002667s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003289s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047222s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002549s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003205s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002240s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014717s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003334s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003906s ]
+
+[ 2013-05-28T21:00:38+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:00:38+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:03:01+08:00 ] 127.0.0.1 /evbeta/Home/Index/rank/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006277s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004240s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002747s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003376s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037062s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002933s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003622s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002183s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014049s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003874s ]
+
+[ 2013-05-28T21:03:02+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:03:04+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:03:04+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:05:12+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005104s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006263s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004187s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002919s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003561s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040141s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002775s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004073s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002418s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015654s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004166s ]
+
+[ 2013-05-28T21:05:13+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:05:13+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:05:25+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:05:25+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:08:34+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004766s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005392s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004428s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002280s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002894s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035992s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002817s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002794s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001941s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013104s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003685s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004292s ]
+
+[ 2013-05-28T21:08:34+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:08:35+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:18:05+08:00 ] 127.0.0.1 /evbeta/Home/Index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006576s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004381s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006417s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007076s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.043968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044597s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003266s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004825s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002654s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016368s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004078s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004731s ]
+
+[ 2013-05-28T21:18:05+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:18:09+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002923s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003692s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003059s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003339s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003970s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031238s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002716s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002019s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001727s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011898s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002257s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002829s ]
+
+[ 2013-05-28T21:18:09+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:18:10+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:21:49+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:21:49+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:21:49+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:21:51+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:24:02+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004923s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005569s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004686s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002280s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002898s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037152s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002581s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002560s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002223s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013084s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003776s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004353s ]
+
+[ 2013-05-28T21:24:03+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:24:03+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:25:01+08:00 ] 127.0.0.1 /evbeta/Home/mall/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003059s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003682s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003319s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005589s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006217s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043133s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002568s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002914s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002207s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014933s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003677s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004372s ]
+
+[ 2013-05-28T21:25:01+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:25:01+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:25:03+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:25:03+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:25:05+08:00 ] 127.0.0.1 /evbeta/Home/mall/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002547s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003175s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002814s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002953s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003876s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034916s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001830s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.006005s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001238s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016289s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003135s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003716s ]
+
+[ 2013-05-28T21:25:06+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:25:06+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:25:08+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:25:08+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:25:35+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002663s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003307s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004649s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001588s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002187s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027191s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001757s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001895s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001640s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010101s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002503s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003068s ]
+
+[ 2013-05-28T21:25:35+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:25:35+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:27:41+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005522s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003853s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002559s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003228s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038192s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002640s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002692s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002251s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014012s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003077s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003650s ]
+
+[ 2013-05-28T21:27:41+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:27:41+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:28:13+08:00 ] 127.0.0.1 /evbeta/Home/Index/address
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004431s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005262s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002796s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006920s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007550s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028934s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002406s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003680s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002085s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013461s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002939s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003528s ]
+
+[ 2013-05-28T21:28:13+08:00 ] ERR: (ThinkException) 非法操作:js
+[ 2013-05-28T21:29:02+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:29:02+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:30:05+08:00 ] 127.0.0.1 /evbeta/Home/Index/news_list
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003282s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004089s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003228s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003029s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003640s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035889s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003121s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002608s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015413s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003214s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003897s ]
+
+[ 2013-05-28T21:30:06+08:00 ] ERR: (ThinkException) 非法操作:二维码开发
+[ 2013-05-28T21:30:06+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-28T21:50:42+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007363s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004362s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.023640s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.022547s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006996s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007592s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040009s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003420s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003669s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002348s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016192s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003104s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003715s ]
+
+[ 2013-05-28T21:50:43+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T21:50:43+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T21:50:44+08:00 ] 127.0.0.1 /evbeta/User/Storer/cert_info
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003220s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003071s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002387s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003005s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.062968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063574s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002887s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002618s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001947s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013715s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003008s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003584s ]
+
+[ 2013-05-28T21:50:45+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T21:50:45+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:02:09+08:00 ] 127.0.0.1 /evbeta/User/Storer/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005081s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005753s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005052s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.026323s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.024786s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007784s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008630s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036666s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002714s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003811s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002070s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014526s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003076s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004193s ]
+
+[ 2013-05-28T22:02:10+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:02:10+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:06:58+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004322s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004946s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004037s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.025687s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.024711s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008304s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008928s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037005s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002330s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003034s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002558s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015213s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003761s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004538s ]
+
+[ 2013-05-28T22:06:59+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:06:59+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:07:35+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002374s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002989s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003107s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.026355s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.025694s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006220s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007240s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038157s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002568s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003169s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001960s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015072s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004808s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005470s ]
+
+[ 2013-05-28T22:07:36+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:07:36+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:07:50+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003633s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003083s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.023691s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.022339s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007452s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008062s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035547s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002623s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003005s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003970s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017186s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003297s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003892s ]
+
+[ 2013-05-28T22:07:51+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:07:51+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:08:03+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003398s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004741s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004254s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.023707s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.022372s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004670s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005636s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035654s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002163s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005452s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001459s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016107s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002583s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003159s ]
+
+[ 2013-05-28T22:08:03+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:08:03+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:08:44+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004098s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004081s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.025599s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.025796s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006438s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007070s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034186s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002133s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002282s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001282s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011081s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002298s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002913s ]
+
+[ 2013-05-28T22:08:45+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:08:45+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:09:02+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004603s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005540s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003576s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.025637s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.024761s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006753s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007472s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038139s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003799s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003212s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002781s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015942s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003307s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003903s ]
+
+[ 2013-05-28T22:09:02+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:09:02+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:09:16+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002356s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002979s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003706s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.026657s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.025291s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008156s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008792s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033726s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002822s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002211s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001287s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011333s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002772s ]
+
+[ 2013-05-28T22:09:16+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:09:16+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:09:35+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002785s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003414s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003513s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.023611s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.022151s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005092s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005735s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.041949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042598s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004370s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002676s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001789s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014269s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002740s ]
+
+[ 2013-05-28T22:09:35+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:09:35+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:10:08+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005096s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004218s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.025653s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.025831s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006461s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007130s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035667s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002539s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002664s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002344s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013486s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003775s ]
+
+[ 2013-05-28T22:10:09+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:10:09+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:10:27+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002705s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003336s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003041s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.024687s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.022073s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006865s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007553s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036195s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002726s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002539s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002051s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014070s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004165s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004778s ]
+
+[ 2013-05-28T22:10:27+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:10:27+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:11:27+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004361s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004980s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003992s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.023689s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.022386s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007181s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007985s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043272s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003171s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003873s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002640s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.006733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018486s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003630s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004239s ]
+
+[ 2013-05-28T22:11:27+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:11:27+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:12:33+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003280s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003921s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003722s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.026117s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.025628s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007140s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007747s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036400s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002360s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002839s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002944s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014644s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005190s ]
+
+[ 2013-05-28T22:12:34+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:12:34+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:13:00+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002613s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003563s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002744s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.025653s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.025362s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007119s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007757s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035496s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002505s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003529s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002409s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013992s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006448s ]
+
+[ 2013-05-28T22:13:01+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:13:01+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:13:19+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002389s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003270s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.025187s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.025399s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002758s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003353s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036391s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002104s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001938s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001186s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010827s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002905s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003508s ]
+
+[ 2013-05-28T22:13:19+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:13:19+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:13:55+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002530s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003149s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003997s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.023722s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.022498s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002415s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003002s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032316s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002085s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001845s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001167s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012575s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002113s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002746s ]
+
+[ 2013-05-28T22:13:56+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:13:56+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:14:28+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003738s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004394s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003253s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.023601s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.023523s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004864s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005761s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033200s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002071s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002631s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001297s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012138s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002388s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002973s ]
+
+[ 2013-05-28T22:14:28+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:14:28+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:14:55+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003143s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003859s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003824s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.022736s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.023627s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006323s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007267s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038367s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003354s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003009s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001983s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015386s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002853s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003419s ]
+
+[ 2013-05-28T22:14:55+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:14:56+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:15:48+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002924s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003658s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003415s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.026683s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.025183s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004925s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005562s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033113s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002440s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001851s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001173s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010938s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002869s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003533s ]
+
+[ 2013-05-28T22:15:49+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:15:49+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:16:23+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004024s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004801s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003029s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.025965s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.024691s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007767s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008395s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036256s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002705s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003871s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002272s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014805s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003143s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003771s ]
+
+[ 2013-05-28T22:16:24+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:16:24+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:16:29+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003740s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004405s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003231s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009664s ]
+INFO: [ view_template ] --END-- [ RunTime:0.010527s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.066549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067185s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.013298s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003661s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002764s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.007735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029462s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004488s ]
+
+[ 2013-05-28T22:16:30+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:16:34+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:16:34+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:16:39+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003315s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003954s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002888s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005828s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006925s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037721s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002740s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002773s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002478s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013840s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003733s ]
+
+[ 2013-05-28T22:16:40+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:16:55+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:16:55+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:17:26+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004952s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003902s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.025006s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.022136s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005530s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006155s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033927s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002104s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001971s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001241s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011323s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002626s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003238s ]
+
+[ 2013-05-28T22:17:26+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:17:27+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:18:38+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003636s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003423s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.026335s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.024677s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008447s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009557s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.043621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044229s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003440s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003073s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004054s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017537s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003347s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004011s ]
+
+[ 2013-05-28T22:18:39+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:18:39+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:23:42+08:00 ] 127.0.0.1 /evbeta/User/Storer//
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005251s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005911s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003927s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.023484s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.022962s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007552s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008176s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043431s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003017s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003733s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002403s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003901s ]
+
+[ 2013-05-28T22:23:43+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:23:43+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:23:43+08:00 ] 127.0.0.1 /evbeta/User/Storer/add.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002571s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003212s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002690s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007104s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007935s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.041783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042405s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002977s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002873s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003110s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015206s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003603s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004222s ]
+
+[ 2013-05-28T22:23:44+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:23:44+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003366s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004066s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003165s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004668s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005298s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038325s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003241s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003884s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002630s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.008037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020309s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003722s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004305s ]
+
+[ 2013-05-28T22:23:44+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:23:45+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005433s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006091s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003322s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004257s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030251s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001689s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002768s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001337s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011378s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002187s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002767s ]
+
+[ 2013-05-28T22:23:45+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:23:46+08:00 ] 127.0.0.1 /evbeta/User/Storer/store
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002413s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003113s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002902s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.024635s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.024620s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004145s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004969s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043278s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001881s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002407s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001411s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011003s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002196s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002773s ]
+
+[ 2013-05-28T22:23:46+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:23:46+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:23:47+08:00 ] 127.0.0.1 /evbeta/User/Storer/card
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002807s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003750s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004352s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007280s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008296s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040353s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002416s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003357s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001221s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013160s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003557s ]
+
+[ 2013-05-28T22:23:47+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:23:52+08:00 ] 127.0.0.1 /evbeta/User/Storer/cert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003113s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004565s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003958s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007039s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007835s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038308s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002610s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004478s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001677s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014074s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002270s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002839s ]
+
+[ 2013-05-28T22:23:53+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:23:53+08:00 ] 127.0.0.1 /evbeta/User/Storer/password
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005561s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003146s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004037s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004691s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033932s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003923s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002219s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001198s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014395s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002794s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003501s ]
+
+[ 2013-05-28T22:23:53+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:23:54+08:00 ] 127.0.0.1 /evbeta/User/Storer/scene
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004336s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005208s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003392s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004844s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005495s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035039s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002815s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002052s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001260s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012947s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003658s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004245s ]
+
+[ 2013-05-28T22:23:54+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:23:54+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:24:46+08:00 ] 127.0.0.1 /evbeta/User/Member/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004730s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005661s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003538s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006774s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007448s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037463s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002620s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003800s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014327s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004206s ]
+
+[ 2013-05-28T22:26:52+08:00 ] 127.0.0.1 /evbeta/User/Member/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005481s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004811s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009185s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009938s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041449s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002708s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003607s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002060s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014770s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003871s ]
+
+[ 2013-05-28T22:27:24+08:00 ] 127.0.0.1 /evbeta/User/Member/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006729s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003509s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006248s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006876s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039671s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002461s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002689s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003115s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014689s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003124s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004213s ]
+
+[ 2013-05-28T22:28:01+08:00 ] 127.0.0.1 /evbeta/User/Member/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002395s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003368s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003036s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004652s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005594s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031916s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001703s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001937s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001173s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010596s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003811s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004800s ]
+
+[ 2013-05-28T22:28:08+08:00 ] 127.0.0.1 /evbeta/User/Member/profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003424s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003386s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006714s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.044617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045369s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002315s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001838s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001185s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011599s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002683s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003268s ]
+
+[ 2013-05-28T22:28:31+08:00 ] 127.0.0.1 /evbeta/User/Storer/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004583s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002868s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.025682s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.024956s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.099631s ]
+INFO: [ view_template ] --END-- [ RunTime:0.100282s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036765s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002388s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002186s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001261s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011694s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002107s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002703s ]
+
+[ 2013-05-28T22:28:31+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:28:31+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:28:52+08:00 ] 127.0.0.1 /evbeta/User/Member/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002474s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003114s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006463s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007469s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008112s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034615s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002466s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002178s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002175s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012319s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002139s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002743s ]
+
+[ 2013-05-28T22:30:47+08:00 ] 127.0.0.1 /evbeta/User/Member/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004863s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005487s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004485s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008572s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009199s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038912s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003610s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002897s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002274s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015636s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003298s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003916s ]
+
+[ 2013-05-28T22:30:48+08:00 ] 127.0.0.1 /evbeta/User/Member/profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004245s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004875s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003764s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005101s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005861s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039276s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003810s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002821s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002509s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015766s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003279s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004109s ]
+
+[ 2013-05-28T22:30:48+08:00 ] 127.0.0.1 /evbeta/User/Member/concern
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003344s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003514s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006059s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006829s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039551s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002393s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001834s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001421s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012285s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002494s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003297s ]
+
+[ 2013-05-28T22:30:49+08:00 ] 127.0.0.1 /evbeta/User/Member/cert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002605s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003306s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003580s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004421s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005080s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038387s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002137s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002581s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001477s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012022s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003164s ]
+
+[ 2013-05-28T22:30:50+08:00 ] 127.0.0.1 /evbeta/User/Member/card
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002928s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002788s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004955s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005593s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035740s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002908s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002154s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001581s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013308s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005356s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005962s ]
+
+[ 2013-05-28T22:30:56+08:00 ] 127.0.0.1 /evbeta/User/Member/cert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002344s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002962s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002831s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005362s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006007s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031849s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002145s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002222s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001330s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011180s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004482s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005087s ]
+
+[ 2013-05-28T22:30:57+08:00 ] 127.0.0.1 /evbeta/User/Member/concern
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003084s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004171s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002810s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004160s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004791s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037805s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002151s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003007s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001286s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014019s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002597s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003275s ]
+
+[ 2013-05-28T22:30:58+08:00 ] 127.0.0.1 /evbeta/User/Member/profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002991s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003760s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002687s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004897s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005903s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033454s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002039s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001847s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001543s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011306s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002214s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002783s ]
+
+[ 2013-05-28T22:31:52+08:00 ] 127.0.0.1 /evbeta/User/Member/profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002705s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003333s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002986s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005653s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006398s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035087s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002020s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002262s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001307s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011206s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002565s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003144s ]
+
+[ 2013-05-28T22:32:01+08:00 ] 127.0.0.1 /evbeta/User/Storer/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005390s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006072s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003611s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.026599s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.024784s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006452s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007053s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037891s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002449s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002696s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002304s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014296s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003215s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003855s ]
+
+[ 2013-05-28T22:32:01+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:32:01+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:32:32+08:00 ] 127.0.0.1 /evbeta/User/Storer/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003104s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002838s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.025323s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.025270s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007710s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009385s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034151s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002514s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001811s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001162s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010554s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002375s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002954s ]
+
+[ 2013-05-28T22:32:33+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:32:33+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:32:35+08:00 ] 127.0.0.1 /evbeta/User/Storer/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003137s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003785s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003153s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.025728s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.024863s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005635s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006266s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033263s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002182s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001905s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001516s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010779s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003697s ]
+
+[ 2013-05-28T22:32:35+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:32:35+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:33:15+08:00 ] 127.0.0.1 /evbeta/User/Storer/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005266s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004543s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.026942s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.025414s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005965s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006579s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041089s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002642s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002654s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001911s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012558s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005218s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006293s ]
+
+[ 2013-05-28T22:33:15+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:33:15+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-28T22:33:34+08:00 ] 127.0.0.1 /evbeta/User/Member/concern
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002385s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003009s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003337s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005626s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006273s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.058309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058920s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003384s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002749s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002055s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.006507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016333s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004274s ]
+
+[ 2013-05-28T22:33:35+08:00 ] 127.0.0.1 /evbeta/User/Member/cert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002589s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003605s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002911s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004694s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005338s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038926s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002813s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002113s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001210s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.006025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013823s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003963s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004795s ]
+
+[ 2013-05-28T22:33:35+08:00 ] 127.0.0.1 /evbeta/User/Member/card
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004894s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006390s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005586s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009166s ]
+INFO: [ view_template ] --END-- [ RunTime:0.010055s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040257s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002339s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002810s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001260s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011634s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003103s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003689s ]
+
+[ 2013-05-28T22:33:36+08:00 ] 127.0.0.1 /evbeta/User/Member/concern
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002627s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003251s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002900s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004471s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005521s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037222s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002649s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002455s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001388s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011691s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002417s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003024s ]
+
+[ 2013-05-28T22:33:36+08:00 ] 127.0.0.1 /evbeta/User/Member/concern
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003757s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005518s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004269s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005212s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039301s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003537s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002233s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001751s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012836s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002518s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003093s ]
+

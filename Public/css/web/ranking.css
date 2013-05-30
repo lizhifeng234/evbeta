@@ -8,12 +8,81 @@
 .ur li.c3 .r_num { background-color:#e29714; background-position:-191px -44px;}
 .ur li .r_img { width:288px; height:162px; float:left;margin-right:1px;}
 .ur li .r_img img { width:288px; height:162px;}
-.ur li .r_info { float:left; padding:6px 5px 0px 10px; width:135px; height:154px; border:#c8c8c8 1px solid; overflow:hidden;}
-.ur li .r_info .t { font-size:14px; line-height:24px; max-height:48px; overflow:hidden;}
+.ur li .r_info { float:left; padding:6px 5px 0px 10px; width:200px; height:154px; border:#c8c8c8 1px solid; overflow:hidden;}
+.ur li .r_info .t { font-size:16px; line-height:24px; max-height:48px; overflow:hidden;}
 .ur li .r_info .x { font-size:12px; line-height:18px;}
 .ur li .r_info .x a{margin-left:5px;}
 .ur li .r_info .x .p { color:#e21454;} 
 .ur li .r_rmsp { float:left; height:156px; border:#c8c8c8 1px solid; border-left:0; padding:4px 1px 0 15px; background:#f0f0f0;}
-.ur li .r_rmsp .t { line-height:26px; color:#e29714; font-size:14px;}
+.ur li .r_rmsp .t { line-height:26px; color:#e29714; font-size:16px;}
 .ur li .r_rmsp .dyp { float:left; margin-right:14px; width:120px; height:120px;}
 .ur li .r_rmsp .dyp img {width:120px; height:120px;}
+.news li{margin-bottom:0;margin-top:10px;}
+.news li a{font-size:14px;}
+.zan,.see,.zan p,.see p{float:left;}
+.zan p,.see p{margin-left:10px;display: inline;}
+.r_info .area{font-size:14px;margin-bottom:30px;}
+.zan{background:#e29714;}
+.see{background:#1492e2;}
+.zan,.see{width:95px;height:50px;display:block;float: left;line-height:50px;color:white; font-size: 16px;font-weight:bold;}
+.zan:hover,.see:hover{text-decoration:none;}
+.zan span,.see span{margin-top:15px;color:black;font-weight:normal;font-size:12px;width:48px;height:23px;background:url(../../img/web/num.jpg) no-repeat;display:block;float:left;text-align:center;line-height:23px;}
+
+/*news_list*/
+.evartlist_main .list{
+	height:100px;
+	width:auto;
+	border:#ccc solid 1px;
+	margin:10px;
+	}
+.evartlist_main .list .left{
+	width:620px;
+	height:auto;
+	float:left;
+	padding:10px;
+	}
+.evartlist_main .list .right{
+	width:280px;
+	float:right;
+	height:auto;
+	height:80px;
+	padding:10px;
+	}
+.evartlist_main .list .right .left{
+	width:120px;
+	height:60px;
+	background-color:#00C;
+	float:left;
+	}
+.evartlist_main .list .right .right{
+	width:120px;
+	height:60px;
+	background-color:#C33;
+	float:right;
+	}
+.evartlist_main .list .left img{
+	width:116px;
+	height:66px;
+	float:left;
+	border:3px #FFF inherit;
+	margin-top:5px;
+	}
+.evartlist_main .list .left	.content{
+	float:right;
+	width:480px;
+	height:auto;}
+	
+.evartlist_main .list .left .title{
+	line-height:30px;
+	color:#F06;
+	font-family:"Comic Sans MS", cursive;
+	font-size:14px;
+	font-weight:bolder;	
+	}
+	
+.evartlist_main .list .left .abstract{
+	line-height:25px;
+	color:#000;
+	font-size:12px;
+	text-indent:30px;
+	}

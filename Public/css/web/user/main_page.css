@@ -21,11 +21,11 @@
 #accordion,.mp_me_dy,.r_breadcrumb{padding:5px;background:white;box-shadow: 0 1px 1px #ccc;margin:10px;}
 .block_table tr{height: 50px;}
 .user_list li{height:30px;}
-table.concern{background:gray;color:white;text-align: center;}
-table.concern tr{height:40px;background:white}
-table.concern tr:hover{background:#F1F1F1}
-.concern th{background:#E1E1E1;color:#e21454;font-weight: bold;font-size: 18px;}
-.concern td{color:black;}
+table.concern{background:white;color:white;text-align: center;}
+table.concern tr{height:40px;background:rgb(245, 245, 245)}
+table.concern tr:hover{background:white}
+.concern th{background:rgb(213, 213, 213);color:#555;font-weight: bold;font-size: 18px;}
+.concern td{color:rgb(75, 75, 75);}
 .input{height:30px;width:250px;font-size:16px;}
 .block_table select{height:30px;}
 .user_index{margin:10px;}
@@ -34,7 +34,9 @@ table.concern tr:hover{background:#F1F1F1}
 .page{text-align:center;}
 .page a{margin:0 10px;}
 .r_col a{color:#0099FF}
-.user_list li a{height:30px; line-height:30px; display: block;}
+.user_list li a{height:30px; line-height:30px; display: block;color:rgb(77, 86, 95);padding-left:10px}
+.user_list li a:hover{text-decoration:none;background: #e6e8ec;color:#369}
+.user_list li a em{background:url(../../../img/web/arrow.png) 0 -125px no-repeat;width:10px;height:12px;display:inline-block;float: right;margin-top:8px;margin-right:10px;}
 .user_list .home a{background:#66ccff;color:white;font-weight:bold;width:170px;height:30px;display:block;text-align:center;line-height:30px;}
-.user_list .home a:hover{text-decoration:none;}
-.user_list .on{border-right:4px solid #66ccff;border-bottom:1px solid #66ccff}
+.user_list .home a:hover{text-decoration:none;background:#66ccff;}
+.user_list .on{background: #e6e8ec;}

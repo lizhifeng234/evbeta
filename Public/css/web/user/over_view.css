@@ -21,8 +21,11 @@
 .imgbox{border:1px solid black;height:150px;}
 .input{line-height:30px;width:300px;font-size: 16px;}
 .menu_list01 li{line-height:30px;}
+.menu_list01 li a{padding-left:10px;display:block;color:rgb(77, 86, 95)}
+.menu_list01 li a:hover{text-decoration:none;background: #e6e8ec;color:#369}
+.menu_list01 li a em{background:url(../../../img/web/arrow.png) 0 -125px no-repeat;width:10px;height:12px;display:inline-block;float: right;margin-top:8px;margin-right:10px;}
 .menu_list01 .home a{background:#66ccff;color:white;font-weight:bold;width:170px;height:30px;display:block;text-align:center;}
-.menu_list01 .home a:hover{text-decoration:none;}
+.menu_list01 .home a:hover{text-decoration:none;background: #66ccff;}
 .menu_list01 .top {color:#66ccff;font-weight:bold;}
-.menu_list01 .on{border-right:4px solid #66ccff;border-bottom:1px solid #66ccff}
+.menu_list01 .on{background: #e6e8ec;}
 .imgbox{margin-top:10px;margin-left:10px;}

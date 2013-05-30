@@ -1,0 +1,1535 @@
+[ 2013-05-30T19:31:56+08:00 ] 127.0.0.1 /evbeta/User/Storer/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005736s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.013920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014548s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.025643s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.024710s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.112430s ]
+INFO: [ view_template ] --END-- [ RunTime:0.113033s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.285417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.285999s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.033161s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.068535s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.020513s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.129184s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.081264s ]
+INFO: [ view_end ] --END-- [ RunTime:0.081864s ]
+
+[ 2013-05-30T19:31:58+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:31:58+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:34:42+08:00 ] 127.0.0.1 /evbeta/User/Storer/add.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004565s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006906s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004160s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002381s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002991s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.094972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095859s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002563s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002583s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001963s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011987s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003550s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004167s ]
+
+[ 2013-05-30T19:34:42+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:34:43+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003135s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002871s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002551s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003168s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.058630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059223s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002455s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002619s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003096s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012818s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002947s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003507s ]
+
+[ 2013-05-30T19:34:43+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:38:14+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004601s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005229s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003683s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002234s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002837s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.044276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044862s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002320s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002502s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002531s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012197s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003111s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003682s ]
+
+[ 2013-05-30T19:38:14+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:38:15+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003383s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002919s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001535s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002154s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025829s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001880s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001969s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001457s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009610s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002118s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002670s ]
+
+[ 2013-05-30T19:38:15+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:38:37+08:00 ] 127.0.0.1 /evbeta/User/Storer/store
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002316s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002930s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.023426s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.021934s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002729s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003302s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.056419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057011s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001853s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002443s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001240s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009309s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002052s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002603s ]
+
+[ 2013-05-30T19:38:37+08:00 ] 127.0.0.1 /evbeta/User/Storer/card
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004273s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005006s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003980s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002546s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003172s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047333s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002361s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002604s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002235s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012508s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003731s ]
+
+[ 2013-05-30T19:39:58+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002322s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002943s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002749s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001871s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002485s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027100s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001920s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002201s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001274s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009529s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002384s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002981s ]
+
+[ 2013-05-30T19:39:58+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:40:00+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005886s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003219s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001745s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002651s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025995s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002095s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002393s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.005574s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014597s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002841s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003614s ]
+
+[ 2013-05-30T19:40:00+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:40:52+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005947s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006607s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003779s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002319s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002920s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031108s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002637s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002901s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001937s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012910s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002864s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003714s ]
+
+[ 2013-05-30T19:40:53+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:41:40+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003479s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002919s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001581s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002179s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026592s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001640s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002099s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001643s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009560s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004337s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005216s ]
+
+[ 2013-05-30T19:41:40+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:42:12+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002370s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003067s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003003s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002248s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002855s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031578s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002615s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002558s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001912s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012082s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003212s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003783s ]
+
+[ 2013-05-30T19:42:12+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:43:12+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002360s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002985s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003027s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002322s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002933s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033334s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002957s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002600s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013819s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002975s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003537s ]
+
+[ 2013-05-30T19:43:12+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:43:59+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005243s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005918s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003796s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002745s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004624s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029933s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002749s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002567s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001873s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011683s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002808s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003363s ]
+
+[ 2013-05-30T19:43:59+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:44:42+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003156s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003064s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001608s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002220s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026437s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001933s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001887s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001458s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009349s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002125s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002680s ]
+
+[ 2013-05-30T19:44:42+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:45:05+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002397s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003012s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002639s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002325s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029374s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002301s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002677s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001915s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012702s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003988s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004686s ]
+
+[ 2013-05-30T19:45:05+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:45:29+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002324s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002934s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003173s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002638s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003246s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031283s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002952s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003149s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002004s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014004s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003713s ]
+
+[ 2013-05-30T19:45:29+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:46:22+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004114s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004725s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003802s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002697s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003325s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029362s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002851s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002606s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001919s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012011s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003311s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003881s ]
+
+[ 2013-05-30T19:46:22+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:46:43+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002862s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003637s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003430s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001775s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002396s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028981s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002079s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001918s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001379s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009672s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002270s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002840s ]
+
+[ 2013-05-30T19:46:43+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:46:44+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002325s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002938s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002906s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001555s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002183s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027044s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001823s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002207s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002368s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010632s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002203s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002771s ]
+
+[ 2013-05-30T19:46:45+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:47:00+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002675s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003293s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002969s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001589s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002190s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023026s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001739s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003141s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001196s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009893s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002057s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002612s ]
+
+[ 2013-05-30T19:47:00+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:47:01+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003471s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002980s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001851s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002477s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024839s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001633s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002094s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001202s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009042s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002893s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003473s ]
+
+[ 2013-05-30T19:47:01+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:47:41+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002354s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003272s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002961s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001600s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002202s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024505s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001670s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002232s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011323s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002209s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002770s ]
+
+[ 2013-05-30T19:47:42+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:47:43+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002324s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002936s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003037s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001844s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002452s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025209s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001626s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001795s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001157s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009040s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002345s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002917s ]
+
+[ 2013-05-30T19:47:43+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:48:52+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004723s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005352s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003364s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002288s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002902s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031670s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002431s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002840s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002257s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012391s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003124s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003710s ]
+
+[ 2013-05-30T19:48:52+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:49:23+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003567s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004452s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002785s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002252s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002853s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031388s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002310s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002514s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002319s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011761s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003350s ]
+
+[ 2013-05-30T19:49:23+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:49:29+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002911s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003180s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001862s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002465s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025174s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001591s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002249s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001268s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009433s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002150s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002712s ]
+
+[ 2013-05-30T19:49:29+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:53:33+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006101s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007017s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004053s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002534s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003486s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035505s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002830s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003207s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002312s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013624s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003389s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003967s ]
+
+[ 2013-05-30T19:53:33+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:54:33+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002299s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002912s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003044s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001849s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002885s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027008s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002201s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002668s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001263s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014158s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2013-05-30T19:54:33+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:56:17+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004630s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005538s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003743s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002239s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002840s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035049s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002566s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003206s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002227s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012902s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003483s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004160s ]
+
+[ 2013-05-30T19:56:17+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:56:19+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004160s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002787s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002765s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003381s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029691s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002477s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002504s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001853s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011346s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002779s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003873s ]
+
+[ 2013-05-30T19:56:19+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:56:25+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002308s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002921s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002632s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001963s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002609s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025422s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001631s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002283s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001324s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009040s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002054s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002612s ]
+
+[ 2013-05-30T19:56:25+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:56:51+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002316s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002933s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003052s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001539s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002134s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025062s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001622s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002228s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001458s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009288s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002076s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002717s ]
+
+[ 2013-05-30T19:56:52+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:57:07+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003398s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002712s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001905s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002562s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024613s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001605s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002311s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001283s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009614s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002147s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002702s ]
+
+[ 2013-05-30T19:57:07+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:57:09+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002653s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003274s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003774s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001616s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002209s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023262s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001580s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001788s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001218s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008793s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002969s ]
+
+[ 2013-05-30T19:57:09+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T19:57:25+08:00 ] 127.0.0.1 /evbeta/User/Member/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003081s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002951s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003853s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004460s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.253448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.254049s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001969s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001907s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001172s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008858s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002072s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002633s ]
+
+[ 2013-05-30T19:57:28+08:00 ] 127.0.0.1 /evbeta/User/Member/concern
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004746s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005369s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003409s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002209s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002817s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030162s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002884s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002846s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001910s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012508s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003102s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003670s ]
+
+[ 2013-05-30T19:57:31+08:00 ] 127.0.0.1 /evbeta/User/Member/cert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002767s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003395s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003053s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001836s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002466s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030070s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001897s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002492s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001432s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010386s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002985s ]
+
+[ 2013-05-30T19:57:33+08:00 ] 127.0.0.1 /evbeta/User/Member/card
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003010s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003863s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003271s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004441s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005252s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039024s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001772s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002116s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001702s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009902s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002090s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002662s ]
+
+[ 2013-05-30T19:57:34+08:00 ] 127.0.0.1 /evbeta/User/Member/concern
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002444s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003099s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003546s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004012s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004644s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026934s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001624s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001804s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001204s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008414s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002054s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002618s ]
+
+[ 2013-05-30T19:57:57+08:00 ] 127.0.0.1 /evbeta/User/Storer/store
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002361s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003484s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002748s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.026689s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.024711s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002744s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003322s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034706s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001785s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001865s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001216s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008666s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002058s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002618s ]
+
+[ 2013-05-30T19:59:40+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005391s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006033s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003973s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002278s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002889s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031295s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002727s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002801s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001942s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012052s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003296s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003875s ]
+
+[ 2013-05-30T19:59:40+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:00:21+08:00 ] ERR: (ThinkException) 非法操作:css
+[ 2013-05-30T20:01:08+08:00 ] 127.0.0.1 /evbeta/User/Member/concern
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004509s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005657s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002781s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004196s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004835s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029621s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001632s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002020s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001645s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009341s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002122s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002677s ]
+
+[ 2013-05-30T20:01:29+08:00 ] 127.0.0.1 /evbeta/User/Member/concern
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004316s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004949s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003438s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003226s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003845s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034684s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002674s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003154s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002196s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013789s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002833s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003399s ]
+
+[ 2013-05-30T20:01:57+08:00 ] 127.0.0.1 /evbeta/User/Member/concern
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005119s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005824s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003372s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003013s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003615s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034821s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002862s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002612s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001994s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013761s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003508s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004077s ]
+
+[ 2013-05-30T20:02:49+08:00 ] 127.0.0.1 /evbeta/User/Member/concern
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004643s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005291s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003822s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002695s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003324s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034066s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003057s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002597s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002274s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012967s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003133s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003743s ]
+
+[ 2013-05-30T20:03:43+08:00 ] 127.0.0.1 /evbeta/User/Member/concern
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002418s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003057s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002829s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003141s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003745s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029823s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002523s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001891s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001230s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010756s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002548s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003110s ]
+
+[ 2013-05-30T20:04:03+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002821s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003713s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002584s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003277s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026595s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001757s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003270s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001297s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010519s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002168s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002736s ]
+
+[ 2013-05-30T20:04:03+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:04:49+08:00 ] 127.0.0.1 /evbeta/User/Member/concern
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002842s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003564s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003162s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001602s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002204s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026292s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001696s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002180s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002064s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010030s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002495s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003072s ]
+
+[ 2013-05-30T20:08:02+08:00 ] 127.0.0.1 /evbeta/Home/Index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004622s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006345s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004083s ]
+NOTIC: [2048] Declaration of IndexAction::error() should be compatible with Action::error($message, $jumpUrl = '', $ajax = false) C:\Program Files\EasyPHP-12.1\www\evbeta\Lib\Action\Home\IndexAction.class.php 第 3 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004549s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005426s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035675s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002996s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002618s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002166s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012591s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003205s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003774s ]
+
+[ 2013-05-30T20:08:03+08:00 ] ERR: (ThinkException) 无法加载模块:img
+[ 2013-05-30T20:08:37+08:00 ] 127.0.0.1 /evbeta/User/Storer/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005664s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003829s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.024421s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.024262s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005232s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005822s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031973s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002458s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002894s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002272s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012680s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003435s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003998s ]
+
+[ 2013-05-30T20:08:37+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:08:37+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:09:01+08:00 ] 127.0.0.1 /evbeta/User/Storer/store
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003122s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002842s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.023718s ]
+SQL: SELECT * FROM `business` WHERE ( `userid` = null )  [ RunTime:0.022391s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003240s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003832s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036984s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001900s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001860s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001166s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008710s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002258s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002825s ]
+
+[ 2013-05-30T20:09:02+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:09:02+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:09:05+08:00 ] 127.0.0.1 /evbeta/User/Storer/card
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006956s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004502s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002360s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034419s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002800s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002724s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002052s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012968s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003746s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004317s ]
+
+[ 2013-05-30T20:09:05+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:09:07+08:00 ] 127.0.0.1 /evbeta/User/Storer/scene
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002815s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003482s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003134s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002512s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003148s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038075s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001631s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001788s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001257s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008923s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003039s ]
+
+[ 2013-05-30T20:09:07+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:09:07+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:09:08+08:00 ] 127.0.0.1 /evbeta/User/Storer/password
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003493s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003159s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002266s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002880s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.045246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045850s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002628s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002533s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002333s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013009s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003415s ]
+
+[ 2013-05-30T20:09:08+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:09:09+08:00 ] 127.0.0.1 /evbeta/User/Storer/cert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002418s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003056s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002708s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001646s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002265s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.045043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045639s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002394s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002576s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001847s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011153s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003083s ]
+
+[ 2013-05-30T20:09:09+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:09:24+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002365s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002982s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002664s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001892s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002518s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025066s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001692s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001827s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001161s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008436s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002745s ]
+
+[ 2013-05-30T20:09:24+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:11:13+08:00 ] 127.0.0.1 /evbeta/User/Member/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004546s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005175s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003375s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005322s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005947s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030996s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002319s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002553s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001938s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012935s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.006008s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006617s ]
+
+[ 2013-05-30T20:11:30+08:00 ] 127.0.0.1 /evbeta/User/Member/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004636s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005491s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003607s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005310s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005918s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036094s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002422s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002887s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001899s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012414s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002783s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003340s ]
+
+[ 2013-05-30T20:11:48+08:00 ] 127.0.0.1 /evbeta/User/Storer/news.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005893s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003940s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002498s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003517s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038183s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002607s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002516s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002291s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012352s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002896s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003455s ]
+
+[ 2013-05-30T20:11:48+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:12:53+08:00 ] 127.0.0.1 /evbeta/User/Storer/add.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002393s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003011s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002679s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002761s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003399s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031919s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002749s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002943s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002433s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014382s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002871s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003438s ]
+
+[ 2013-05-30T20:12:54+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:12:56+08:00 ] 127.0.0.1 /evbeta/User/Storer/client
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002313s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002930s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002686s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003830s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004476s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026803s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001655s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001829s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001155s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009447s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003456s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004031s ]
+
+[ 2013-05-30T20:12:56+08:00 ] ERR: (ThinkException) 非法操作:img
+[ 2013-05-30T20:13:07+08:00 ] ERR: (ThinkException) 非法操作:css
+[ 2013-05-30T20:13:14+08:00 ] 127.0.0.1 /evbeta/User/Member/concern
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002382s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003242s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002952s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002703s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003380s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025476s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001656s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002419s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001191s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011805s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002191s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002753s ]
+
+[ 2013-05-30T20:13:17+08:00 ] 127.0.0.1 /evbeta/User/Member/profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002632s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003709s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003032s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002774s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003420s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035631s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002096s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001845s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001217s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012044s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002336s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002895s ]
+

@@ -35,12 +35,12 @@
 	                	<!--Left Menu Start-->
 						<div id="accordion">
 							<ul class="user_list">
-								<li class="home"><a href="/evbeta/User/Member/">会员首页</a></li><br>
-								<li><a href="/evbeta/User/Member/profile">个人信息</a></li>
-								<li class="on"><a href="/evbeta/User/Member/concern">我的关注</a></li>
-								<li><a href="/evbeta/User/Member/cert">手机邮箱认证</a></li>
-								<li><a href="/evbeta/User/Member/card">二维码个人名片</a></li>
-							</ul>
+		<li class="home"><a href="/evbeta/User/Member/">会员首页</a></li><br>
+		<li><a href="/evbeta/User/Member/profile">个人信息<em></em></a></li>
+		<li class="on"><a href="/evbeta/User/Member/concern">我的关注<em></em></a></li>
+		<li><a href="/evbeta/User/Member/cert">手机邮箱认证<em></em></a></li>
+		<li><a href="/evbeta/User/Member/card">二维码个人名片<em></em></a></li>
+	</ul>
 						</div><!--Left Menu End--></td>
 						<td class="r_col txvt"><!--Right Content Start-->
 						<div class="r_w">
@@ -60,7 +60,7 @@
 								<br /><br />
 								<div class="clear"></div>
 								<div class="m_col_div">
-								<table class="m_col_table concern" cellspacing="2" width="100%" border="0" cellpadding="0">
+								<table class="m_col_table concern" cellspacing="1" width="100%" border="0" cellpadding="0">
 									<tr>									
 										<th width="42%">商家名称</th>
 										<th width="20%">关注时间</th>

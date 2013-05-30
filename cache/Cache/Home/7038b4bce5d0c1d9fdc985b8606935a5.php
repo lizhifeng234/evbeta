@@ -66,13 +66,13 @@
 			<div class="clear"></div>
 		</div>
 		<div class="z">	
-			<a id="menu_top" href="/evbeta/Home/Index/">首页</a>
-			<a id="menu_microCommodity" href="/evbeta/Home/Index/news_list">微活动</a>
-			<a id="menu_tickets" href="/evbeta/Home/Index/activity">今日活动</a>
+			<a id="menu_top" href="#">首页</a>
+			<a id="menu_microCommodity" href="/microCommodity/all">微活动</a>
+			<a id="menu_tickets" href="/items/ticket/all">今日活动</a>
 			<a id="menu_items" href="/evbeta/Home/mall/">商家广场</a>
-			<a id="menu_mall" href="/evbeta/Home/Index/brand">品牌</a>
-			<a id="menu_market" href="/evbeta/Home/Index/code">二维码</a>
-			<a id="menu_market" href="/evbeta/Home/Index/about">关于我们</a>
+			<a id="menu_mall" href="/mall/list">品牌</a>
+			<a id="menu_market" href="/market/list">二维码</a>
+			
 			<div class="clear"></div>
 		</div>
 	</div>
@@ -82,109 +82,6 @@
 		
 		<!-- Content Start -->
 	    <div id="content">
-	<div class="white_box mgb30">
-           <div class="bo">
-           	<h3 class="dfl bobt">TOP店铺</h3>
-			<div class="clear"></div>
-           </div>
-           <div class="bosh">
-           	<div class="rank">
-               	<ul class="ur">
-                   	<li class="c1">
-                       	<div class="r_num"></div>
-                           <div class="r_img"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank"><img src="http://static.soulagou.com/img/www-web/rank/shop1.jpg" /></a></div>
-                           
-                           <div class="r_rmsp">
-                           	<p class="t">最新优惠</p>
-                               <div>
-                               	<ul class="news">
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               	</ul>
-                                   <div class="clear"></div>
-                               </div>
-                           </div>                           
-                           <div class="r_info">
-                           	<p class="t mgb10"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank">潮汇 - 优品天地</a><img title="搜啦认证" class="txvt mgl05" src="http://static.soulagou.com/img/www-web/rz01.png" /></p>
-                           	<p class="area">商圈:丰泽广场</p>
-								<a class="zan" href="">
-									<p>赞</p>
-									<span>45648</span>
-								</a>
-								<a class="see" href="">
-									<p>关注</p>
-									<span>645</span>
-								</a>
-                           </div>
-                           <div class="clear"></div>
-                       </li>
-                       <li class="c2">
-                       	<div class="r_num"></div>
-                           <div class="r_img"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank"><img src="http://static.soulagou.com/img/www-web/rank/shop1.jpg" /></a></div>
-                           
-                           <div class="r_rmsp">
-                           	<p class="t">最新优惠</p>
-                               <div>
-                               	<ul class="news">
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               	</ul>
-                                   <div class="clear"></div>
-                               </div>
-                           </div>                           
-                           <div class="r_info">
-                           	<p class="t mgb10"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank">潮汇 - 优品天地</a><img title="搜啦认证" class="txvt mgl05" src="http://static.soulagou.com/img/www-web/rz01.png" /></p>
-                           	<p class="area">商圈:丰泽广场</p>
-								<a class="zan" href="">
-									<p>赞</p>
-									<span>45648</span>
-								</a>
-								<a class="see" href="">
-									<p>关注</p>
-									<span>645</span>
-								</a>
-                           </div>
-                           <div class="clear"></div>
-                       </li>
-                       <li class="c3">
-                       	<div class="r_num"></div>
-                           <div class="r_img"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank"><img src="http://static.soulagou.com/img/www-web/rank/shop1.jpg" /></a></div>
-                           
-                           <div class="r_rmsp">
-                           	<p class="t">最新优惠</p>
-                               <div>
-                               	<ul class="news">
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               		<li><a href="">端午3天50元自助，吃不死你不要钱！</a></li>
-                               	</ul>
-                                   <div class="clear"></div>
-                               </div>
-                           </div>                           
-                           <div class="r_info">
-                           	<p class="t mgb10"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank">潮汇 - 优品天地</a><img title="搜啦认证" class="txvt mgl05" src="http://static.soulagou.com/img/www-web/rz01.png" /></p>
-                           	<p class="area">商圈:丰泽广场</p>
-								<a class="zan" href="">
-									<p>赞</p>
-									<span>45648</span>
-								</a>
-								<a class="see" href="">
-									<p>关注</p>
-									<span>645</span>
-								</a>
-                           </div>
-                           <div class="clear"></div>
-                       </li>
-                   </ul>
-                   <div class="clear"></div>
-               </div>
-           </div>
-       </div>
 
 	<div class="white_box mgb30">
 		<div class="bo">
