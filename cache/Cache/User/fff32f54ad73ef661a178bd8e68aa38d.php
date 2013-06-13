@@ -81,11 +81,11 @@
 												<th width="22%"><span class="th">输入邮箱：</span></th>
 												<td>
 												<input id="email" name="email" class="inp_text persent47" type="text" value=""/>
-												<input type="submit" class="inp_btn btn_brown" value="发送" />
+												<input type="submit" class="inp_btn send" value="发送" />
 												</td>
 											</tr>
 											<tr>
-												<th width="22%"><span class="th">输入邮箱的验证码：</span></th>
+												<th width="22%"><span class="th">输入验证码：</span></th>
 												<td>
 												<input id="realName" name="realName" class="inp_text persent47" type="text" value=""/>
 												</td>
@@ -107,20 +107,14 @@
 												<th width="22%"><span class="th">手机：</span></th>
 												<td>
 												<input id="mobile" name="mobile" class="inp_text persent47" type="text" value=""/>
-												<input type="submit" class="inp_btn btn_brown" value="发送" />
+												<input type="submit" class="inp_btn send" value="发送" />
 												</td>
 											</tr>
-											<th width="22%" class="txvt"><span class="th">输入手机的验证码：</span></th>
+											<th width="22%" class="txvt"><span class="th">输入验证码：</span></th>
 											<td>
 											<input id="mobile" name="mobile" class="inp_text persent47" type="text" value=""/>
 											</td>
 											</tr>
-					<tr>
-						<th width="22%"></th>
-						<td>
-						<input id="businessDistricts" name="businessDistricts" type="hidden" value=""/>
-						</td>
-					</tr>
 					<tr>
 						<th></th>
 						<td>

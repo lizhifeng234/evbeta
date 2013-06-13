@@ -20,13 +20,14 @@
 .news li{margin-bottom:0;margin-top:10px;}
 .news li a{font-size:14px;}
 .zan,.see,.zan p,.see p{float:left;}
-.zan p,.see p{margin-left:10px;display: inline;}
-.r_info .area{font-size:14px;margin-bottom:30px;}
-.zan{background:#e29714;}
-.see{background:#1492e2;}
-.zan,.see{width:95px;height:50px;display:block;float: left;line-height:50px;color:white; font-size: 16px;font-weight:bold;}
+.zan p,.see p{width:140px;text-align:center}
+.r_info .area{font-size:16px;margin-bottom:20px;}
+.zan{background:#f03;margin-bottom:5px;}
+.see{background:#339;}
+.zan,.see{width:190px;height:35px;display:block;float: left;line-height:35px;color:white; font-size: 16px;}
 .zan:hover,.see:hover{text-decoration:none;}
-.zan span,.see span{margin-top:15px;color:black;font-weight:normal;font-size:12px;width:48px;height:23px;background:url(../../img/web/num.jpg) no-repeat;display:block;float:left;text-align:center;line-height:23px;}
+.zan span,.see span{width:31px;height:31px;display:block;float:left;padding:2px;}
+
 
 /*news_list*/
 .evartlist_main .list{

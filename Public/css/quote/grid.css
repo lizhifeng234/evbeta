@@ -2,7 +2,11 @@
 body{color:#787878;}
 a{text-decoration:none;color:#787878;}
 a:hover{text-decoration:underline;color:#e21454;}
-
+/*通栏外容器03表格*/
+.block3 .block_table th, .block3 .block_table td { padding:14px 0px; vertical-align:middle;}
+.block_table th { text-align:right;}
+.block_table th .th { font-family:"微软雅黑"; font-size:16px; padding-right:30px;}
+.block_table td { text-align:left;}
 /*统一调用图片 icon*/
 .icon_t,.mjpp,.lm .num,.ur li .r_num,.scg,.btn_zxll,.h58 { background-image:url(../../img/web/icon.png); background-repeat:no-repeat;}
 /*统一调用图片 y-icon*/

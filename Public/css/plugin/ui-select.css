@@ -6,7 +6,6 @@
 	height:28px;
 	position: relative;
 	font-size: 14px;
-	
 }
 .ui-default-select .ui-default-select-text{
 	display:inline-block;
@@ -46,3 +45,4 @@
 .ui-default-select-menu .ui-default-select-item-hove{
 	background-color:#eeeeee;
 }
+

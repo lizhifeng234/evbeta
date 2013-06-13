@@ -46,20 +46,43 @@
 			
 				<div class="login_mae">
 					<!-- <a class="ysb ysb_yellow" href="http://member.soulagou.com/register">注册</a> -->
-					<a class="ysb ysb_blue" href="#login" target="_blank" role="button" data-toggle="modal">商家</a>
-					<a id="login_url" class="ysb ysb_blue" href="http://sso.soulagou.com/login?service=http://www.soulagou.com/j_client_security_check">用户</a>
+					<a class="ysb ysb_blue" href="#blogin" target="_blank" role="button" data-toggle="modal">商家</a>
+					<a class="ysb ysb_blue" href="#plogin" target="_blank" role="button" data-toggle="modal">用户</a>
 				</div>
                 <!-- Login_box -->
-                <div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div id="plogin" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h3 id="myModalLabel">Modal header</h3>
+                    <h3 id="myModalLabel">欢迎用户登录</h3>
                   </div>
                   <div class="modal-body" style="color: black;">
                    <form method="post" action="__APP__/User/Login/blogin" >
-                   	用户名：<input type="text" value="" name="username"/><br>	
-                   	密码：	<input type="text" value="" name="password"/>              
-                    <button class="btn btn-primary" type="submit">登录</button>
+                   	<table class="dfl" border="0" cellspacing="5" cellpadding="5">
+						   <tr><th>用户名:</th><td><input type="text" class="inp_text" value="" name="username"/></td></tr>
+						   <tr><th>密码:</th><td><input type="password" class="inp_text"  value="" name="password"/> </td></tr>
+							<tr><th></th><td><input class="inp_btn btn_brown" type="submit" value="登录"/></td></tr>                    
+                       </table>    
+                    <div class="login_box dfl">
+          					宣传图片
+                    </div>
+                    </form>
+                  </div>
+                </div>
+                <div id="blogin" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="myModalLabel">欢迎商家登录</h3>
+                  </div>
+                  <div class="modal-body" style="color: black;">
+                   <form method="post" action="__APP__/User/Login/blogin" >
+                   	<table class="dfl" border="0" cellspacing="5" cellpadding="5">
+						   <tr><th>用户名:</th><td><input type="text" class="inp_text" value="" name="username"/></td></tr>
+						   <tr><th>密码:</th><td><input type="password" class="inp_text"  value="" name="password"/> </td></tr>
+							<tr><th></th><td><input class="inp_btn btn_brown" type="submit" value="登录"/></td></tr>                    
+                       </table>    
+                    <div class="login_box dfl">
+          					宣传图片
+                    </div>
                     </form>
                   </div>
                 </div>
@@ -109,14 +132,14 @@
                            <div class="r_info">
                            	<p class="t mgb10"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank">潮汇 - 优品天地</a><img title="搜啦认证" class="txvt mgl05" src="http://static.soulagou.com/img/www-web/rz01.png" /></p>
                            	<p class="area">商圈:丰泽广场</p>
-								<a class="zan" href="">
-									<p>赞</p>
-									<span>45648</span>
-								</a>
-								<a class="see" href="">
-									<p>关注</p>
-									<span>645</span>
-								</a>
+                           		<a href=""><div class="zan">
+                           			<span><img src="/evbeta/__PUBLIC__/img/web/praise.png" width="30" height="30" ></span>
+									<p>45648&nbsp;赞</p>
+                           		</div></a><br>
+								<a href=""><div class="see">
+                           			<span></span>
+									<p>648&nbsp;关注</p>
+                           		</div></a>
                            </div>
                            <div class="clear"></div>
                        </li>
@@ -139,14 +162,14 @@
                            <div class="r_info">
                            	<p class="t mgb10"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank">潮汇 - 优品天地</a><img title="搜啦认证" class="txvt mgl05" src="http://static.soulagou.com/img/www-web/rz01.png" /></p>
                            	<p class="area">商圈:丰泽广场</p>
-								<a class="zan" href="">
-									<p>赞</p>
-									<span>45648</span>
-								</a>
-								<a class="see" href="">
-									<p>关注</p>
-									<span>645</span>
-								</a>
+								<a href=""><div class="zan">
+                           			<span><img src="/evbeta/__PUBLIC__/img/web/praised.png" width="30" height="30" ></span>
+									<p>45648&nbsp;赞</p>
+                           		</div></a><br>
+								<a href=""><div class="see">
+                           			<span></span>
+									<p>568&nbsp;关注</p>
+                           		</div></a>
                            </div>
                            <div class="clear"></div>
                        </li>
@@ -169,14 +192,14 @@
                            <div class="r_info">
                            	<p class="t mgb10"><a href="http://www.youpintiandi.com//proscenium/show/ypd/shop.html?itselfType=1&shopId=262" target="_blank">潮汇 - 优品天地</a><img title="搜啦认证" class="txvt mgl05" src="http://static.soulagou.com/img/www-web/rz01.png" /></p>
                            	<p class="area">商圈:丰泽广场</p>
-								<a class="zan" href="">
-									<p>赞</p>
-									<span>45648</span>
-								</a>
-								<a class="see" href="">
-									<p>关注</p>
-									<span>645</span>
-								</a>
+								<a href=""><div class="zan">
+                           			<span><img src="/evbeta/__PUBLIC__/img/web/praised.png" width="30" height="30" ></span>
+									<p>45648&nbsp;赞</p>
+                           		</div></a><br>
+								<a href=""><div class="see">
+                           			<span></span>
+									<p>448&nbsp;关注</p>
+                           		</div></a>
                            </div>
                            <div class="clear"></div>
                        </li>

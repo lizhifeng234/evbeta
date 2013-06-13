@@ -21,6 +21,8 @@ ul.hook_sele1 li.on i { display:block;}
 .btn_brown {background: url(../../../img/web/cert_bg.gif) no-repeat;border: none;width: 100px;height: 47px;color: white;font-weight: bold;font-size: 20px;}
 .btn_redarrow { background:#d32a2a url(../../../img/outlet_manager/align_r_icon.png) right 0px no-repeat; border:#d32a2a 1px solid; padding:29px 74px 12px 12px;}
 .btn_brown2 { background-position:-200px 0; border:#aa2727 1px solid;}
+.send{width:80px; height:40px;background:#66ccff;border:0;}
+.send:hover{background:#e21454}
 
 /*scroll box*/
 .scroll_box { background:#ffffff; border:#aeaeae 2px solid; padding:12px; overflow-x:hidden; overflow-y:scroll; width:85%; height:275px;}
